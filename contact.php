@@ -405,18 +405,14 @@
   <a class="btn-secondary mt-4 w-full" href="mailto:chedotech@gmail.com" data-email-link>Send an Email</a>
 </div></div>
       <div class="card overflow-hidden">
-        <div class="flex items-center justify-between border-b border-slate-100 px-6 py-4">
+        <div class="flex items-center justify-between border-b border-slate-100 px-6 py-4 dark:border-slate-800">
           <p class="font-mono text-[11px] font-bold tracking-widest text-slate-500">// FIND US IN PUNE</p>
-          <span class="chip font-semibold text-amber-700 bg-amber-50">⭐ 4.9 / 5 (253+ Reviews)</span>
+          <span class="chip font-semibold text-amber-700 bg-amber-50 dark:bg-amber-950/40 dark:text-amber-300">⭐ 4.9 / 5 (253+ Reviews)</span>
         </div>
-        <div class="relative min-h-[220px] bg-slate-50 p-6 text-center">
-          <div>
-            <span class="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-white text-blue-600 shadow-card">📍</span>
-            <p class="mt-4 text-base font-bold text-slate-900">Chedo Tech — Kondhwa Budruk, Pune</p>
-            <p class="mt-1 text-sm text-slate-600 max-w-md mx-auto">Office No. 217, Ultima Business Center, Shree Shantinagar Society Internal Road, Sainagar, Kondhwa Budruk, Pune, Maharashtra 411048</p>
-          </div>
+        <div class="relative min-h-[380px] w-full bg-slate-50 dark:bg-slate-900">
+          <iframe id="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4444.879541925663!2d73.87886519999999!3d18.458559599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ea94eb00cb69%3A0xccd325c6e812ae0d!2sChedo%20Tech!5e1!3m2!1sen!2sin!4v1785695566881!5m2!1sen!2sin" class="h-[380px] w-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Chedo Tech Google Maps Location"></iframe>
         </div>
-        </div>
+      </div>
       </div>
     </div>
 
