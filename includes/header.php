@@ -1,61 +1,127 @@
-<?php require_once __DIR__ . '/functions.php'; 
+<?php 
+require_once __DIR__ . '/functions.php'; 
 $settings = get_settings();
 $categories_nav = get_categories();
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title><?php echo isset($page_title) ? esc($page_title) . ' | ' : ''; ?>Chedo Tech Programming Institute</title>
-<meta name="description" content="<?php echo esc($meta_desc ?? 'Chedo Tech Programming Institute & Development Center. Practical offline programming training, full-stack, data science, and mobile app development.'); ?>">
-<link rel="icon" type="image/png" href="/assets/ico.png">
-<link rel="stylesheet" href="/assets/css/variables.css">
-<link rel="stylesheet" href="/assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><?php echo isset($page_title) ? esc($page_title) . ' | ' : ''; ?>Chedo Tech | Programming Institute in Pune</title>
+  <meta name="description" content="<?php echo esc($meta_desc ?? 'Chedo Tech is a programming institute & app development center in Pune offering offline, practical programming education since 2015.'); ?>">
+  <link rel="icon" type="image/png" href="/assets/ico.png">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script defer src="/assets/js/config.js"></script>
+  <script defer src="/assets/js/main.js"></script>
 </head>
-<body>
+<body class="bg-white font-sans text-slate-900 antialiased">
 
-<!-- Top Announcement Bar -->
-<div class="top-bar">
-  <div class="container top-bar-inner">
-    <div class="top-bar-info">
-      <span><span class="top-bar-badge">Admissions Open</span> Next Offline Batches Starting This Week!</span>
-      <span class="top-hide-mobile">📍 Pune, Maharashtra</span>
-    </div>
-    <div class="top-bar-info">
-      <span>📞 <?php echo esc($settings['phone'] ?? '+91-98765-43210'); ?></span>
-      <span>💬 WhatsApp: <?php echo esc($settings['whatsapp'] ?? '+91-98765-43210'); ?></span>
-    </div>
-  </div>
-</div>
+<a class="skip-link" href="#main">Skip to main content</a>
 
-<!-- Header Navbar -->
-<header class="site-header" id="header">
-  <div class="container header-inner">
-    <a href="/" class="logo">
-      <img src="/assets/ico.png" alt="Chedo Tech Logo" class="logo-img">
-      <span class="logo-text">Chedo<span class="tag">Tech</span></span>
+<!-- Site Header -->
+<header class="site-header" id="site-header">
+  <div class="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-5 sm:px-8">
+    <a href="/" class="flex shrink-0 items-center gap-2.5" aria-label="Chedo Tech — Home">
+      <img src="/assets/ico.png" alt="Chedo Tech Logo" width="36" height="36" class="h-9 w-9 object-contain">
+      <span class="text-lg font-extrabold tracking-tight text-slate-900">Chedo<span class="text-blue-600">Tech</span></span>
     </a>
-    
-    <nav aria-label="Primary Navigation">
-      <ul class="nav-menu" id="navMenu">
-        <li><a href="/">Home</a></li>
-        <li class="has-dropdown">
-          <a href="/courses.php">Courses ▾</a>
-          <ul class="dropdown">
-            <?php foreach($categories_nav as $cat): ?>
-              <li><a href="/courses.php?cat=<?php echo esc($cat['slug']); ?>">⚡ <?php echo esc($cat['name']); ?></a></li>
-            <?php endforeach; ?>
-          </ul>
-        </li>
-        <li><a href="/about.php">About Us</a></li>
-        <li><a href="/services.php">Services</a></li>
-        <li><a href="/contact.php">Contact</a></li>
-      </ul>
+
+    <nav class="hidden items-center gap-1 lg:flex" aria-label="Main navigation">
+      <a class="nav-link" href="/">Home</a>
+      
+      <!-- Courses Dropdown -->
+      <div class="dropdown relative" id="courses-drop">
+        <button id="courses-drop-btn" class="nav-link flex items-center gap-1" aria-haspopup="true" aria-expanded="false">
+          Courses
+          <svg class="h-4 w-4 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="dropdown-panel" role="menu" aria-label="Courses">
+          <div class="grid grid-cols-2 gap-x-4 gap-y-3">
+            <div>
+              <p class="drop-head">Programming</p>
+              <div class="grid gap-0.5">
+                <a class="dropdown-link" href="/course.php?slug=c-programming">
+                  <span class="drop-icon">⚡</span>
+                  <span class="text-sm font-medium text-slate-700">C Programming</span>
+                </a>
+                <a class="dropdown-link" href="/course.php?slug=cpp-programming">
+                  <span class="drop-icon">⚡</span>
+                  <span class="text-sm font-medium text-slate-700">C++ Programming</span>
+                </a>
+                <a class="dropdown-link" href="/course.php?slug=java-programming">
+                  <span class="drop-icon">⚡</span>
+                  <span class="text-sm font-medium text-slate-700">Java Programming</span>
+                </a>
+                <a class="dropdown-link" href="/course.php?slug=python-programming">
+                  <span class="drop-icon">⚡</span>
+                  <span class="text-sm font-medium text-slate-700">Python Programming</span>
+                </a>
+                <a class="dropdown-link" href="/course.php?slug=data-structures">
+                  <span class="drop-icon">⚡</span>
+                  <span class="text-sm font-medium text-slate-700">Data Structures & Algorithms</span>
+                </a>
+              </div>
+            </div>
+            <div>
+              <p class="drop-head">Full Stack & Apps</p>
+              <div class="grid gap-0.5">
+                <a class="dropdown-link" href="/course.php?slug=mern-full-stack">
+                  <span class="drop-icon">🌐</span>
+                  <span class="text-sm font-medium text-slate-700">MERN Full Stack</span>
+                </a>
+                <a class="dropdown-link" href="/course.php?slug=java-full-stack">
+                  <span class="drop-icon">🌐</span>
+                  <span class="text-sm font-medium text-slate-700">Java Full Stack</span>
+                </a>
+                <a class="dropdown-link" href="/course.php?slug=mobile-app">
+                  <span class="drop-icon">📱</span>
+                  <span class="text-sm font-medium text-slate-700">Mobile App Development</span>
+                </a>
+                <a class="dropdown-link" href="/course.php?slug=data-science">
+                  <span class="drop-icon">📊</span>
+                  <span class="text-sm font-medium text-slate-700">Data Science & AI</span>
+                </a>
+                <a class="dropdown-link" href="/course.php?slug=ui-ux">
+                  <span class="drop-icon">🎨</span>
+                  <span class="text-sm font-medium text-slate-700">UI/UX Design</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <a class="mt-3 flex items-center justify-between rounded-xl bg-slate-50 px-4 py-3 text-sm font-semibold text-blue-700 transition-colors hover:bg-blue-50" href="/courses.php">
+            View all courses ➔
+          </a>
+        </div>
+      </div>
+
+      <a class="nav-link" href="/about.php">About</a>
+      <a class="nav-link" href="/services.php">Services</a>
+      <a class="nav-link" href="/contact.php">Contact</a>
     </nav>
 
-    <div class="header-actions">
-      <button class="mobile-toggle" onclick="document.getElementById('navMenu').classList.toggle('open')" aria-label="Toggle Navigation Menu">☰</button>
+    <div class="flex items-center gap-3">
+      <button id="menu-btn" class="flex h-11 w-11 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-700 lg:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobile-menu" class="mobile-panel px-5 py-4 sm:px-8">
+    <div class="space-y-1">
+      <a class="mob-link" href="/">Home</a>
+      <a class="mob-link" href="/courses.php">All Courses</a>
+      <div class="pl-4 space-y-1 border-l-2 border-slate-200 my-2">
+        <a class="mob-sub-link" href="/course.php?slug=c-programming">C Programming</a>
+        <a class="mob-sub-link" href="/course.php?slug=python-programming">Python Programming</a>
+        <a class="mob-sub-link" href="/course.php?slug=java-programming">Java Programming</a>
+        <a class="mob-sub-link" href="/course.php?slug=mern-full-stack">MERN Full Stack</a>
+        <a class="mob-sub-link" href="/course.php?slug=data-science">Data Science & AI</a>
+      </div>
+      <a class="mob-link" href="/about.php">About Us</a>
+      <a class="mob-link" href="/services.php">Services</a>
+      <a class="mob-link" href="/contact.php">Contact</a>
     </div>
   </div>
 </header>

@@ -1,52 +1,65 @@
 <?php 
 $page_title = "Our Services";
-$meta_desc = "Services offered by Chedo Tech: Offline programming training, final year student project guidance, corporate coding workshops, and software development.";
+$meta_desc = "Chedo Tech offers offline programming education, app development services, corporate training, and custom software solutions in Pune.";
 include 'includes/header.php'; 
 ?>
-<main class="container" style="padding:4rem 0;">
 
-  <div class="section-title" style="text-align:left; max-width:800px; margin-bottom:3rem;">
-    <span class="sub">Comprehensive Offerings</span>
-    <h1>Services & Specialized Mentorship</h1>
-    <p>In addition to individual classroom programming training, Chedo Tech provides student project mentorship, corporate training workshops, and custom software development solutions.</p>
-  </div>
+<main id="main">
 
-  <div class="grid-3" style="margin-bottom:4rem;">
-
-    <div class="project-card" style="border-top:4px solid var(--brand); padding:2rem;">
-      <div style="font-size:2.5rem; margin-bottom:1rem;">🎓</div>
-      <h3 style="font-size:1.35rem; color:var(--primary); margin-bottom:0.75rem;">Classroom Training Programs</h3>
-      <p style="color:var(--text-muted); font-size:0.95rem; line-height:1.6; margin-bottom:1.25rem;">
-        Practical, offline programming tracks covering C, C++, Java, Python, Data Structures & Algorithms, Full Stack MERN, Data Science & AI.
+<section class="relative overflow-hidden border-b border-slate-100 bg-slate-50/50 py-12 lg:py-16">
+  <div class="bg-grid bg-grid-fade absolute inset-0" aria-hidden="true"></div>
+  <div class="relative mx-auto max-w-7xl px-5 sm:px-8">
+    <nav aria-label="Breadcrumb" class="mb-4">
+      <ol class="flex items-center gap-2 text-sm text-slate-500">
+        <li><a class="transition-colors hover:text-blue-700" href="/">Home</a></li>
+        <li class="text-slate-300">/</li>
+        <li class="text-slate-700 font-medium">Services</li>
+      </ol>
+    </nav>
+    <div class="max-w-3xl">
+      <p class="eyebrow">// SERVICES &amp; SOLUTIONS</p>
+      <h1 class="mt-2 text-[clamp(2.2rem,5vw,3.75rem)] font-extrabold leading-[1.1] tracking-tight text-slate-900">Education &amp; App Development.</h1>
+      <p class="mt-4 text-base leading-relaxed text-slate-600 sm:text-lg">
+        In addition to classroom training, Chedo Tech provides custom software development, mobile app building, and institutional training.
       </p>
-      <a href="/courses.php" class="btn btn-outline">Explore Courses ➔</a>
     </div>
-
-    <div class="project-card" style="border-top:4px solid var(--cyan); padding:2rem;">
-      <div style="font-size:2.5rem; margin-bottom:1rem;">🚀</div>
-      <h3 style="font-size:1.35rem; color:var(--primary); margin-bottom:0.75rem;">Academic Project Mentorship</h3>
-      <p style="color:var(--text-muted); font-size:0.95rem; line-height:1.6; margin-bottom:1.25rem;">
-        End-to-end guidance for diploma, BCS, BCA, BE, and MCA students building final-year projects in Java, Python, Web Dev, and Mobile Apps.
-      </p>
-      <a href="/contact.php" class="btn btn-outline">Enquire for Guidance ➔</a>
-    </div>
-
-    <div class="project-card" style="border-top:4px solid var(--emerald); padding:2rem;">
-      <div style="font-size:2.5rem; margin-bottom:1rem;">💻</div>
-      <h3 style="font-size:1.35rem; color:var(--primary); margin-bottom:0.75rem;">Custom Software Development</h3>
-      <p style="color:var(--text-muted); font-size:0.95rem; line-height:1.6; margin-bottom:1.25rem;">
-        Full-lifecycle website, web application, and mobile app development for businesses, startups, and educational institutions.
-      </p>
-      <a href="/contact.php" class="btn btn-outline">Talk to Dev Team ➔</a>
-    </div>
-
   </div>
+</section>
 
-  <div style="background:linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%); color:#fff; padding:3.5rem 3rem; border-radius:var(--radius-xl); box-shadow:var(--shadow-lg); text-align:center;">
-    <h2 style="color:#fff; font-size:2.2rem; margin-bottom:1rem;">Looking for Custom Training or College Workshops?</h2>
-    <p style="color:#cbd5e1; max-width:600px; margin:0 auto 2rem; font-size:1.05rem;">We organize coding bootcamp sessions and hands-on workshops for schools and colleges.</p>
-    <a href="/contact.php" class="btn btn-primary" style="background:#fff; color:var(--primary);">Contact Us for Details</a>
+<section class="py-16 bg-white">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      
+      <div class="card p-8 card-hover flex flex-col justify-between">
+        <div>
+          <div class="bento-icon mb-4">🎓</div>
+          <h3 class="text-xl font-bold text-slate-900 mb-2">Classroom Training</h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-6">Hands-on, offline programming courses in C, Python, Java, Full Stack, Data Science, and Mobile Apps.</p>
+        </div>
+        <a href="/courses.php" class="arrow-link">Explore Courses <span class="arrow">➔</span></a>
+      </div>
+
+      <div class="card p-8 card-hover flex flex-col justify-between">
+        <div>
+          <div class="bento-icon mb-4">📱</div>
+          <h3 class="text-xl font-bold text-slate-900 mb-2">Mobile &amp; Web Development</h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-6">We build production-ready mobile applications (Flutter/React Native) and modern web platforms for clients.</p>
+        </div>
+        <a href="/contact.php" class="arrow-link">Discuss Project <span class="arrow">➔</span></a>
+      </div>
+
+      <div class="card p-8 card-hover flex flex-col justify-between">
+        <div>
+          <div class="bento-icon mb-4">🏢</div>
+          <h3 class="text-xl font-bold text-slate-900 mb-2">Corporate &amp; College Workshops</h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-6">Customized tech bootcamps, workshops, and skill enhancement sessions for engineering colleges and teams.</p>
+        </div>
+        <a href="/contact.php" class="arrow-link">Request Workshop <span class="arrow">➔</span></a>
+      </div>
+
+    </div>
   </div>
+</section>
 
 </main>
 <?php include 'includes/footer.php'; ?>
