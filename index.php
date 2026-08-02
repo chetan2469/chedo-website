@@ -362,9 +362,9 @@
           ⭐ 4.9 / 5 (253+ Google Reviews)
         </span>
       </div>
-      <h1 class="mt-7 text-[46px] font-[800] leading-[1.05] tracking-[-1.5px] text-slate-900 sm:text-[54px] lg:text-[60px] xl:text-[66px]">
+      <h1 class="mt-7 text-[48px] font-[900] leading-[1.03] tracking-[-1.8px] text-slate-900 sm:text-[60px] lg:text-[72px] xl:text-[80px] 2xl:text-[86px] dark:text-white">
         Learn Programming.<br>
-        <span class="bg-gradient-to-r from-blue-600 via-blue-600 to-cyan-500 bg-clip-text text-transparent">Build Real Projects.</span>
+        <span class="bg-gradient-to-r from-blue-600 via-blue-600 to-cyan-400 bg-clip-text text-transparent">Build Real Projects.</span>
       </h1>
       <p class="mt-6 max-w-xl text-[17px] sm:text-[18px] leading-[1.6] text-slate-600">
         Chedo Tech is a programming institute &amp; development center in Pune providing
