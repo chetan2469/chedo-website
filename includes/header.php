@@ -10,7 +10,8 @@ $categories_nav = get_categories();
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?php echo isset($page_title) ? esc($page_title) . ' | ' : ''; ?>Chedo Tech | Programming Institute in Pune</title>
   <meta name="description" content="<?php echo esc($meta_desc ?? 'Chedo Tech is a programming institute & app development center in Pune offering offline, practical programming education since 2015.'); ?>">
-  <link rel="icon" type="image/png" href="/assets/ico.png">
+  <link rel="icon" type="image/png" href="/assets/logo.png">
+  <link rel="apple-touch-icon" href="/assets/logo.png">
   <link rel="stylesheet" href="/assets/css/main.css">
   <script>
     // Default: Always Light Mode unless user explicitly toggled Dark Mode

@@ -6,8 +6,13 @@
   <title>Chedo Tech | Programming Institute in Pune</title>
   <meta name="description" content="Chedo Tech is a programming institute &amp; app development center in Pune offering offline, practical programming education since 2015 — C, Python, Java, Full Stack, Data Science, Mobile, UI/UX and Kids Programming.">
   <link rel="canonical" href="https://chedo.in/">
-  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
-  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+  <script>
+    if (localStorage.getItem('theme') === 'dark') {
+      document.documentElement.classList.add('dark');
+    }
+  </script>
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Chedo Tech">
   <meta property="og:title" content="Chedo Tech | Programming Institute in Pune">
@@ -22,14 +27,14 @@
   <link rel="stylesheet" href="assets/css/main.css">
   <script defer src="assets/js/config.js"></script>
   <script defer src="assets/js/main.js"></script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOrganization", "name": "Chedo Tech", "alternateName": "Chedo Tech — Programming Institute & App Development", "url": "https://chedo.in/", "logo": "https://chedo.in/assets/images/logo-mark.svg", "description": "Programming Institute & App Development in Pune — offline, practical programming education since 2015, from basics to full stack and real projects.", "foundingDate": "2015", "address": {"@type": "PostalAddress", "addressLocality": "Pune", "addressCountry": "IN"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Chedo Tech", "url": "https://chedo.in/"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "Chedo Tech Courses", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "C Programming", "url": "https://chedo.in/courses/c-programming.html"}, {"@type": "ListItem", "position": 2, "name": "C++ Programming", "url": "https://chedo.in/courses/cpp-programming.html"}, {"@type": "ListItem", "position": 3, "name": "Java Programming", "url": "https://chedo.in/courses/java-programming.html"}, {"@type": "ListItem", "position": 4, "name": "Python Programming", "url": "https://chedo.in/courses/python-programming.html"}, {"@type": "ListItem", "position": 5, "name": "Data Structures & Algorithms", "url": "https://chedo.in/courses/data-structures-algorithms.html"}, {"@type": "ListItem", "position": 6, "name": "MERN Full Stack Development", "url": "https://chedo.in/courses/mern-full-stack.html"}, {"@type": "ListItem", "position": 7, "name": "Java Full Stack Development", "url": "https://chedo.in/courses/java-full-stack.html"}, {"@type": "ListItem", "position": 8, "name": "Mobile App Development (Flutter)", "url": "https://chedo.in/courses/mobile-app-development.html"}, {"@type": "ListItem", "position": 9, "name": "Data Science Foundation", "url": "https://chedo.in/courses/data-science-foundation.html"}, {"@type": "ListItem", "position": 10, "name": "Data Science", "url": "https://chedo.in/courses/data-science.html"}, {"@type": "ListItem", "position": 11, "name": "UI/UX Design", "url": "https://chedo.in/courses/ui-ux-design.html"}, {"@type": "ListItem", "position": 12, "name": "Kids Programming", "url": "https://chedo.in/courses/kids-programming.html"}]}</script></head>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "EducationalOrganization", "name": "Chedo Tech", "alternateName": "Chedo Tech — Programming Institute & App Development", "url": "https://chedo.in/", "logo": "https://chedo.in/assets/logo.png", "description": "Programming Institute & App Development in Pune — offline, practical programming education since 2015, from basics to full stack and real projects.", "foundingDate": "2015", "address": {"@type": "PostalAddress", "addressLocality": "Pune", "addressCountry": "IN"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Chedo Tech", "url": "https://chedo.in/"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "Chedo Tech Courses", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "C Programming", "url": "https://chedo.in/courses/c-programming.html"}, {"@type": "ListItem", "position": 2, "name": "C++ Programming", "url": "https://chedo.in/courses/cpp-programming.html"}, {"@type": "ListItem", "position": 3, "name": "Java Programming", "url": "https://chedo.in/courses/java-programming.html"}, {"@type": "ListItem", "position": 4, "name": "Python Programming", "url": "https://chedo.in/courses/python-programming.html"}, {"@type": "ListItem", "position": 5, "name": "Data Structures & Algorithms", "url": "https://chedo.in/courses/data-structures-algorithms.html"}, {"@type": "ListItem", "position": 6, "name": "MERN Full Stack Development", "url": "https://chedo.in/courses/mern-full-stack.html"}, {"@type": "ListItem", "position": 7, "name": "Java Full Stack Development", "url": "https://chedo.in/courses/java-full-stack.html"}, {"@type": "ListItem", "position": 8, "name": "Mobile App Development (Flutter)", "url": "https://chedo.in/courses/mobile-app-development.html"}, {"@type": "ListItem", "position": 9, "name": "Data Science Foundation", "url": "https://chedo.in/courses/data-science-foundation.html"}, {"@type": "ListItem", "position": 10, "name": "Data Science", "url": "https://chedo.in/courses/data-science.html"}, {"@type": "ListItem", "position": 11, "name": "UI/UX Design", "url": "https://chedo.in/courses/ui-ux-design.html"}, {"@type": "ListItem", "position": 12, "name": "Kids Programming", "url": "https://chedo.in/courses/kids-programming.html"}]}</script></head>
 
 <a class="skip-link" href="#main">Skip to main content</a>
 <header class="site-header" id="site-header">
   <div class="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-5 sm:px-8">
     <a href="index.php" class="flex shrink-0 items-center gap-2.5" aria-label="Chedo Tech — Home">
-      <img src="assets/images/logo-mark.svg" alt="" width="38" height="38" class="h-9 w-9">
-      <span class="text-lg font-extrabold tracking-tight text-slate-900">Chedo<span class="text-blue-600">Tech</span></span>
+      <img src="assets/logo.png" alt="Chedo Tech Logo" width="38" height="38" class="h-9 w-9 object-contain">
+      <span class="text-lg font-extrabold tracking-tight text-slate-900 dark:text-white">Chedo<span class="text-blue-600">Tech</span></span>
     </a>
 
     <nav class="hidden items-center gap-0.5 lg:flex" aria-label="Main navigation">
@@ -280,7 +285,12 @@
       <a class="btn-primary ml-3 !px-5 !py-2.5 !min-h-0" href="contact.php">Enquire Now</a>
     </nav>
 
-    <button id="menu-btn" class="flex h-11 w-11 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-700 lg:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+    <div class="flex items-center gap-2">
+      <button id="theme-toggle" onclick="toggleTheme()" class="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 transition-colors dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200" title="Toggle Dark/Light Mode" aria-label="Toggle Dark/Light Theme">
+        <span id="theme-icon">🌙</span>
+      </button>
+
+      <button id="menu-btn" class="flex h-11 w-11 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 lg:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
       <!-- @license lucide-static v1.28.0 - ISC -->
 <svg aria-hidden="true" focusable="false"
   class="h-5 w-5"
