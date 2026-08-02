@@ -1,0 +1,2039 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Python Programming Course in Pune | Chedo Tech</title>
+  <meta name="description" content="Learn Python programming in Pune at Chedo Tech — offline classes on collections, functions, modules, OOP, file handling and error handling with hands-on practice.">
+  <link rel="canonical" href="https://chedo.in/courses/python-programming.php">
+  <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
+  <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Chedo Tech">
+  <meta property="og:title" content="Python Programming Course in Pune | Chedo Tech">
+  <meta property="og:description" content="Learn Python programming in Pune at Chedo Tech — offline classes on collections, functions, modules, OOP, file handling and error handling with hands-on practice.">
+  <meta property="og:url" content="https://chedo.in/courses/python-programming.html">
+  <meta property="og:image" content="https://chedo.in/assets/images/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Python Programming Course in Pune | Chedo Tech">
+  <meta name="twitter:description" content="Learn Python programming in Pune at Chedo Tech — offline classes on collections, functions, modules, OOP, file handling and error handling with hands-on practice.">
+  <meta name="twitter:image" content="https://chedo.in/assets/images/og-image.png">
+  <link rel="preload" href="../assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <script defer src="../assets/js/config.js"></script>
+  <script defer src="../assets/js/main.js"></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Course", "name": "Python Programming", "description": "Learn Python programming in Pune at Chedo Tech — offline classes on collections, functions, modules, OOP, file handling and error handling with hands-on practice.", "url": "https://chedo.in/courses/python-programming.html", "provider": {"@type": "EducationalOrganization", "name": "Chedo Tech", "url": "https://chedo.in/"}, "inLanguage": "en", "courseMode": "Offline"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://chedo.in/"}, {"@type": "ListItem", "position": 2, "name": "Courses", "item": "https://chedo.in/courses.html"}, {"@type": "ListItem", "position": 3, "name": "Python Programming", "item": "https://chedo.in/courses/python-programming.html"}]}</script></head>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header" id="site-header">
+  <div class="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-5 sm:px-8">
+    <a href="../index.php" class="flex shrink-0 items-center gap-2.5" aria-label="Chedo Tech — Home">
+      <img src="../assets/images/logo-mark.svg" alt="" width="38" height="38" class="h-9 w-9">
+      <span class="text-lg font-extrabold tracking-tight text-slate-900">Chedo<span class="text-blue-600">Tech</span></span>
+    </a>
+
+    <nav class="hidden items-center gap-0.5 lg:flex" aria-label="Main navigation">
+      <a class="nav-link" href="../index.php">Home</a>
+      <div class="dropdown relative" id="courses-drop">
+        <button id="courses-drop-btn" class="nav-link flex items-center gap-1 active" aria-haspopup="true" aria-expanded="false">
+          Courses
+          <svg class="h-4 w-4 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="dropdown-panel" role="menu" aria-label="Courses">
+          <div class="grid grid-cols-2 gap-x-4 gap-y-3"><div><p class="drop-head">Programming</p><div class="grid gap-0.5"><a class="dropdown-link" href="../courses/c-programming.php"><span class="drop-icon"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-[18px] w-[18px]"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1" />
+  <path d="M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1" />
+</svg>
+</span><span class="text-sm font-medium text-slate-700">C Programming</span></a><a class="dropdown-link" href="../courses/cpp-programming.php"><span class="drop-icon"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-[18px] w-[18px]"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m18 16 4-4-4-4" />
+  <path d="m6 8-4 4 4 4" />
+  <path d="m14.5 4-5 16" />
+</svg>
+</span><span class="text-sm font-medium text-slate-700">C++ Programming</span></a><a class="dropdown-link" href="../courses/java-programming.php"><span class="drop-icon"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-[18px] w-[18px]"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M10 2v2" />
+  <path d="M14 2v2" />
+  <path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1" />
+  <path d="M6 2v2" />
+</svg>
+</span><span class="text-sm font-medium text-slate-700">Java Programming</span></a><a class="dropdown-link" href="../courses/python-programming.php"><span class="drop-icon"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-[18px] w-[18px]"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
+  <path d="M14 2v5a1 1 0 0 0 1 1h5" />
+  <path d="M10 12.5 8 15l2 2.5" />
+  <path d="m14 12.5 2 2.5-2 2.5" />
+</svg>
+</span><span class="text-sm font-medium text-slate-700">Python Programming</span></a><a class="dropdown-link" href="../courses/data-structures-algorithms.php"><span class="drop-icon"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-[18px] w-[18px]"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <rect x="16" y="16" width="6" height="6" rx="1" />
+  <rect x="2" y="16" width="6" height="6" rx="1" />
+  <rect x="9" y="2" width="6" height="6" rx="1" />
+  <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
+  <path d="M12 12V8" />
+</svg>
+</span><span class="text-sm font-medium text-slate-700">Data Structures & Algorithms</span></a></div></div><div><p class="drop-head">Development</p><div class="grid gap-0.5"><a class="dropdown-link" href="../courses/mern-full-stack.php"><span class="drop-icon"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-[18px] w-[18px]"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+  <path d="M2 12h20" />
+</svg>
+</span><span class="text-sm font-medium text-slate-700">MERN Full Stack</span></a><a class="dropdown-link" href="../courses/java-full-stack.php"><span class="drop-icon"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-[18px] w-[18px]"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <rect width="20" height="8" x="2" y="2" rx="2" ry="2" />
+  <rect width="20" height="8" x="2" y="14" rx="2" ry="2" />
+  <line x1="6" x2="6.01" y1="6" y2="6" />
+  <line x1="6" x2="6.01" y1="18" y2="18" />
+</svg>
+</span><span class="text-sm font-medium text-slate-700">Java Full Stack</span></a><a class="dropdown-link" href="../courses/mobile-app-development.php"><span class="drop-icon"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-[18px] w-[18px]"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <rect width="14" height="20" x="5" y="2" rx="2" ry="2" />
+  <path d="M12 18h.01" />
+</svg>
+</span><span class="text-sm font-medium text-slate-700">Mobile App Development</span></a></div></div><div><p class="drop-head">Data & Design</p><div class="grid gap-0.5"><a class="dropdown-link" href="../courses/data-science-foundation.php"><span class="drop-icon"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-[18px] w-[18px]"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 3v18" />
+  <rect width="18" height="18" x="3" y="3" rx="2" />
+  <path d="M3 9h18" />
+  <path d="M3 15h18" />
+</svg>
+</span><span class="text-sm font-medium text-slate-700">Data Science Foundation</span></a><a class="dropdown-link" href="../courses/data-science.php"><span class="drop-icon"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-[18px] w-[18px]"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2" />
+  <path d="M6.453 15h11.094" />
+  <path d="M8.5 2h7" />
+</svg>
+</span><span class="text-sm font-medium text-slate-700">Data Science</span></a><a class="dropdown-link" href="../courses/ui-ux-design.php"><span class="drop-icon"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-[18px] w-[18px]"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z" />
+  <circle cx="13.5" cy="6.5" r=".5" fill="currentColor" />
+  <circle cx="17.5" cy="10.5" r=".5" fill="currentColor" />
+  <circle cx="6.5" cy="12.5" r=".5" fill="currentColor" />
+  <circle cx="8.5" cy="7.5" r=".5" fill="currentColor" />
+</svg>
+</span><span class="text-sm font-medium text-slate-700">UI/UX Design</span></a></div></div><div><p class="drop-head">Kids</p><div class="grid gap-0.5"><a class="dropdown-link" href="../courses/kids-programming.php"><span class="drop-icon"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-[18px] w-[18px]"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <line x1="6" x2="10" y1="11" y2="11" />
+  <line x1="8" x2="8" y1="9" y2="13" />
+  <line x1="15" x2="15.01" y1="12" y2="12" />
+  <line x1="18" x2="18.01" y1="10" y2="10" />
+  <path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
+</svg>
+</span><span class="text-sm font-medium text-slate-700">Kids Programming</span></a></div></div></div>
+          <a class="mt-3 flex items-center justify-between rounded-xl bg-slate-50 px-4 py-3 text-sm font-semibold text-blue-700 transition-colors hover:bg-blue-50" href="../courses.php">
+            View all courses
+            <!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12h14" />
+  <path d="m12 5 7 7-7 7" />
+</svg>
+
+          </a>
+        </div>
+      </div>
+      <a class="nav-link" href="../about.php">About</a>
+      <a class="nav-link" href="../contact.php">Contact</a>
+      <a class="btn-primary ml-3 !px-5 !py-2.5 !min-h-0" href="../contact.php">Enquire Now</a>
+    </nav>
+
+    <button id="menu-btn" class="flex h-11 w-11 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-700 lg:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-5 w-5"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 5h16" />
+  <path d="M4 12h16" />
+  <path d="M4 19h16" />
+</svg>
+
+    </button>
+  </div>
+
+  <div id="mobile-menu" class="mobile-panel lg:hidden">
+    <nav aria-label="Mobile navigation" class="px-5 py-4">
+      <a class="mob-link" href="../index.php">Home</a>
+      <button id="mob-courses-btn" class="mob-link justify-between" aria-expanded="false" aria-controls="mob-courses-list">
+        Courses
+        <!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4 text-slate-400"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m6 9 6 6 6-6" />
+</svg>
+
+      </button>
+      <div id="mob-courses-list" class="hidden border-l-2 border-slate-100 pb-2 pl-3">
+        <p class="drop-head">Programming</p><a class="mob-sub-link" href="../courses/c-programming.php">C Programming</a><a class="mob-sub-link" href="../courses/cpp-programming.php">C++ Programming</a><a class="mob-sub-link" href="../courses/java-programming.php">Java Programming</a><a class="mob-sub-link" href="../courses/python-programming.php">Python Programming</a><a class="mob-sub-link" href="../courses/data-structures-algorithms.php">Data Structures & Algorithms</a><p class="drop-head">Development</p><a class="mob-sub-link" href="../courses/mern-full-stack.php">MERN Full Stack</a><a class="mob-sub-link" href="../courses/java-full-stack.php">Java Full Stack</a><a class="mob-sub-link" href="../courses/mobile-app-development.php">Mobile App Development</a><p class="drop-head">Data & Design</p><a class="mob-sub-link" href="../courses/data-science-foundation.php">Data Science Foundation</a><a class="mob-sub-link" href="../courses/data-science.php">Data Science</a><a class="mob-sub-link" href="../courses/ui-ux-design.php">UI/UX Design</a><p class="drop-head">Kids</p><a class="mob-sub-link" href="../courses/kids-programming.php">Kids Programming</a>
+      </div>
+      <a class="mob-link" href="../about.php">About</a>
+      <a class="mob-link" href="../contact.php">Contact</a>
+      <a class="btn-primary mt-3 w-full" href="../contact.php">Enquire Now</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="relative overflow-hidden border-b border-slate-100">
+  <div class="bg-grid bg-grid-fade absolute inset-0" aria-hidden="true"></div>
+  <div class="relative mx-auto max-w-7xl px-5 pb-16 pt-12 sm:px-8 lg:pb-20 lg:pt-14">
+    <nav aria-label="Breadcrumb" class="mb-6"><ol class="flex flex-wrap items-center gap-2 text-sm text-slate-500"><li><a class="transition-colors hover:text-blue-700" href="../index.php">Home</a></li><li class="text-slate-300" aria-hidden="true">/</li><li><a class="transition-colors hover:text-blue-700" href="../courses.php">Courses</a></li><li class="text-slate-300" aria-hidden="true">/</li><li class="text-slate-600" aria-current="page">Python Programming</li></ol></nav>
+    <div class="grid items-start gap-10 lg:grid-cols-12">
+      <div class="lg:col-span-8">
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="chip-tint">Programming</span>
+          <span class="chip">Offline classroom training</span>
+        </div>
+        <h1 class="mt-5 text-[clamp(2.2rem,5vw,3.75rem)] font-extrabold leading-[1.06] tracking-tight text-slate-900">Python Programming</h1>
+        <p class="mt-4 max-w-2xl text-lg leading-relaxed text-slate-600">Master Python foundations — collections, functions, OOP, files and error handling.</p>
+        <div class="mt-7 flex flex-col gap-3 sm:flex-row">
+          <a class="btn-wa" data-wa data-wa-text="Hello Chedo Tech, I am interested in the Python Programming course. Please share more information." href="../contact.php">
+            <!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" />
+</svg>
+ Enquire on WhatsApp
+          </a>
+          <a class="btn-secondary" href="#curriculum">View Curriculum</a>
+        </div>
+        <p class="mt-4 text-[13px] text-slate-500">Ask us for current batch schedules and details.</p>
+      </div>
+      <div class="lg:col-span-4">
+        <div class="card p-6">
+          <p class="font-mono text-[11px] font-bold tracking-widest text-slate-500">// COURSE SNAPSHOT</p>
+          <div class="mt-4 space-y-4 text-sm">
+            <div class="flex items-start gap-3">
+              <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-[18px] w-[18px]"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M14 21v-3a2 2 0 0 0-4 0v3" />
+  <path d="M18 4.933V21" />
+  <path d="m4 6 7.106-3.79a2 2 0 0 1 1.788 0L20 6" />
+  <path d="m6 11-3.52 2.147a1 1 0 0 0-.48.854V19a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5a1 1 0 0 0-.48-.853L18 11" />
+  <path d="M6 4.933V21" />
+  <circle cx="12" cy="9" r="2" />
+</svg>
+</span>
+              <div><p class="font-semibold text-slate-900">Format</p><p class="text-slate-500">Offline, in-person classes</p></div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-[18px] w-[18px]"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+  <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+  <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+  <circle cx="9" cy="7" r="4" />
+</svg>
+</span>
+              <div><p class="font-semibold text-slate-900">Who it's for</p><p class="text-slate-500">Absolute beginners to aspiring developers</p></div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-[18px] w-[18px]"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="6" />
+  <circle cx="12" cy="12" r="2" />
+</svg>
+</span>
+              <div><p class="font-semibold text-slate-900">Method</p><p class="text-slate-500">Live coding, whiteboard teaching, hands-on practice</p></div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-[18px] w-[18px]"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528" />
+</svg>
+</span>
+              <div><p class="font-semibold text-slate-900">Progress</p><p class="text-slate-500">Assignments, coding tests &amp; project checkpoints</p></div>
+            </div>
+          </div>
+          <a class="btn-primary mt-6 w-full" data-wa data-wa-text="Hello Chedo Tech, I am interested in the Python Programming course. Please share more information." href="../contact.php">Get Course Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-16 sm:py-20">
+  <div class="mx-auto grid max-w-7xl gap-12 px-5 sm:px-8 lg:grid-cols-2">
+    <div>
+      <p class="eyebrow">// COURSE OVERVIEW</p>
+      <h2 class="mt-3 text-[clamp(1.8rem,3.5vw,2.75rem)] font-extrabold leading-tight tracking-tight text-slate-900">About This Course</h2>
+      <div class="mt-5 space-y-4"><p class="leading-relaxed text-slate-600">Python is the language of data, automation and modern scripting — and a great first language because you can see results quickly. This course covers everything from data types and control structures to lists, tuples, sets, dictionaries, functions, modules, recursion and OOP.</p><p class="leading-relaxed text-slate-600">File handling and exception handling complete the picture, and every topic is practiced with programs in our offline classroom format.</p></div>
+    </div>
+    <div>
+      <p class="eyebrow">// WHY LEARN THIS</p>
+      <h2 class="mt-3 text-[clamp(1.8rem,3.5vw,2.75rem)] font-extrabold leading-tight tracking-tight text-slate-900">Why It Matters</h2>
+      <ul class="mt-6 grid gap-3 sm:grid-cols-2"><li class="flex items-start gap-4 rounded-2xl border border-slate-200/80 bg-white p-5">
+      <span class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 6 9 17l-5-5" />
+</svg>
+</span>
+      <div><h3 class="text-[15px] font-bold text-slate-900">Readable and practical</h3><p class="mt-1 text-sm leading-relaxed text-slate-500">Python's clean syntax lets you focus on logic, not ceremony.</p></div>
+    </li><li class="flex items-start gap-4 rounded-2xl border border-slate-200/80 bg-white p-5">
+      <span class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 6 9 17l-5-5" />
+</svg>
+</span>
+      <div><h3 class="text-[15px] font-bold text-slate-900">Powerful collections</h3><p class="mt-1 text-sm leading-relaxed text-slate-500">Lists, tuples, sets and dictionaries with comprehensions and nested structures.</p></div>
+    </li><li class="flex items-start gap-4 rounded-2xl border border-slate-200/80 bg-white p-5">
+      <span class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 6 9 17l-5-5" />
+</svg>
+</span>
+      <div><h3 class="text-[15px] font-bold text-slate-900">Foundation for data & AI</h3><p class="mt-1 text-sm leading-relaxed text-slate-500">Python basics here lead directly into Data Science Foundation and Data Science.</p></div>
+    </li><li class="flex items-start gap-4 rounded-2xl border border-slate-200/80 bg-white p-5">
+      <span class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 6 9 17l-5-5" />
+</svg>
+</span>
+      <div><h3 class="text-[15px] font-bold text-slate-900">Complete fundamentals</h3><p class="mt-1 text-sm leading-relaxed text-slate-500">Functions, modules, OOP, files and error handling — the full beginner toolkit.</p></div>
+    </li></ul>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-16 sm:py-20" id="curriculum">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    
+<div class=" max-w-3xl">
+  <p class="eyebrow">// CURRICULUM</p>
+  <h2 class="mt-3 text-[clamp(1.9rem,4vw,3.25rem)] font-extrabold leading-[1.12] tracking-tight text-slate-900">What You Will Learn</h2>
+  <p class="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-slate-600">The full course structure — every module, every topic, taught live and offline.</p>
+</div>
+
+    <div class="mx-auto mt-10 max-w-4xl space-y-3">
+<details class="acc-item" open>
+  <summary class="acc-summary">
+    <span class="acc-num">01</span>
+    <span class="min-w-0">
+      <span class="block text-[15px] font-bold tracking-tight text-slate-900">Introduction to Programming</span>
+      <span class="block text-xs font-medium text-slate-500">Zero → first Python</span>
+    </span>
+    <span class="acc-chevron" aria-hidden="true"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12h14" />
+  <path d="M12 5v14" />
+</svg>
+</span>
+  </summary>
+  <div class="acc-body">
+    <ul class="grid gap-2.5 sm:grid-cols-2"><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">Data Types &amp; Operators</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Numbers, strings, booleans, operations</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">Control Flow &amp; Loops</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Conditions and iteration</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">ASCII &amp; Type Casting</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Codes, conversion and input handling</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">Debugging &amp; File Basics</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Find errors; simple file programs</p>
+        </div>
+      </li></ul>
+  </div>
+</details>
+<details class="acc-item" >
+  <summary class="acc-summary">
+    <span class="acc-num">02</span>
+    <span class="min-w-0">
+      <span class="block text-[15px] font-bold tracking-tight text-slate-900">Control Structure</span>
+      <span class="block text-xs font-medium text-slate-500">Decisions and loops</span>
+    </span>
+    <span class="acc-chevron" aria-hidden="true"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12h14" />
+  <path d="M12 5v14" />
+</svg>
+</span>
+  </summary>
+  <div class="acc-body">
+    <ul class="grid gap-2.5 sm:grid-cols-2"><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">if, elif, else</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Decision making</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">for &amp; while Loops</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Iteration patterns</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">break, continue, pass</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Loop manipulators</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">Nested Loops</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Patterns and matrices</p>
+        </div>
+      </li></ul>
+  </div>
+</details>
+<details class="acc-item" >
+  <summary class="acc-summary">
+    <span class="acc-num">03</span>
+    <span class="min-w-0">
+      <span class="block text-[15px] font-bold tracking-tight text-slate-900">Data Types &amp; Collections</span>
+      <span class="block text-xs font-medium text-slate-500">Lists, tuples, sets, dicts</span>
+    </span>
+    <span class="acc-chevron" aria-hidden="true"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12h14" />
+  <path d="M12 5v14" />
+</svg>
+</span>
+  </summary>
+  <div class="acc-body">
+    <ul class="grid gap-2.5 sm:grid-cols-2"><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">List, Tuple, Set, Dictionary</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Creation and CRUD operations</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">Comprehensions</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Concise collection building</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">Nested Structures</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Real-world data shapes</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">Practice Questions</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Collection-based problems</p>
+        </div>
+      </li></ul>
+  </div>
+</details>
+<details class="acc-item" >
+  <summary class="acc-summary">
+    <span class="acc-num">04</span>
+    <span class="min-w-0">
+      <span class="block text-[15px] font-bold tracking-tight text-slate-900">Strings</span>
+      <span class="block text-xs font-medium text-slate-500">Text handling</span>
+    </span>
+    <span class="acc-chevron" aria-hidden="true"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12h14" />
+  <path d="M12 5v14" />
+</svg>
+</span>
+  </summary>
+  <div class="acc-body">
+    <ul class="grid gap-2.5 sm:grid-cols-2"><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">Slicing &amp; Indexing</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Accessing string parts</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">replace(), split(), join()</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Core string functions</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">String Practice</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Text-based coding problems</p>
+        </div>
+      </li></ul>
+  </div>
+</details>
+<details class="acc-item" >
+  <summary class="acc-summary">
+    <span class="acc-num">05</span>
+    <span class="min-w-0">
+      <span class="block text-[15px] font-bold tracking-tight text-slate-900">Functions &amp; Modules</span>
+      <span class="block text-xs font-medium text-slate-500">Reusable code</span>
+    </span>
+    <span class="acc-chevron" aria-hidden="true"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12h14" />
+  <path d="M12 5v14" />
+</svg>
+</span>
+  </summary>
+  <div class="acc-body">
+    <ul class="grid gap-2.5 sm:grid-cols-2"><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">Defining &amp; Calling Functions</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Arguments and return values</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">Recursion</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Functions that call themselves</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">Built-in Modules</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">math, random and more</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">Custom Modules</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Your own reusable code</p>
+        </div>
+      </li></ul>
+  </div>
+</details>
+<details class="acc-item" >
+  <summary class="acc-summary">
+    <span class="acc-num">06</span>
+    <span class="min-w-0">
+      <span class="block text-[15px] font-bold tracking-tight text-slate-900">Object-Oriented Programming</span>
+      <span class="block text-xs font-medium text-slate-500">Classes and objects</span>
+    </span>
+    <span class="acc-chevron" aria-hidden="true"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12h14" />
+  <path d="M12 5v14" />
+</svg>
+</span>
+  </summary>
+  <div class="acc-body">
+    <ul class="grid gap-2.5 sm:grid-cols-2"><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">Classes &amp; Objects</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Blueprint and instance</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">Constructors &amp; Inheritance</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Initialization and reuse</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">Access Modifiers &amp; super()</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Controlling and extending</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">Encapsulation &amp; Reuse</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Object practice programs</p>
+        </div>
+      </li></ul>
+  </div>
+</details>
+<details class="acc-item" >
+  <summary class="acc-summary">
+    <span class="acc-num">07</span>
+    <span class="min-w-0">
+      <span class="block text-[15px] font-bold tracking-tight text-slate-900">File Handling</span>
+      <span class="block text-xs font-medium text-slate-500">Permanent data</span>
+    </span>
+    <span class="acc-chevron" aria-hidden="true"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12h14" />
+  <path d="M12 5v14" />
+</svg>
+</span>
+  </summary>
+  <div class="acc-body">
+    <ul class="grid gap-2.5 sm:grid-cols-2"><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">Read, Write, Append</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Modes: r, w, a</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">with open()</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Safe file operations</p>
+        </div>
+      </li></ul>
+  </div>
+</details>
+<details class="acc-item" >
+  <summary class="acc-summary">
+    <span class="acc-num">08</span>
+    <span class="min-w-0">
+      <span class="block text-[15px] font-bold tracking-tight text-slate-900">Exception Handling</span>
+      <span class="block text-xs font-medium text-slate-500">Crash-free programs</span>
+    </span>
+    <span class="acc-chevron" aria-hidden="true"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12h14" />
+  <path d="M12 5v14" />
+</svg>
+</span>
+  </summary>
+  <div class="acc-body">
+    <ul class="grid gap-2.5 sm:grid-cols-2"><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">try, except, finally</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Handling errors gracefully</p>
+        </div>
+      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
+        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="1" />
+</svg>
+</span>
+        <div>
+          <p class="text-sm font-semibold text-slate-800">raise</p>
+          <p class="text-[13px] leading-relaxed text-slate-500">Creating controlled errors</p>
+        </div>
+      </li></ul>
+  </div>
+</details></div>
+  </div>
+</section>
+
+
+<section class="border-t border-slate-100 bg-slate-50/70 py-16 sm:py-20">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <p class="eyebrow">// SKILLS</p>
+    <h2 class="mt-3 text-[clamp(1.8rem,3.5vw,2.75rem)] font-extrabold tracking-tight text-slate-900">Skills You Will Gain</h2>
+    <div class="mt-6 flex flex-wrap gap-2"><span class="chip">Python Syntax &amp; Logic</span><span class="chip">Collections &amp; Comprehensions</span><span class="chip">Functions &amp; Modules</span><span class="chip">OOP in Python</span><span class="chip">File Handling</span><span class="chip">Exception Handling</span><span class="chip">Problem Solving</span></div>
+  </div>
+</section>
+
+<section class="py-16 sm:py-20">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <p class="eyebrow">// PROJECTS</p>
+    <h2 class="mt-3 text-[clamp(1.8rem,3.5vw,2.75rem)] font-extrabold tracking-tight text-slate-900">Projects You Will Build</h2>
+    <p class="mt-3 max-w-2xl text-slate-600">Course projects are the point — working software you finish, run and keep.</p>
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><div class="card card-hover flex flex-col p-5">
+      <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-5 w-5"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z" />
+</svg>
+</span>
+      <h3 class="mt-3 text-[15px] font-bold text-slate-900">Python Logic Programs</h3>
+      <p class="mt-1.5 flex-1 text-sm leading-relaxed text-slate-500">Loops, conditions and collections in working programs.</p>
+    </div><div class="card card-hover flex flex-col p-5">
+      <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-5 w-5"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z" />
+</svg>
+</span>
+      <h3 class="mt-3 text-[15px] font-bold text-slate-900">Collection Practice Apps</h3>
+      <p class="mt-1.5 flex-1 text-sm leading-relaxed text-slate-500">Lists, dicts and sets solving real tasks.</p>
+    </div><div class="card card-hover flex flex-col p-5">
+      <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-5 w-5"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z" />
+</svg>
+</span>
+      <h3 class="mt-3 text-[15px] font-bold text-slate-900">OOP Practice Programs</h3>
+      <p class="mt-1.5 flex-1 text-sm leading-relaxed text-slate-500">Classes, inheritance and encapsulation in action.</p>
+    </div><div class="card card-hover flex flex-col p-5">
+      <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-5 w-5"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z" />
+</svg>
+</span>
+      <h3 class="mt-3 text-[15px] font-bold text-slate-900">File-Based Programs</h3>
+      <p class="mt-1.5 flex-1 text-sm leading-relaxed text-slate-500">Read, write and append data safely.</p>
+    </div></div>
+  </div>
+</section>
+
+<section class="bg-surface-alt py-16 sm:py-20">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    
+<div class="grid gap-6 lg:grid-cols-2">
+  <div>
+    <p class="eyebrow">// LEARNING APPROACH</p>
+    <h2 class="mt-3 text-[clamp(1.9rem,4vw,3rem)] font-extrabold leading-tight tracking-tight text-slate-900">How You Learn Here</h2>
+    <p class="mt-4 text-lg leading-relaxed text-slate-600">Every course at Chedo Tech follows the same practical, offline method — no screen-sharing, real learning:</p>
+    <ul class="mt-6 grid gap-3 sm:grid-cols-2"><li class="flex items-start gap-3 rounded-2xl border border-slate-200/80 bg-white p-4">
+      <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 6 9 17l-5-5" />
+</svg>
+</span>
+      <div><h3 class="text-sm font-semibold text-slate-900">Offline Classroom Training</h3>
+      <p class="mt-0.5 text-sm leading-relaxed text-slate-500">Learn in person at the center — no screen-sharing, real interaction.</p></div>
+    </li><li class="flex items-start gap-3 rounded-2xl border border-slate-200/80 bg-white p-4">
+      <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 6 9 17l-5-5" />
+</svg>
+</span>
+      <div><h3 class="text-sm font-semibold text-slate-900">Whiteboard Teaching</h3>
+      <p class="mt-0.5 text-sm leading-relaxed text-slate-500">Concepts are drawn, explained and discussed before they are coded.</p></div>
+    </li><li class="flex items-start gap-3 rounded-2xl border border-slate-200/80 bg-white p-4">
+      <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 6 9 17l-5-5" />
+</svg>
+</span>
+      <div><h3 class="text-sm font-semibold text-slate-900">Live Coding</h3>
+      <p class="mt-0.5 text-sm leading-relaxed text-slate-500">Code is written live in class, so you see how programs are actually built.</p></div>
+    </li><li class="flex items-start gap-3 rounded-2xl border border-slate-200/80 bg-white p-4">
+      <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 6 9 17l-5-5" />
+</svg>
+</span>
+      <div><h3 class="text-sm font-semibold text-slate-900">Hands-On Practice</h3>
+      <p class="mt-0.5 text-sm leading-relaxed text-slate-500">You type, run and break code yourself — every session.</p></div>
+    </li><li class="flex items-start gap-3 rounded-2xl border border-slate-200/80 bg-white p-4">
+      <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 6 9 17l-5-5" />
+</svg>
+</span>
+      <div><h3 class="text-sm font-semibold text-slate-900">Assignments & Practice Sets</h3>
+      <p class="mt-0.5 text-sm leading-relaxed text-slate-500">Structured work between classes keeps progress measurable.</p></div>
+    </li><li class="flex items-start gap-3 rounded-2xl border border-slate-200/80 bg-white p-4">
+      <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 6 9 17l-5-5" />
+</svg>
+</span>
+      <div><h3 class="text-sm font-semibold text-slate-900">Problem Solving</h3>
+      <p class="mt-0.5 text-sm leading-relaxed text-slate-500">Logic problems and coding challenges build real thinking skills.</p></div>
+    </li><li class="flex items-start gap-3 rounded-2xl border border-slate-200/80 bg-white p-4">
+      <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 6 9 17l-5-5" />
+</svg>
+</span>
+      <div><h3 class="text-sm font-semibold text-slate-900">Project Building</h3>
+      <p class="mt-0.5 text-sm leading-relaxed text-slate-500">Every course includes projects that turn topics into working software.</p></div>
+    </li><li class="flex items-start gap-3 rounded-2xl border border-slate-200/80 bg-white p-4">
+      <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 6 9 17l-5-5" />
+</svg>
+</span>
+      <div><h3 class="text-sm font-semibold text-slate-900">In-Person Support</h3>
+      <p class="mt-0.5 text-sm leading-relaxed text-slate-500">Doubts cleared instantly in offline classes, with personal guidance.</p></div>
+    </li></ul>
+  </div>
+  <div class="lg:pl-6">
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span class="win-dot bg-red-400"></span><span class="win-dot bg-amber-400"></span><span class="win-dot bg-emerald-400"></span>
+        <span class="ml-2 font-mono text-[11px] text-slate-400">chedo-class@institute: ~/practice</span>
+      </div>
+      <div class="terminal-body">
+<pre><span class="term-prompt">$</span> <span class="text-slate-200">write code with the instructor</span>
+<span class="term-ok">✓</span> <span class="term-dim">understand — whiteboard first</span>
+<span class="term-ok">✓</span> <span class="term-dim">practice — hands-on, in class</span>
+<span class="term-ok">✓</span> <span class="term-dim">build — projects, not just notes</span>
+<span class="term-ok">✓</span> <span class="term-dim">support — doubts solved in person</span>
+<span class="term-prompt">$</span> <span class="text-slate-200">next milestone</span><span class="term-cursor"></span></pre>
+      </div>
+    </div>
+    <div class="mt-6 grid grid-cols-2 gap-4">
+      <div class="card p-5">
+        <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-5 w-5"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+  <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+  <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+  <circle cx="9" cy="7" r="4" />
+</svg>
+</span>
+        <p class="mt-3 text-sm font-semibold text-slate-900">Small Classes</p>
+        <p class="mt-1 text-sm text-slate-500">Personal attention in every session.</p>
+      </div>
+      <div class="card p-5">
+        <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-cyan-50 text-cyan-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-5 w-5"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <circle cx="12" cy="12" r="6" />
+  <circle cx="12" cy="12" r="2" />
+</svg>
+</span>
+        <p class="mt-3 text-sm font-semibold text-slate-900">Milestones</p>
+        <p class="mt-1 text-sm text-slate-500">Assignments, tests &amp; project checkpoints.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+<section class="border-t border-slate-100 bg-slate-50/70 py-16 sm:py-20">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
+      <div>
+        <p class="eyebrow">// KEEP LEARNING</p>
+        <h2 class="mt-3 text-[clamp(1.8rem,3.5vw,2.75rem)] font-extrabold tracking-tight text-slate-900">Related Courses</h2>
+      </div>
+      <a class="arrow-link" href="../courses.php">View all courses <span class="arrow"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12h14" />
+  <path d="m12 5 7 7-7 7" />
+</svg>
+</span></a>
+    </div>
+    <div class="mt-8 grid gap-5 md:grid-cols-3">
+<article class="card card-hover relative flex flex-col p-6">
+  <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-5 w-5"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 3v18" />
+  <rect width="18" height="18" x="3" y="3" rx="2" />
+  <path d="M3 9h18" />
+  <path d="M3 15h18" />
+</svg>
+</span>
+  <h3 class="mt-4 text-base font-bold tracking-tight text-slate-900">Data Science Foundation</h3>
+  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-500">Start your journey into data science with strong basics in programming, data handling and AI-powered creativity. Beginner friendly — no prior coding needed.</p>
+  <a class="arrow-link mt-4" href="../courses/data-science-foundation.php">Explore Course <span class="arrow"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12h14" />
+  <path d="m12 5 7 7-7 7" />
+</svg>
+</span></a>
+</article>
+<article class="card card-hover relative flex flex-col p-6">
+  <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-5 w-5"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2" />
+  <path d="M6.453 15h11.094" />
+  <path d="M8.5 2h7" />
+</svg>
+</span>
+  <h3 class="mt-4 text-base font-bold tracking-tight text-slate-900">Data Science</h3>
+  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-500">Master data analysis, visualization, machine learning and real-world insights using Python, Pandas, NumPy, Matplotlib and AI libraries.</p>
+  <a class="arrow-link mt-4" href="../courses/data-science.php">Explore Course <span class="arrow"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12h14" />
+  <path d="m12 5 7 7-7 7" />
+</svg>
+</span></a>
+</article>
+<article class="card card-hover relative flex flex-col p-6">
+  <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-5 w-5"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <rect x="16" y="16" width="6" height="6" rx="1" />
+  <rect x="2" y="16" width="6" height="6" rx="1" />
+  <rect x="9" y="2" width="6" height="6" rx="1" />
+  <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
+  <path d="M12 12V8" />
+</svg>
+</span>
+  <h3 class="mt-4 text-base font-bold tracking-tight text-slate-900">Data Structures &amp; Algorithms</h3>
+  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-500">Comprehensive DSA covering arrays, linked lists, stacks, queues, searching, sorting, trees, graphs and advanced topics like hashing and dynamic programming.</p>
+  <a class="arrow-link mt-4" href="../courses/data-structures-algorithms.php">Explore Course <span class="arrow"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12h14" />
+  <path d="m12 5 7 7-7 7" />
+</svg>
+</span></a>
+</article></div>
+  </div>
+</section>
+
+
+<section class="py-16 sm:py-20">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="relative overflow-hidden rounded-[2rem] border border-blue-100 bg-gradient-to-br from-blue-50 via-white to-indigo-50 px-6 py-14 text-center sm:px-12 sm:py-16">
+      <div class="bg-dots absolute inset-0 opacity-40" aria-hidden="true"></div>
+      <div class="absolute -left-24 -top-24 h-64 w-64 rounded-full bg-blue-100/50 blur-3xl" aria-hidden="true"></div>
+      <div class="absolute -bottom-24 -right-24 h-64 w-64 rounded-full bg-cyan-100/50 blur-3xl" aria-hidden="true"></div>
+      <div class="relative">
+        <h2 class="mx-auto max-w-2xl text-[clamp(1.9rem,4vw,3rem)] font-extrabold leading-tight tracking-tight text-slate-900">Interested in the Python Programming Course?</h2>
+        <p class="mx-auto mt-4 max-w-xl text-lg leading-relaxed text-slate-600">Ask us for batch schedules, curriculum details and how to enroll. Personal guidance is part of the program.</p>
+        <div class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+          <a class="btn-wa btn-lg" data-wa data-wa-text="Hello Chedo Tech, I am interested in the Python Programming course. Please share more information." href="../contact.php"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" />
+</svg>
+ Enquire on WhatsApp</a>
+          <a class="btn-secondary btn-lg" href="../courses.php">See Other Courses</a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="border-t border-slate-200 bg-slate-50">
+  <div class="mx-auto max-w-7xl px-5 pb-10 pt-14 sm:px-8 lg:pt-16">
+    <div class="grid gap-10 lg:grid-cols-12">
+      <div class="lg:col-span-3">
+        <a href="../index.php" class="inline-flex items-center gap-2.5">
+          <img src="../assets/images/logo-mark.svg" alt="" width="38" height="38" class="h-9 w-9">
+          <span class="text-lg font-extrabold tracking-tight text-slate-900">Chedo<span class="text-blue-600">Tech</span></span>
+        </a>
+        <p class="mt-3 text-sm font-medium text-slate-600">Programming Institute &amp; App Development</p>
+        <p class="mt-2 max-w-xs text-sm leading-relaxed text-slate-500">Offline, practical programming education since 2015 — from basics to building real projects.</p>
+        <p class="mt-4 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-1.5 font-mono text-[11px] font-semibold tracking-wide text-slate-500">
+          <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span> Offline &middot; Practical &middot; Project-Based
+        </p>
+      </div>
+      <div class="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:col-span-6">
+        <nav aria-label="Programming courses">
+          <h2 class="font-mono text-[11px] font-semibold uppercase tracking-widest text-slate-500">Programming</h2>
+          <ul class="mt-3 space-y-0.5">
+            <li><a class="footer-link" href="../courses/c-programming.php">C</a></li><li><a class="footer-link" href="../courses/cpp-programming.php">C++</a></li><li><a class="footer-link" href="../courses/java-programming.php">Java</a></li><li><a class="footer-link" href="../courses/python-programming.php">Python</a></li><li><a class="footer-link" href="../courses/data-structures-algorithms.php">Data Structures & Algorithms</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Development courses">
+          <h2 class="font-mono text-[11px] font-semibold uppercase tracking-widest text-slate-500">Development</h2>
+          <ul class="mt-3 space-y-0.5">
+            <li><a class="footer-link" href="../courses/mern-full-stack.php">MERN Full Stack</a></li><li><a class="footer-link" href="../courses/java-full-stack.php">Java Full Stack</a></li><li><a class="footer-link" href="../courses/mobile-app-development.php">Mobile App Development</a></li><li><a class="footer-link" href="../courses/data-science.php">Data Science</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Other courses">
+          <h2 class="font-mono text-[11px] font-semibold uppercase tracking-widest text-slate-500">Other</h2>
+          <ul class="mt-3 space-y-0.5">
+            <li><a class="footer-link" href="../courses/data-science-foundation.php">Data Science Foundation</a></li><li><a class="footer-link" href="../courses/ui-ux-design.php">UI/UX Design</a></li><li><a class="footer-link" href="../courses/kids-programming.php">Kids Programming</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="grid grid-cols-2 gap-8 lg:col-span-3">
+        <nav aria-label="Explore">
+          <h2 class="font-mono text-[11px] font-semibold uppercase tracking-widest text-slate-500">Explore</h2>
+          <ul class="mt-3 space-y-0.5">
+            <li><a class="footer-link" href="../index.php">Home</a></li><li><a class="footer-link" href="../courses.php">Courses</a></li><li><a class="footer-link" href="../about.php">About</a></li><li><a class="footer-link" href="../contact.php">Contact</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Contact">
+          <h2 class="font-mono text-[11px] font-semibold uppercase tracking-widest text-slate-500">Contact</h2>
+          <ul class="mt-3 space-y-0.5">
+<li><a class="footer-link" href="../contact.php"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" />
+</svg>
+ <span data-phone>Set in config.js</span></a></li>
+<li><a class="footer-link" href="../contact.php"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" />
+</svg>
+ WhatsApp Enquiry</a></li>
+<li><a class="footer-link" href="../contact.php"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+  <circle cx="12" cy="10" r="3" />
+</svg>
+ <span data-address>Set in config.js</span></a></li>
+<li><a class="footer-link" href="../contact.php"><!-- @license lucide-static v1.28.0 - ISC -->
+<svg aria-hidden="true" focusable="false"
+  class="h-4 w-4"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
+  <rect x="2" y="4" width="20" height="16" rx="2" />
+</svg>
+ <span data-email>Set in config.js</span></a></li>
+</ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="border-t border-slate-200">
+    <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-5 py-5 text-sm text-slate-500 sm:flex-row sm:px-8">
+      <p>&copy; <span id="year">2026</span> Chedo Tech. All rights reserved.</p>
+      <a class="font-medium text-slate-500 transition-colors hover:text-blue-700" href="../privacy-policy.php">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+
+<a id="wa-fab" data-wa href="../contact.php" aria-label="Chat with Chedo Tech on WhatsApp"
+   class="fixed bottom-5 right-5 z-40 hidden h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_16px_32px_-12px_rgba(22,163,74,0.6)] transition-transform hover:scale-105">
+  <svg viewBox="0 0 24 24" fill="currentColor" class="h-7 w-7" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.48-2.5 0-.213.08-.465.12-.465.04-.04.08-.173.12-.297.04-.123.04-.286-.02-.41-.06-.123-.54-1.3-.74-1.78-.194-.463-.392-.4-.54-.407l-.46-.01c-.16 0-.42.06-.64.297-.22.238-.84.82-.84 2 0 1.18.86 2.32.98 2.48.12.16 1.69 2.58 4.1 3.62.573.247 1.02.395 1.367.505.573.182.1.095.1.095-.3-.017-.06-.014-.36-.014-.558 0-8.05-3.74-9.53-4.22-.175-.058-.295.025-.4.123l-.493.49c-.16.16-.33.173-.55.06-.22-.11-1.4-.646-2.666-1.644-.986-.777-1.644-1.73-1.833-2.023-.19-.297-.02-.457.144-.607l.44-.516c.16-.173.214-.297.32-.495.107-.198.053-.372-.027-.52-.08-.148-.65-1.56-.89-2.13-.234-.56-.472-.485-.645-.494l-.55-.01c-.16 0-.42.06-.64.297-.22.24-1.42 1.39-1.42 3.39 0 2 1.45 3.93 1.66 4.2.21.27 2.86 4.37 6.93 6.13.968.42 1.72.67 2.31.86.97.31 1.85.27 2.55.16.78-.12 2.4-.98 2.74-1.92.34-.95.34-1.76.24-1.93-.1-.17-.37-.27-.66-.42z"/></svg>
+</a>
+
+</body>
+</html>
