@@ -353,68 +353,75 @@
 
   <div class="relative mx-auto grid max-w-7xl items-center gap-14 px-5 pb-20 pt-14 sm:px-8 lg:grid-cols-12 lg:gap-10 lg:pb-28 lg:pt-20">
     <div class="lg:col-span-6 xl:col-span-6">
-      <div class="flex flex-wrap items-center gap-2">
-        <p class="inline-flex h-[38px] items-center gap-2 rounded-full border border-blue-100 bg-blue-50/70 px-3.5 text-[13px] sm:text-[13.5px] font-semibold text-blue-700 dark:border-blue-900/50 dark:bg-blue-950/50 dark:text-blue-300">
-          <span class="pulse-dot h-2 w-2 rounded-full bg-red-500"></span>
+      <!-- 1. Badges -->
+      <div class="flex flex-wrap items-center gap-2.5">
+        <p class="inline-flex h-[36px] items-center gap-2 rounded-full border border-blue-200/80 bg-[#edf3fe] px-3.5 text-[13px] font-semibold text-slate-700 dark:border-blue-900/60 dark:bg-blue-950/60 dark:text-blue-200">
+          <span class="h-2 w-2 rounded-full bg-red-500"></span>
           Practical Programming Education Since 2015
         </p>
-        <span class="inline-flex h-[38px] items-center gap-1.5 rounded-full border border-amber-200 bg-amber-50 px-3 text-[13px] font-semibold text-amber-800 dark:border-amber-900/50 dark:bg-amber-950/40 dark:text-amber-300">
+        <span class="inline-flex h-[36px] items-center gap-1.5 rounded-full border border-amber-300/80 bg-[#fef6ea] px-3.5 text-[13px] font-semibold text-amber-900 dark:border-amber-900/60 dark:bg-amber-950/50 dark:text-amber-300">
           ⭐ 4.9 / 5 (253+ Google Reviews)
         </span>
       </div>
-      <h1 class="hero-title mt-6 text-[44px] sm:text-[50px] lg:text-[54px] xl:text-[56px] font-[800] leading-[1.08] tracking-[-1.2px] text-slate-900 dark:text-white">
-        Learn Programming.<br>
-        <span class="bg-gradient-to-r from-blue-600 via-blue-600 to-cyan-400 bg-clip-text text-transparent">Build Real Projects.</span>
+
+      <!-- 2. Headline with Blue Underlines -->
+      <h1 class="hero-title mt-6 text-[42px] sm:text-[50px] lg:text-[54px] xl:text-[58px] font-[850] leading-[1.1] tracking-tight text-slate-900 dark:text-white">
+        Learn <span class="underline decoration-blue-600 decoration-[5px] underline-offset-[7px]">Programming.</span><br>
+        Build <span class="underline decoration-blue-600 decoration-[5px] underline-offset-[7px]">Real Projects.</span>
       </h1>
-      <p class="mt-5 max-w-xl text-[17px] sm:text-[18px] leading-[1.6] text-slate-600 dark:text-slate-400">
+
+      <!-- 3. Description -->
+      <p class="mt-5 max-w-xl text-[16px] sm:text-[17px] leading-[1.6] text-slate-700 dark:text-slate-300">
         Chedo Tech is a programming institute &amp; development center in Pune providing
-        <strong class="font-semibold text-slate-800 dark:text-slate-200">offline, practical programming education</strong> —
+        <strong class="font-bold text-slate-900 dark:text-white">offline, practical programming education</strong> —
         taking you from fundamentals to building real projects, with personal guidance at every step.
       </p>
-      <div class="mt-6 flex flex-wrap lg:flex-nowrap items-center gap-2 sm:gap-2.5">
-        <a class="inline-flex h-[46px] items-center justify-center rounded-[12px] bg-blue-600 px-3.5 sm:px-4 text-[13.5px] sm:text-[14px] font-semibold text-white shadow-sm transition-all hover:bg-blue-700 hover:shadow-md whitespace-nowrap shrink-0" href="courses.php">
-          Explore Courses ➔
-        </a>
-        <a class="inline-flex h-[46px] items-center justify-center rounded-[12px] border border-slate-300 bg-white px-3.5 sm:px-4 text-[13.5px] sm:text-[14px] font-semibold text-slate-700 shadow-sm transition-all hover:border-slate-400 hover:bg-slate-50 hover:text-slate-900 whitespace-nowrap shrink-0 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800" href="https://chedo.web.app" target="_blank" title="Go to Student Dashboard">
-          🔐 Student Login
-        </a>
-        <a class="inline-flex h-[46px] items-center justify-center rounded-[12px] border border-slate-300 bg-white px-3.5 sm:px-4 text-[13.5px] sm:text-[14px] font-semibold text-slate-700 shadow-sm transition-all hover:border-slate-400 hover:bg-slate-50 hover:text-slate-900 whitespace-nowrap shrink-0 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800" href="contact.php">
-          📩 Enquire Now
-        </a>
-        <a class="inline-flex h-[46px] items-center justify-center rounded-[12px] bg-emerald-600 px-3.5 sm:px-4 text-[13.5px] sm:text-[14px] font-semibold text-white shadow-sm transition-all hover:bg-emerald-700 hover:shadow-md whitespace-nowrap shrink-0" href="https://wa.me/918793100815" target="_blank">
-          💬 Talk with Mentor
-        </a>
+
+      <!-- 4. Buttons -->
+      <div class="mt-6 flex flex-col gap-3">
+        <div class="flex flex-wrap items-center gap-2.5">
+          <a class="inline-flex h-[42px] items-center justify-center rounded-md bg-[#545b6d] px-4 text-[14px] font-semibold text-white shadow-sm transition-all hover:bg-[#434958] whitespace-nowrap" href="courses.php">
+            Explore Courses ➔
+          </a>
+          <a class="inline-flex h-[42px] items-center justify-center rounded-md border border-slate-300/90 bg-[#e2e5eb] px-4 text-[14px] font-semibold text-slate-800 shadow-sm transition-all hover:bg-slate-300/80 whitespace-nowrap dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200" href="https://chedo.web.app" target="_blank" title="Go to Student Dashboard">
+            🔐 Student Login
+          </a>
+          <a class="inline-flex h-[42px] items-center justify-center rounded-md border border-slate-300/90 bg-[#e2e5eb] px-4 text-[14px] font-semibold text-slate-800 shadow-sm transition-all hover:bg-slate-300/80 whitespace-nowrap dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200" href="contact.php">
+            📩 Enquire Now
+          </a>
+        </div>
+        <div>
+          <a class="inline-flex items-center gap-1.5 text-[14px] font-medium text-slate-600 transition-colors hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-400" href="https://wa.me/918793100815" target="_blank">
+            <span>💬</span> Talk with Mentors
+          </a>
+        </div>
       </div>
-      <ul class="mt-8 flex flex-wrap lg:flex-nowrap items-center gap-x-5 lg:gap-x-6 gap-y-2">
-        <li class="flex items-center gap-1.5 text-[14px] font-medium text-slate-600 dark:text-slate-400 whitespace-nowrap">
-          <svg aria-hidden="true" focusable="false" class="h-4 w-4 shrink-0 text-emerald-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10" />
-            <path d="m9 12 2 2 4-4" />
-          </svg>
-          Offline Training
-        </li>
-        <li class="flex items-center gap-1.5 text-[14px] font-medium text-slate-600 dark:text-slate-400 whitespace-nowrap">
-          <svg aria-hidden="true" focusable="false" class="h-4 w-4 shrink-0 text-emerald-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10" />
-            <path d="m9 12 2 2 4-4" />
-          </svg>
-          Practical Learning
-        </li>
-        <li class="flex items-center gap-1.5 text-[14px] font-medium text-slate-600 dark:text-slate-400 whitespace-nowrap">
-          <svg aria-hidden="true" focusable="false" class="h-4 w-4 shrink-0 text-emerald-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10" />
-            <path d="m9 12 2 2 4-4" />
-          </svg>
-          Personal Guidance
-        </li>
-        <li class="flex items-center gap-1.5 text-[14px] font-medium text-slate-600 dark:text-slate-400 whitespace-nowrap">
-          <svg aria-hidden="true" focusable="false" class="h-4 w-4 shrink-0 text-emerald-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10" />
-            <path d="m9 12 2 2 4-4" />
-          </svg>
-          Real Projects
-        </li>
-      </ul>
+
+      <!-- 5. 2x2 Grid Features with Borders -->
+      <div class="mt-8 border-t border-b border-slate-300/70 dark:border-slate-800">
+        <div class="grid grid-cols-2 divide-x divide-slate-300/70 dark:divide-slate-800">
+          <div class="flex items-center gap-2.5 py-3 pr-4">
+            <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-slate-300/80 text-[11px] font-bold text-slate-700 dark:bg-slate-700 dark:text-slate-200">✓</span>
+            <span class="text-[15px] font-semibold text-slate-800 dark:text-slate-200">Offline Training</span>
+          </div>
+          <div class="flex items-center gap-2.5 py-3 pl-4">
+            <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-slate-300/80 text-[11px] font-bold text-slate-700 dark:bg-slate-700 dark:text-slate-200">✓</span>
+            <span class="text-[15px] font-semibold text-slate-800 dark:text-slate-200">Practical Learning</span>
+          </div>
+        </div>
+        <div class="border-t border-slate-300/70 dark:border-slate-800"></div>
+        <div class="grid grid-cols-2 divide-x divide-slate-300/70 dark:divide-slate-800">
+          <div class="flex items-center gap-2.5 py-3 pr-4">
+            <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-slate-300/80 text-[11px] font-bold text-slate-700 dark:bg-slate-700 dark:text-slate-200">✓</span>
+            <span class="text-[15px] font-semibold text-slate-800 dark:text-slate-200">Personal Guidance</span>
+          </div>
+          <div class="flex items-center gap-2.5 py-3 pl-4">
+            <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-slate-300/80 text-[11px] font-bold text-slate-700 dark:bg-slate-700 dark:text-slate-200">✓</span>
+            <span class="text-[15px] font-semibold text-slate-800 dark:text-slate-200">Real Projects</span>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <div class="lg:col-span-6 xl:col-span-6">
