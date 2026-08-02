@@ -258,3 +258,88 @@ html.dark .bg-amber-50 {
 html.dark .text-amber-800 {
   color: #fcd34d !important;
 }
+
+/* ============================================================
+   Homepage Compact & Polish Optimizations
+   ============================================================ */
+
+/* 1. Section Spacing Reduction (20-30%) */
+section.py-16 {
+  padding-top: 3.25rem !important;  /* 52px instead of 64px */
+  padding-bottom: 3.25rem !important;
+}
+
+@media (min-width: 640px) {
+  section.sm\:py-24 {
+    padding-top: 4.5rem !important;  /* 72px instead of 96px */
+    padding-bottom: 4.5rem !important;
+  }
+  section.sm\:py-32 {
+    padding-top: 5rem !important;    /* 80px instead of 128px */
+    padding-bottom: 5rem !important;
+  }
+}
+
+/* 2. Course Cards Compact Sizing & Equal Heights */
+.card {
+  border-radius: 1rem !important;
+  padding: 1.25rem !important; /* 20px padding (reduced 20%) */
+}
+
+article.card {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+}
+
+article.card h3 {
+  margin-top: 0.85rem !important;
+  font-size: 1.1rem !important;
+}
+
+article.card p {
+  margin-top: 0.4rem !important;
+  font-size: 0.875rem !important;
+  line-height: 1.5 !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+article.card .arrow-link {
+  margin-top: auto !important; /* Aligns Explore Course button at bottom */
+  padding-top: 0.75rem !important;
+}
+
+/* 3. Section Headers Standardization */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.1em !important;
+  color: var(--color-blue-600) !important;
+  text-transform: uppercase !important;
+}
+
+html.dark .eyebrow {
+  color: #60a5fa !important;
+}
+
+/* Standardized h2 headings across sections */
+section h2:not(.hero-title) {
+  font-size: clamp(2rem, 3.5vw, 2.5rem) !important; /* ~32px to 40px */
+  line-height: 1.08 !important;
+  letter-spacing: -0.02em !important;
+}
+
+/* 4. Compact Bento Cells & Component Containers */
+.bento-cell {
+  padding: 1.5rem !important;
+  border-radius: 1rem !important;
+}
+
+.acc-summary {
+  padding-block: 1rem !important;
+}
+

@@ -516,38 +516,21 @@
   </div>
 </section>
 
-<section class="py-16 sm:py-24">
+<section class="py-12 sm:py-16">
   <div class="mx-auto max-w-7xl px-5 sm:px-8">
     <div class="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
-      
-<div class=" max-w-3xl">
-  <p class="eyebrow">// COURSES</p>
-  <h2 class="mt-3 text-[clamp(1.9rem,4vw,3.25rem)] font-extrabold leading-[1.12] tracking-tight text-slate-900">Choose What You Want<br>to Build Next.</h2>
-  <p class="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-slate-600">Twelve focused, practical courses — from your first C program to full stack applications, data science, mobile apps, design and kids programming.</p>
-</div>
+      <div class="max-w-3xl">
+        <p class="eyebrow font-mono text-[11px] sm:text-[12px] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">// COURSES</p>
+        <h2 class="mt-2 text-[30px] sm:text-[36px] lg:text-[40px] font-extrabold leading-[1.08] tracking-tight text-slate-900 dark:text-white">Choose What You Want<br>to Build Next.</h2>
+        <p class="mt-2.5 max-w-2xl text-[16px] sm:text-[17px] leading-relaxed text-slate-600 dark:text-slate-400">Twelve focused, practical courses — from your first C program to full stack applications, data science, mobile apps, design and kids programming.</p>
+      </div>
 
-      <a class="arrow-link shrink-0" href="courses.php">View all courses <span class="arrow"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M5 12h14" />
-  <path d="m12 5 7 7-7 7" />
-</svg>
-</span></a>
+      <a class="arrow-link shrink-0" href="courses.php">View all courses <span class="arrow"><svg aria-hidden="true" focusable="false" class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg></span></a>
     </div>
-    <div class="mt-8 flex flex-wrap gap-2" id="course-filters" role="group" aria-label="Filter courses by category">
+    <div class="mt-7 flex flex-wrap gap-2" id="course-filters" role="group" aria-label="Filter courses by category">
       <button type="button" class="filter-btn" data-filter="all" aria-pressed="true">All</button><button type="button" class="filter-btn" data-filter="programming" aria-pressed="false">Programming</button><button type="button" class="filter-btn" data-filter="full-stack" aria-pressed="false">Full Stack</button><button type="button" class="filter-btn" data-filter="data-ai" aria-pressed="false">Data & AI</button><button type="button" class="filter-btn" data-filter="mobile" aria-pressed="false">Mobile</button><button type="button" class="filter-btn" data-filter="design" aria-pressed="false">Design</button><button type="button" class="filter-btn" data-filter="kids" aria-pressed="false">Kids</button>
     </div>
-    <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="mt-7 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 items-stretch">
       
 <article class="card card-hover flex flex-col p-6 reveal" data-category="programming">
   <div class="flex items-center justify-between">
@@ -1125,16 +1108,15 @@
   </div>
 </section>
 
-<section class="bg-surface-alt py-16 sm:py-24">
+<section class="bg-surface-alt py-12 sm:py-16">
   <div class="mx-auto max-w-7xl px-5 sm:px-8">
-    
-<div class="mx-auto text-center max-w-3xl">
-  <p class="eyebrow">// LEARNING JOURNEY</p>
-  <h2 class="mt-3 text-[clamp(1.9rem,4vw,3.25rem)] font-extrabold leading-[1.12] tracking-tight text-slate-900">From Your First Line of Code to Real Applications.</h2>
-  <p class="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-slate-600">A clear path — no matter where you start, you always know what comes next.</p>
-</div>
+    <div class="mx-auto text-center max-w-3xl">
+      <p class="eyebrow font-mono text-[11px] sm:text-[12px] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">// LEARNING JOURNEY</p>
+      <h2 class="mt-2 text-[30px] sm:text-[36px] lg:text-[40px] font-extrabold leading-[1.08] tracking-tight text-slate-900 dark:text-white">From Your First Line of Code to Real Applications.</h2>
+      <p class="mx-auto mt-2.5 max-w-2xl text-[16px] sm:text-[17px] leading-relaxed text-slate-600 dark:text-slate-400">A clear path — no matter where you start, you always know what comes next.</p>
+    </div>
 
-    <ol class="journey mx-auto mt-14 max-w-6xl">
+    <ol class="journey mx-auto mt-10 max-w-6xl">
 <li class="j-step reveal">
   <span class="j-node">01</span>
   <div class="j-card card h-full p-6">
@@ -1195,12 +1177,12 @@
   </div>
 </section>
 
-<section class="py-16 sm:py-24">
-  <div class="mx-auto grid max-w-7xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-2">
+<section class="py-12 sm:py-16">
+  <div class="mx-auto grid max-w-7xl items-center gap-10 px-5 sm:px-8 lg:grid-cols-2">
     <div>
-      <p class="eyebrow">// PRACTICAL LEARNING</p>
-      <h2 class="mt-3 text-[clamp(1.9rem,4vw,3.25rem)] font-extrabold leading-[1.1] tracking-tight text-slate-900">You Don't Learn Programming<br>by Just Watching It.</h2>
-      <p class="mt-5 text-lg leading-relaxed text-slate-600">
+      <p class="eyebrow font-mono text-[11px] sm:text-[12px] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">// PRACTICAL LEARNING</p>
+      <h2 class="mt-2 text-[30px] sm:text-[36px] lg:text-[40px] font-extrabold leading-[1.08] tracking-tight text-slate-900 dark:text-white">You Don't Learn Programming<br>by Just Watching It.</h2>
+      <p class="mt-3 text-[16px] sm:text-[17px] leading-relaxed text-slate-600 dark:text-slate-400">
         Chedo Tech classes are fully offline: concepts are drawn on the whiteboard, code is written live,
         and you practice on your own machine while the instructor is right there. Assignments, coding tests
         and project checkpoints keep your progress measurable at every milestone.
@@ -1440,16 +1422,15 @@
   </div>
 </section>
 
-<section class="bg-surface-alt py-16 sm:py-24">
+<section class="bg-surface-alt py-12 sm:py-16">
   <div class="mx-auto max-w-7xl px-5 sm:px-8">
-    
-<div class=" max-w-3xl">
-  <p class="eyebrow">// WHY CHEDO TECH</p>
-  <h2 class="mt-3 text-[clamp(1.9rem,4vw,3.25rem)] font-extrabold leading-[1.12] tracking-tight text-slate-900">Built Around How Students Actually Learn.</h2>
-  <p class="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-slate-600">Six things that make a Chedo Tech classroom different from the usual coaching class.</p>
-</div>
+    <div class="max-w-3xl">
+      <p class="eyebrow font-mono text-[11px] sm:text-[12px] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">// WHY CHEDO TECH</p>
+      <h2 class="mt-2 text-[30px] sm:text-[36px] lg:text-[40px] font-extrabold leading-[1.08] tracking-tight text-slate-900 dark:text-white">Built Around How Students Actually Learn.</h2>
+      <p class="mt-2.5 max-w-2xl text-[16px] sm:text-[17px] leading-relaxed text-slate-600 dark:text-slate-400">Six things that make a Chedo Tech classroom different from the usual coaching class.</p>
+    </div>
 
-    <div class="mt-12 grid gap-5 md:grid-cols-3">
+    <div class="mt-9 grid gap-5 md:grid-cols-3">
       <div class="bento-cell reveal md:col-span-2 md:row-span-2">
         <div class="flex items-start justify-between gap-4">
           <span class="bento-icon"><!-- @license lucide-static v1.28.0 - ISC -->
@@ -1615,18 +1596,16 @@
   </div>
 </section>
 
-<section class="py-16 sm:py-24">
+<section class="py-12 sm:py-16">
   <div class="mx-auto max-w-7xl px-5 sm:px-8">
     <div class="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
-      
-<div class=" max-w-3xl">
-  <p class="eyebrow">// PROJECT SHOWCASE</p>
-  <h2 class="mt-3 text-[clamp(1.9rem,4vw,3.25rem)] font-extrabold leading-[1.12] tracking-tight text-slate-900">Your Learning Should Produce Something.</h2>
-  <p class="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-slate-600">These are the kinds of applications students build while learning here — every course is built around projects you actually finish.</p>
-</div>
-
+      <div class="max-w-3xl">
+        <p class="eyebrow font-mono text-[11px] sm:text-[12px] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">// PROJECT SHOWCASE</p>
+        <h2 class="mt-2 text-[30px] sm:text-[36px] lg:text-[40px] font-extrabold leading-[1.08] tracking-tight text-slate-900 dark:text-white">Your Learning Should Produce Something.</h2>
+        <p class="mt-2.5 max-w-2xl text-[16px] sm:text-[17px] leading-relaxed text-slate-600 dark:text-slate-400">These are the kinds of applications students build while learning here — every course is built around projects you actually finish.</p>
+      </div>
     </div>
-    <div class="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+    <div class="mt-7 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
       
 <div class="project-tile reveal">
   <div class="flex items-center gap-3">
@@ -2259,12 +2238,12 @@
   </div>
 </section>
 
-<section class="relative overflow-hidden border-y border-slate-100 bg-slate-50/70 py-16 sm:py-24">
-  <div class="mx-auto grid max-w-7xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-2">
+<section class="relative overflow-hidden border-y border-slate-100 bg-slate-50/70 py-12 sm:py-16 dark:border-slate-800">
+  <div class="mx-auto grid max-w-7xl items-center gap-10 px-5 sm:px-8 lg:grid-cols-2">
     <div>
-      <p class="eyebrow">// DATA SCIENCE &amp; AI</p>
-      <h2 class="mt-3 text-[clamp(1.9rem,4vw,3.25rem)] font-extrabold leading-[1.1] tracking-tight text-slate-900">Turn Data Into<br>Understanding.</h2>
-      <p class="mt-5 text-lg leading-relaxed text-slate-600">
+      <p class="eyebrow font-mono text-[11px] sm:text-[12px] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">// DATA SCIENCE &amp; AI</p>
+      <h2 class="mt-2 text-[30px] sm:text-[36px] lg:text-[40px] font-extrabold leading-[1.08] tracking-tight text-slate-900 dark:text-white">Turn Data Into<br>Understanding.</h2>
+      <p class="mt-3 text-[16px] sm:text-[17px] leading-relaxed text-slate-600 dark:text-slate-400">
         From Python and Pandas to machine learning, statistics and Power BI — learn to work with real data,
         find patterns and build dashboards that explain real problems. Two entry points:
       </p>
@@ -2486,14 +2465,14 @@
   </div>
 </section>
 
-<section class="py-16 sm:py-24">
+<section class="py-12 sm:py-16">
   <div class="mx-auto max-w-7xl px-5 sm:px-8">
     <div class="mx-auto max-w-3xl text-center">
-      <p class="eyebrow">// FULL STACK DEVELOPMENT</p>
-      <h2 class="mt-3 text-[clamp(1.9rem,4vw,3.25rem)] font-extrabold leading-[1.1] tracking-tight text-slate-900">Learn How Complete Applications Work.</h2>
-      <p class="mt-5 text-lg leading-relaxed text-slate-600">Not just one layer — see how the frontend, API, backend and database fit together, then build that whole system yourself in the MERN or Java Full Stack course.</p>
+      <p class="eyebrow font-mono text-[11px] sm:text-[12px] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">// FULL STACK DEVELOPMENT</p>
+      <h2 class="mt-2 text-[30px] sm:text-[36px] lg:text-[40px] font-extrabold leading-[1.08] tracking-tight text-slate-900 dark:text-white">Learn How Complete Applications Work.</h2>
+      <p class="mt-2.5 max-w-2xl text-[16px] sm:text-[17px] leading-relaxed text-slate-600 dark:text-slate-400 mx-auto">Not just one layer — see how the frontend, API, backend and database fit together, then build that whole system yourself in the MERN or Java Full Stack course.</p>
     </div>
-    <div class="mt-12 flex flex-col items-stretch gap-2 lg:flex-row lg:items-stretch">
+    <div class="mt-9 flex flex-col items-stretch gap-2 lg:flex-row lg:items-stretch">
       
 <div class="flex flex-col lg:flex-1">
   <div class="card flex-1 p-5 text-center">
@@ -2649,12 +2628,12 @@
   </div>
 </section>
 
-<section class="relative overflow-hidden bg-gradient-to-br from-cyan-50/70 via-white to-indigo-50/60 py-16 sm:py-24">
+<section class="relative overflow-hidden bg-gradient-to-br from-cyan-50/70 via-white to-indigo-50/60 py-12 sm:py-16 dark:from-slate-900 dark:via-slate-900 dark:to-slate-800">
   <div class="mx-auto max-w-7xl px-5 sm:px-8">
-    <div class="grid items-center gap-12 lg:grid-cols-2">
+    <div class="grid items-center gap-10 lg:grid-cols-2">
       <div>
-        <p class="eyebrow">// KIDS PROGRAMMING</p>
-        <h2 class="mt-3 text-[clamp(1.9rem,4vw,3.25rem)] font-extrabold leading-[1.1] tracking-tight text-slate-900">Programming for Young Creators.</h2>
+        <p class="eyebrow font-mono text-[11px] sm:text-[12px] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">// KIDS PROGRAMMING</p>
+        <h2 class="mt-2 text-[30px] sm:text-[36px] lg:text-[40px] font-extrabold leading-[1.08] tracking-tight text-slate-900 dark:text-white">Programming for Young Creators.</h2>
         <p class="mt-4 inline-flex items-center gap-2 rounded-full border border-cyan-200 bg-white px-4 py-1.5 text-sm font-bold text-cyan-700">
           <!-- @license lucide-static v1.28.0 - ISC -->
 <svg aria-hidden="true" focusable="false"
@@ -3028,16 +3007,15 @@
   </div>
 </section>
 
-<section class="bg-surface-alt py-16 sm:py-24">
+<section class="bg-surface-alt py-12 sm:py-16">
   <div class="mx-auto max-w-7xl px-5 sm:px-8">
-    
-<div class="mx-auto text-center max-w-3xl">
-  <p class="eyebrow">// TESTIMONIALS</p>
-  <h2 class="mt-3 text-[clamp(1.9rem,4vw,3.25rem)] font-extrabold leading-[1.12] tracking-tight text-slate-900">Students Who Learned by Building.</h2>
-  <p class="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-slate-600">Real words from students who trained at Chedo Tech.</p>
-</div>
+    <div class="mx-auto text-center max-w-3xl">
+      <p class="eyebrow font-mono text-[11px] sm:text-[12px] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">// TESTIMONIALS</p>
+      <h2 class="mt-2 text-[30px] sm:text-[36px] lg:text-[40px] font-extrabold leading-[1.08] tracking-tight text-slate-900 dark:text-white">Students Who Learned by Building.</h2>
+      <p class="mx-auto mt-2.5 max-w-2xl text-[16px] sm:text-[17px] leading-relaxed text-slate-600 dark:text-slate-400">Real words from students who trained at Chedo Tech.</p>
+    </div>
 
-    <div class="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+    <div class="mt-9 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
       
 <figure class="t-card reveal">
   <div class="flex items-center justify-between">
@@ -3205,19 +3183,19 @@
   </div>
 </section>
 
-<section class="py-16 sm:py-24">
-  <div class="mx-auto grid max-w-7xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-2">
+<section class="py-12 sm:py-16">
+  <div class="mx-auto grid max-w-7xl items-center gap-10 px-5 sm:px-8 lg:grid-cols-2">
     <div class="relative">
-      <div class="card relative overflow-hidden p-8 sm:p-10">
+      <div class="card relative overflow-hidden p-6 sm:p-8">
         <div class="bg-grid absolute inset-0 opacity-60" aria-hidden="true"></div>
         <div class="relative">
           <p class="font-mono text-xs font-bold tracking-widest text-blue-600">// CHEDO TECH</p>
-          <p class="mt-4 text-[clamp(1.6rem,3vw,2.4rem)] font-extrabold leading-tight tracking-tight text-slate-900">Offline classes.<br>Real coding.<br>Real projects.</p>
-          <p class="mt-4 max-w-sm text-[15px] leading-relaxed text-slate-600">No screen-sharing, no pre-recorded lectures — a classroom where you write code with the instructor beside you.</p>
-          <div class="terminal mt-8">
+          <p class="mt-3 text-[clamp(1.5rem,2.5vw,2.2rem)] font-extrabold leading-tight tracking-tight text-slate-900 dark:text-white">Offline classes.<br>Real coding.<br>Real projects.</p>
+          <p class="mt-3 max-w-sm text-[15px] leading-relaxed text-slate-600 dark:text-slate-400">No screen-sharing, no pre-recorded lectures — a classroom where you write code with the instructor beside you.</p>
+          <div class="terminal mt-6">
             <div class="terminal-bar">
               <span class="win-dot bg-red-400"></span><span class="win-dot bg-amber-400"></span><span class="win-dot bg-emerald-400"></span>
-              <span class="ml-2 font-mono text-[11px] text-slate-400">since 2015</span>
+              <span class="ml-2 font-mono text-[11px] text-slate-400">chedo-tech — Pune</span>
             </div>
             <div class="terminal-body">
 <pre><span class="term-prompt">$</span> <span class="text-slate-200">chedo --since 2015 --mode offline</span>
@@ -3230,35 +3208,18 @@
       </div>
       <div class="float-card -bottom-6 -right-2 hidden md:block" style="animation: float 9s ease-in-out infinite 0.5s;">
         <div class="flex items-center gap-2.5">
-          <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-blue-600 text-white"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4.5 w-4.5"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
-  <path d="M22 10v6" />
-  <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
-</svg>
-</span>
+          <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-blue-50 text-blue-600 text-sm">🎓</span>
           <div>
-            <p class="text-[13px] font-bold text-slate-900">Since 2015</p>
-            <p class="text-[11px] text-slate-500">Teaching programming practically</p>
+            <p class="text-[13px] font-bold text-slate-900 dark:text-white">Since 2015</p>
+            <p class="text-[11px] text-slate-500 dark:text-slate-400">Teaching programming practically</p>
           </div>
         </div>
       </div>
     </div>
     <div>
-      <p class="eyebrow">// OUR STORY</p>
-      <h2 class="mt-3 text-[clamp(1.9rem,4vw,3.25rem)] font-extrabold leading-[1.1] tracking-tight text-slate-900">Practical Programming Education Since 2015.</h2>
-      <p class="mt-5 text-lg leading-relaxed text-slate-600">
+      <p class="eyebrow font-mono text-[11px] sm:text-[12px] font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">// OUR STORY</p>
+      <h2 class="mt-2 text-[30px] sm:text-[36px] lg:text-[40px] font-extrabold leading-[1.08] tracking-tight text-slate-900 dark:text-white">Practical Programming Education Since 2015.</h2>
+      <p class="mt-3 text-[16px] sm:text-[17px] leading-relaxed text-slate-600 dark:text-slate-400">
         Chedo Tech is a programming institute &amp; app development center built on one belief:
         you learn to program by programming. Since 2015 we have taught offline — fundamentals to
         full stack — with hands-on coding, real projects and personal guidance in every class.
@@ -3383,20 +3344,20 @@ In-person support</li>
   </div>
 </section>
 
-<section class="py-16 sm:py-20">
+<section class="py-10 sm:py-14">
   <div class="mx-auto max-w-7xl px-5 sm:px-8">
-    <div class="relative overflow-hidden rounded-[2rem] border border-blue-100 bg-gradient-to-br from-blue-50 via-white to-indigo-50 px-6 py-14 text-center sm:px-12 sm:py-16">
+    <div class="relative overflow-hidden rounded-[2rem] border border-blue-100 bg-gradient-to-br from-blue-50 via-white to-indigo-50 px-6 py-10 text-center sm:px-12 sm:py-12 dark:border-slate-800 dark:from-slate-900 dark:via-slate-900 dark:to-slate-800">
       <div class="bg-dots absolute inset-0 opacity-40" aria-hidden="true"></div>
       <div class="absolute -left-24 -top-24 h-64 w-64 rounded-full bg-blue-100/50 blur-3xl" aria-hidden="true"></div>
       <div class="absolute -bottom-24 -right-24 h-64 w-64 rounded-full bg-cyan-100/50 blur-3xl" aria-hidden="true"></div>
       <div class="relative">
-        <h2 class="mx-auto max-w-2xl text-[clamp(1.9rem,4vw,3rem)] font-extrabold leading-tight tracking-tight text-slate-900">Ready to Start Your Programming Journey?</h2>
-        <p class="mx-auto mt-4 max-w-xl text-lg leading-relaxed text-slate-600">Get personalized offline training, practical guidance and build confidence through real coding and projects.</p>
-        <div class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+        <h2 class="mx-auto max-w-2xl text-[28px] sm:text-[36px] lg:text-[40px] font-extrabold leading-[1.08] tracking-tight text-slate-900 dark:text-white">Ready to Start Your Programming Journey?</h2>
+        <p class="mx-auto mt-3 max-w-xl text-[16px] sm:text-[17px] leading-relaxed text-slate-600 dark:text-slate-400">Get personalized offline training, practical guidance and build confidence through real coding and projects.</p>
+        <div class="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
           <a class="btn-primary btn-lg" href="courses.php">Explore Courses</a>
           <a class="btn-secondary btn-lg" href="contact.php">Talk With Us</a>
         </div>
-        <p class="mt-4 text-sm text-slate-500">No prior coding knowledge required to begin.</p>
+        <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">No prior coding knowledge required to begin.</p>
       </div>
     </div>
   </div>
