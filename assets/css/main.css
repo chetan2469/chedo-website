@@ -144,3 +144,84 @@
   color: #1d4ed8;
   gap: 0.6rem;
 }
+
+/* ============================================================
+   Dark Theme Overrides (Default: Always Light Mode)
+   ============================================================ */
+html.dark, html.dark body {
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+}
+
+html.dark .site-header {
+  background-color: rgba(15, 23, 42, 0.92) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+html.dark .nav-link {
+  color: #cbd5e1 !important;
+}
+
+html.dark .nav-link:hover,
+html.dark .nav-link.active {
+  color: #60a5fa !important;
+}
+
+html.dark .card,
+html.dark .bento-cell,
+html.dark .acc-item,
+html.dark .dropdown-panel,
+html.dark .mobile-panel,
+html.dark .card-course-redesign {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+  color: #f1f5f9 !important;
+}
+
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4,
+html.dark .text-slate-900,
+html.dark .text-slate-800,
+html.dark .card-title {
+  color: #ffffff !important;
+}
+
+html.dark p,
+html.dark .text-slate-600,
+html.dark .text-slate-500,
+html.dark .card-desc {
+  color: #94a3b8 !important;
+}
+
+html.dark .chip,
+html.dark .card-cat-badge {
+  background-color: #334155 !important;
+  color: #cbd5e1 !important;
+  border-color: #475569 !important;
+}
+
+html.dark .bg-slate-50,
+html.dark .bg-surface-alt {
+  background-color: #0f172a !important;
+}
+
+html.dark .field-input {
+  background-color: #0f172a !important;
+  border-color: #334155 !important;
+  color: #f8fafc !important;
+}
+
+html.dark footer {
+  background-color: #090d1a !important;
+  border-color: #1e293b !important;
+}
+
+html.dark .footer-link {
+  color: #94a3b8 !important;
+}
+
+html.dark .footer-link:hover {
+  color: #60a5fa !important;
+}

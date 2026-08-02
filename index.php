@@ -352,7 +352,7 @@
           ⭐ 4.9 / 5 (253+ Google Reviews)
         </span>
       </div>
-      <h1 class="mt-5 text-[clamp(2.25rem,4.8vw,3.9rem)] font-extrabold leading-[1.1] tracking-tight text-slate-900">
+      <h1 class="mt-5 text-[clamp(3.6rem,7.5vw,5.5rem)] font-black leading-[1.05] tracking-tight text-slate-900">
         Learn Programming.<br>
         <span class="bg-gradient-to-r from-blue-600 via-blue-600 to-cyan-500 bg-clip-text text-transparent">Build Real Projects.</span>
       </h1>
