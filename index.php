@@ -352,7 +352,7 @@
           ⭐ 4.9 / 5 (253+ Google Reviews)
         </span>
       </div>
-      <h1 class="mt-7 text-[42px] font-[800] leading-[1.08] tracking-[-1.2px] text-slate-900 sm:text-[48px] lg:text-[52px] xl:text-[54px]">
+      <h1 class="mt-7 text-[46px] font-[800] leading-[1.05] tracking-[-1.5px] text-slate-900 sm:text-[54px] lg:text-[60px] xl:text-[66px]">
         Learn Programming.<br>
         <span class="bg-gradient-to-r from-blue-600 via-blue-600 to-cyan-500 bg-clip-text text-transparent">Build Real Projects.</span>
       </h1>
