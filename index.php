@@ -344,103 +344,66 @@
   <div class="relative mx-auto grid max-w-7xl items-center gap-14 px-5 pb-20 pt-14 sm:px-8 lg:grid-cols-12 lg:gap-10 lg:pb-28 lg:pt-20">
     <div class="lg:col-span-6 xl:col-span-6">
       <div class="flex flex-wrap items-center gap-2">
-        <p class="inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50/70 px-4 py-1.5 text-[13px] font-semibold text-blue-700">
-          <span class="pulse-dot rounded-full bg-red-500"></span>
+        <p class="inline-flex h-[38px] items-center gap-2 rounded-full border border-blue-100 bg-blue-50/70 px-3.5 text-[13.5px] font-semibold text-blue-700">
+          <span class="pulse-dot h-2 w-2 rounded-full bg-red-500"></span>
           Practical Programming Education Since 2015
         </p>
-        <span class="inline-flex items-center gap-1.5 rounded-full border border-amber-200 bg-amber-50 px-3 py-1.5 text-[12px] font-semibold text-amber-800">
+        <span class="inline-flex h-[38px] items-center gap-1.5 rounded-full border border-amber-200 bg-amber-50 px-3 text-[13px] font-semibold text-amber-800">
           ⭐ 4.9 / 5 (253+ Google Reviews)
         </span>
       </div>
-      <h1 class="mt-5 text-[clamp(3.6rem,7.5vw,5.5rem)] font-black leading-[1.05] tracking-tight text-slate-900">
+      <h1 class="mt-7 text-[42px] font-[800] leading-[1.08] tracking-[-1.2px] text-slate-900 sm:text-[48px] lg:text-[52px] xl:text-[54px]">
         Learn Programming.<br>
         <span class="bg-gradient-to-r from-blue-600 via-blue-600 to-cyan-500 bg-clip-text text-transparent">Build Real Projects.</span>
       </h1>
-      <p class="mt-5 max-w-xl text-base leading-relaxed text-slate-600 sm:text-lg">
+      <p class="mt-6 max-w-xl text-[17px] sm:text-[18px] leading-[1.6] text-slate-600">
         Chedo Tech is a programming institute &amp; development center in Pune providing
         <strong class="font-semibold text-slate-800">offline, practical programming education</strong> —
         taking you from fundamentals to building real projects, with personal guidance at every step.
       </p>
-      <div class="mt-6 flex flex-wrap gap-2.5">
-        <a class="btn-primary !px-4 !py-2.5 !text-sm !min-h-[42px] shadow-sm" href="courses.php">
+      <div class="mt-7 flex flex-wrap lg:flex-nowrap items-center gap-2">
+        <a class="inline-flex h-[46px] items-center justify-center rounded-[12px] bg-blue-600 px-3.5 sm:px-4 text-[13.5px] sm:text-[14px] font-semibold text-white shadow-sm transition-all hover:bg-blue-700 hover:shadow-md whitespace-nowrap" href="courses.php">
           Explore Courses ➔
         </a>
-        <a class="btn-secondary !px-4 !py-2.5 !text-sm !min-h-[42px]" href="https://chedo.web.app" target="_blank" title="Go to Student Dashboard">
+        <a class="inline-flex h-[46px] items-center justify-center rounded-[12px] border border-slate-300 bg-white px-3.5 sm:px-4 text-[13.5px] sm:text-[14px] font-semibold text-slate-700 shadow-sm transition-all hover:border-slate-400 hover:bg-slate-50 hover:text-slate-900 whitespace-nowrap" href="https://chedo.web.app" target="_blank" title="Go to Student Dashboard">
           🔐 Student Login
         </a>
-        <a class="btn-secondary !px-4 !py-2.5 !text-sm !min-h-[42px]" href="contact.php">
+        <a class="inline-flex h-[46px] items-center justify-center rounded-[12px] border border-slate-300 bg-white px-3.5 sm:px-4 text-[13.5px] sm:text-[14px] font-semibold text-slate-700 shadow-sm transition-all hover:border-slate-400 hover:bg-slate-50 hover:text-slate-900 whitespace-nowrap" href="contact.php">
           📩 Enquire Now
         </a>
-        <a class="btn-wa !px-4 !py-2.5 !text-sm !min-h-[42px]" href="https://wa.me/918793100815" target="_blank">
+        <a class="inline-flex h-[46px] items-center justify-center rounded-[12px] bg-emerald-600 px-3.5 sm:px-4 text-[13.5px] sm:text-[14px] font-semibold text-white shadow-sm transition-all hover:bg-emerald-700 hover:shadow-md whitespace-nowrap" href="https://wa.me/918793100815" target="_blank">
           💬 Talk with Mentor
         </a>
       </div>
-      <ul class="mt-9 flex flex-wrap gap-x-6 gap-y-2.5">
-        <li class="flex items-center gap-2 text-sm font-medium text-slate-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4 text-emerald-500"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <path d="m9 12 2 2 4-4" />
-</svg>
-Offline Training</li><li class="flex items-center gap-2 text-sm font-medium text-slate-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4 text-emerald-500"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <path d="m9 12 2 2 4-4" />
-</svg>
-Practical Learning</li><li class="flex items-center gap-2 text-sm font-medium text-slate-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4 text-emerald-500"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <path d="m9 12 2 2 4-4" />
-</svg>
-Personal Guidance</li><li class="flex items-center gap-2 text-sm font-medium text-slate-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4 text-emerald-500"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <path d="m9 12 2 2 4-4" />
-</svg>
-Real Projects</li>
+      <ul class="mt-9 flex flex-wrap lg:flex-nowrap items-center gap-x-5 lg:gap-x-6 gap-y-2">
+        <li class="flex items-center gap-1.5 text-[14px] font-medium text-slate-600 whitespace-nowrap">
+          <svg aria-hidden="true" focusable="false" class="h-4 w-4 shrink-0 text-emerald-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+          Offline Training
+        </li>
+        <li class="flex items-center gap-1.5 text-[14px] font-medium text-slate-600 whitespace-nowrap">
+          <svg aria-hidden="true" focusable="false" class="h-4 w-4 shrink-0 text-emerald-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+          Practical Learning
+        </li>
+        <li class="flex items-center gap-1.5 text-[14px] font-medium text-slate-600 whitespace-nowrap">
+          <svg aria-hidden="true" focusable="false" class="h-4 w-4 shrink-0 text-emerald-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+          Personal Guidance
+        </li>
+        <li class="flex items-center gap-1.5 text-[14px] font-medium text-slate-600 whitespace-nowrap">
+          <svg aria-hidden="true" focusable="false" class="h-4 w-4 shrink-0 text-emerald-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+          Real Projects
+        </li>
       </ul>
     </div>
 
