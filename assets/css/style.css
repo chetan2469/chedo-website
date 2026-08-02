@@ -190,31 +190,6 @@ header.site-header {
   cursor: pointer;
 }
 
-border-radius: var(--radius-sm);
-color: var(--text-main);
-font-size: 0.9rem;
-font-weight: 500;
-}
-
-.dropdown a:hover {
-  background: var(--brand-light);
-  color: var(--brand);
-}
-
-.header-actions {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.mobile-toggle {
-  display: none;
-  background: transparent;
-  border: none;
-  font-size: 1.5rem;
-  color: var(--text-main);
-  cursor: pointer;
-}
 
 /* Buttons */
 .btn {
