@@ -406,6 +406,8 @@
 
 
 <section class="scroll-mt-24 py-10" id="group-programming">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+
   <div class="mb-7 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
     <div>
       <p class="eyebrow">// GROUP 01</p>
@@ -652,8 +654,12 @@
   </span>
 </article>
 </div>
+
+  </div>
 </section>
 <section class="scroll-mt-24 py-10" id="group-development">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+
   <div class="mb-7 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
     <div>
       <p class="eyebrow">// GROUP 02</p>
@@ -803,8 +809,12 @@
   </span>
 </article>
 </div>
+
+  </div>
 </section>
 <section class="scroll-mt-24 py-10" id="group-data-ai">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+
   <div class="mb-7 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
     <div>
       <p class="eyebrow">// GROUP 03</p>
@@ -908,8 +918,12 @@
   </span>
 </article>
 </div>
+
+  </div>
 </section>
 <section class="scroll-mt-24 py-10" id="group-design">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+
   <div class="mb-7 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
     <div>
       <p class="eyebrow">// GROUP 04</p>
@@ -967,8 +981,12 @@
   </span>
 </article>
 </div>
+
+  </div>
 </section>
 <section class="scroll-mt-24 py-10" id="group-kids">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+
   <div class="mb-7 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
     <div>
       <p class="eyebrow">// GROUP 05</p>
@@ -1026,6 +1044,8 @@
   </span>
 </article>
 </div>
+
+  </div>
 </section>
 
 <section class="bg-surface-alt py-16 sm:py-20">
