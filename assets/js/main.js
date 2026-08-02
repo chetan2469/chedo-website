@@ -251,24 +251,3 @@
   }
 })();
 
-/* ----------------------------------------------------------
-   8. Global Theme Toggle (Dark / Light Mode)
-   ---------------------------------------------------------- */
-window.toggleTheme = function () {
-  var isDark = document.documentElement.classList.toggle("dark");
-  try {
-    localStorage.setItem("theme", isDark ? "dark" : "light");
-  } catch (e) {}
-  var themeIcon = document.getElementById("theme-icon");
-  if (themeIcon) {
-    themeIcon.textContent = isDark ? "☀️" : "🌙";
-  }
-};
-
-document.addEventListener("DOMContentLoaded", function () {
-  if (document.documentElement.classList.contains("dark")) {
-    var themeIcon = document.getElementById("theme-icon");
-    if (themeIcon) themeIcon.textContent = "☀️";
-  }
-});
-

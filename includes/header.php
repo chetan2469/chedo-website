@@ -15,9 +15,7 @@ $page_type = $page_type ?? "website";
   <link rel="icon" type="image/png" href="assets/logo.png">
   <link rel="apple-touch-icon" href="assets/logo.png">
   <script>
-    if (localStorage.getItem('theme') === 'dark') {
-      document.documentElement.classList.add('dark');
-    }
+    // Dark mode removed as per request
   </script>
   <meta property="og:type" content="<?php echo htmlspecialchars($page_type); ?>">
   <meta property="og:site_name" content="Chedo Tech">
@@ -292,9 +290,6 @@ $page_type = $page_type ?? "website";
     </nav>
 
     <div class="flex items-center gap-2">
-      <button id="theme-toggle" onclick="toggleTheme()" class="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 transition-colors dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200" title="Toggle Dark/Light Mode" aria-label="Toggle Dark/Light Theme">
-        <span id="theme-icon">🌙</span>
-      </button>
 
       <button id="menu-btn" class="flex h-11 w-11 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 lg:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
       <!-- @license lucide-static v1.28.0 - ISC -->

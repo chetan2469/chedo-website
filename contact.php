@@ -4,7 +4,5 @@ $page_description = "Contact Chedo Tech in Pune to enroll in offline programming
 $page_canonical = "https://chedo.in/contact.php";
 include_once 'includes/header.php';
 ?>
-<main id="main">
 <?php include_once 'includes/contact-main.php'; ?>
-</main>
 <?php include_once 'includes/footer.php'; ?>
