@@ -6,8 +6,8 @@
   <title>Java Programming Course in Pune | Chedo Tech</title>
   <meta name="description" content="Learn Java programming in Pune at Chedo Tech — offline, practical classes covering OOP, inheritance, interfaces, exception handling, AWT GUI and algorithms.">
   <link rel="canonical" href="https://chedo.in/courses/java-programming.php">
-  <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
-  <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="../assets/logo.png">
+  <link rel="apple-touch-icon" href="../assets/logo.png">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Chedo Tech">
   <meta property="og:title" content="Java Programming Course in Pune | Chedo Tech">
@@ -28,7 +28,7 @@
 <header class="site-header" id="site-header">
   <div class="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-5 sm:px-8">
     <a href="../index.php" class="flex shrink-0 items-center gap-2.5" aria-label="Chedo Tech — Home">
-      <img src="../assets/images/logo-mark.svg" alt="" width="38" height="38" class="h-9 w-9">
+      <img src="../assets/logo.png" alt="Chedo Tech Logo" width="38" height="38" class="h-9 w-9 object-contain">
       <span class="text-lg font-extrabold tracking-tight text-slate-900">Chedo<span class="text-blue-600">Tech</span></span>
     </a>
 
@@ -1934,7 +1934,7 @@
     <div class="grid gap-10 lg:grid-cols-12">
       <div class="lg:col-span-3">
         <a href="../index.php" class="inline-flex items-center gap-2.5">
-          <img src="../assets/images/logo-mark.svg" alt="" width="38" height="38" class="h-9 w-9">
+          <img src="../assets/logo.png" alt="Chedo Tech Logo" width="38" height="38" class="h-9 w-9 object-contain">
           <span class="text-lg font-extrabold tracking-tight text-slate-900">Chedo<span class="text-blue-600">Tech</span></span>
         </a>
         <p class="mt-3 text-sm font-medium text-slate-600">Programming Institute &amp; App Development</p>

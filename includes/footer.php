@@ -3,7 +3,7 @@
     <div class="grid gap-10 lg:grid-cols-12">
       <div class="lg:col-span-3">
         <a href="index.php" class="inline-flex items-center gap-2.5">
-          <img src="assets/images/logo-mark.svg" alt="" width="38" height="38" class="h-9 w-9">
+          <img src="assets/logo.png" alt="Chedo Tech Logo" width="38" height="38" class="h-9 w-9 object-contain">
           <span class="text-lg font-extrabold tracking-tight text-slate-900">Chedo<span class="text-blue-600">Tech</span></span>
         </a>
         <p class="mt-3 text-sm font-medium text-slate-600">Programming Institute &amp; App Development</p>
