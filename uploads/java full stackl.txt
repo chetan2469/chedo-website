@@ -1,0 +1,138 @@
+☕ Java Full Stack Development Pro
+
+Frontend + Backend + APIs + Cloud → Become Job Ready Developer
+
+✔ Beginner to Advanced ✔ Real Projects ✔ Spring Boot + APIs ✔ Job Focused
+🟢 Level 1: Programming Foundation
+
+🔰 Core Java
+
+Variables, loops, methods, control flow
+
+🧠 OOP Concepts
+
+Class, Object, Inheritance, Polymorphism
+
+⚙️ Java Internals
+
+JVM, memory, exception handling
+
+📂 File Handling
+
+Read/write files & data handling
+
+🟡 Level 2: Advanced Java + Backend Basics
+
+📦 Collections Framework
+
+List, Set, Map, real-world usage
+
+🧵 Multithreading
+
+Threads, concurrency basics
+
+🔗 JDBC
+
+Connect Java with database
+
+🌐 Servlets & JSP
+
+Build dynamic web applications
+
+🔵 Level 3: Frontend Development
+
+🌐 HTML + CSS
+
+Build structured web pages
+
+🎨 UI Design
+
+Responsive design + Bootstrap
+
+⚡ JavaScript
+
+DOM, events, API calls
+
+🧩 Modern Frontend
+
+React basics / UI integration
+
+🟣 Level 4: Spring Boot + APIs (Core Industry Skill)
+
+🌱 Spring Boot
+
+Create backend applications
+
+🔗 REST APIs
+
+Build APIs & connect frontend
+
+🗄️ JPA + Hibernate
+
+Database ORM & CRUD operations
+
+🔐 Authentication
+
+Login systems & JWT basics
+
+🟠 Level 5: Database + System Design
+
+🗄️ SQL (MySQL)
+
+Queries, joins, normalization
+
+📊 NoSQL
+
+MongoDB basics
+
+🧠 DSA
+
+Array, stack, queue, trees
+
+🏗️ System Design
+
+How real apps are built
+
+🚀 Level 6: Deployment + Industry Tools
+
+🔧 Git + GitHub
+
+Version control & collaboration
+
+📦 Maven
+
+Project build management
+
+🐳 Docker
+
+Containerize applications
+
+☁️ Cloud Deploy
+
+Deploy on AWS / servers
+
+💼 Projects You Will Build
+
+🛒 E-Commerce App
+📚 Student Management System
+💬 Chat Application
+🌐 Full Stack Web App
+🔗 REST API Backend
+🧰 Skills You Will Gain
+
+Java Programming
+Spring Boot
+REST APIs
+Frontend Dev
+Database Design
+Git & Deployment
+System Design
+Problem Solving
+🚀 Become Java Full Stack Developer
+
+Build Real Projects • Crack Interviews • Get Job Ready
+
+Enroll Now
+Neve | Powered by WordPress
+
+Neve | Powered by WordPress

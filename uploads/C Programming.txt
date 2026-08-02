@@ -1,0 +1,138 @@
+💻 C Programming Mastery
+
+Build Strong Logic, Core Programming & Problem Solving Skills from Zero
+
+✔ Absolute Beginner Friendly ✔ Strong Logic Building ✔ Foundation for All Languages ✔ Interview Ready
+🟢 Level 1: Programming Basics (Zero → First Code)
+
+💡 Introduction to Programming
+
+How programs work, compilation, execution
+
+🔢 Data Types & Variables
+
+int, float, char, constants
+
+➕ Operators
+
+Arithmetic, relational, logical
+
+🖥️ Input / Output
+
+scanf, printf & basic programs
+
+🟡 Level 2: Control Flow + Logic Building
+
+🔀 Conditional Statements
+
+if, else, nested conditions
+
+🔁 Loops
+
+for, while, do-while
+
+🎯 Pattern Programs
+
+Number & star patterns
+
+🧠 Logic Problems
+
+Real problem solving practice
+
+🔵 Level 3: Arrays, Strings & Memory
+
+📦 Arrays
+
+1D, 2D arrays & operations
+
+🔤 Strings
+
+String functions & manipulation
+
+📍 Pointers
+
+Memory, address, pointer logic
+
+⚙️ Dynamic Memory
+
+malloc, calloc, free
+
+🟣 Level 4: Functions & Modular Programming
+
+🔧 Functions
+
+Parameters, return types
+
+🔁 Recursion
+
+Function calling itself
+
+📦 Modular Code
+
+Divide program into parts
+
+🧮 Math Programs
+
+Factorial, Fibonacci, etc.
+
+🟠 Level 5: Advanced C Concepts
+
+🏗️ Structures
+
+Store complex data
+
+⚡ Macros
+
+#define & preprocessors
+
+🧠 Storage Classes
+
+auto, static, extern
+
+📂 File Handling
+
+Read/write files
+
+🚀 Level 6: Practical + Industry Foundation
+
+🧪 Debugging
+
+Error finding & fixing
+
+🧠 Problem Solving
+
+Interview level questions
+
+📊 Mini Projects
+
+Real small applications
+
+📈 Next Step
+
+Move to C++, Java, DSA
+
+💼 Projects You Will Build
+
+📊 Student Record System
+🔢 Calculator App
+📂 File Manager
+🎯 Pattern Generator
+🧠 Logic Based Programs
+🧰 Skills You Will Gain
+
+Strong Logic Building
+Problem Solving
+Memory Understanding
+Programming Fundamentals
+Debugging Skills
+Structured Programming
+🚀 Start Your Programming Journey
+
+Build Strong Foundation for All Future Technologies
+
+Enroll Now
+Neve | Powered by WordPress
+
+Neve | Powered by WordPress
+
+Chat

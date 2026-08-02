@@ -1,0 +1,53 @@
+Programming Courses
+
+You can start your programming career with zero knowledge of coding and get a job.
+
+C Programmig
+
+Variables, data types, operators, input/output. Control structures: If-else, loops, switch. Functions: Declaration, recursion, pointers. Arrays, strings, structures. File handling, dynamic memory.
+
+Read More
+C++ Programmig
+
+Fundamentals: Variables, data types, operators, I/O. OOP: Classes, objects, inheritance, polymorphism. Functions, templates, STL. Pointers, references, exception handling. File I/O, memory management.
+
+Read More
+Python
+
+Basics: Variables, data types, operators, I/O. Control flow: If-else, loops, functions. Data structures: Lists, dictionaries, tuples. Modules, file handling, debugging, OOP, error handling.
+
+Read More
+Java
+
+Data types,Objectss Literals, Operators Modifiers, Variables, Methods Control Flow Statements Exception Handling Static & Instance Members OOP (Object-Oriented Programming) Applet, AWT, Event Handling, FIle Handling,
+
+Read More
+Development Courses
+
+You can start your programming career with zero knowledge of coding and get a job.
+
+Data Science
+
+Master data analysis, visualization, machine learning, and real-world insights using Python, Pandas, NumPy, Matplotlib, and AI libraries.
+
+Read More
+MERN Full Stack
+
+Learn MongoDB, Express.js, React.js, and Node.js to build modern, scalable, real-time web applications from scratch to deployment
+
+Read More
+Java Full Stack
+
+Complete Java backend and frontend development including Core Java, Spring Boot, JSP, Servlets, JDBC, MySQL, SPRING boot and REST APIs
+
+Read More
+Mobile App Full Stack
+
+Build native Android, iOS, and Web apps using Flutter, Dart, Firebase, REST APIs, with modern UI/UX tools and deployment.
+
+Read More
+Neve | Powered by WordPress
+
+Neve | Powered by WordPress
+
+Chat

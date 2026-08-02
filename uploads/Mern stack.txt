@@ -1,0 +1,140 @@
+🌐 MERN Stack Development Pro
+
+Master MongoDB + Express + React + Node → Become Full Stack Developer
+
+✔ Beginner to Advanced ✔ Full Stack JavaScript ✔ Real Projects ✔ Job Ready Skills
+🟢 Level 1: Web & Programming Foundation
+
+🌐 HTML
+
+Structure, forms, semantic elements
+
+🎨 CSS
+
+Flexbox, Grid, responsive design
+
+⚡ JavaScript Basics
+
+Variables, loops, functions
+
+🧠 Logic Building
+
+Problem solving + real logic
+
+🟡 Level 2: Advanced JavaScript + DOM
+
+📦 ES6+
+
+Arrow functions, destructuring
+
+🌐 DOM Manipulation
+
+Dynamic UI changes
+
+🔄 Async JS
+
+Promises, async/await
+
+📡 Fetch + JSON
+
+API calls & data handling
+
+🔵 Level 3: React Frontend (Core Skill)
+
+⚛️ React Basics
+
+Components, props, state
+
+🧩 Hooks
+
+useState, useEffect
+
+🧭 Routing
+
+React Router navigation
+
+🎨 UI Projects
+
+Build real frontend apps
+
+🟣 Level 4: Backend (Node + Express)
+
+🟢 Node.js
+
+Backend runtime basics
+
+🚀 Express.js
+
+Build server & routes
+
+🔗 REST APIs
+
+Create & test APIs
+
+🧪 Postman
+
+API testing & debugging
+
+🟠 Level 5: Database + Auth
+
+🍃 MongoDB
+
+NoSQL database, collections
+
+📦 Mongoose
+
+Schema & data modeling
+
+🔐 Authentication
+
+JWT login/signup system
+
+🛡️ Security
+
+Password hashing, validation
+
+🚀 Level 6: Full Stack + Deployment
+
+🔗 Frontend + Backend
+
+Connect React with APIs
+
+⚙️ Full Stack Project
+
+Complete working application
+
+🔧 Git + GitHub
+
+Version control & portfolio
+
+☁️ Deployment
+
+Host on Vercel / Render / AWS
+
+💼 Projects You Will Build
+
+🛒 E-Commerce Website
+💬 Chat Application
+📊 Admin Dashboard
+📡 API Backend System
+🌐 Full Stack Web App
+🧰 Skills You Will Gain
+
+JavaScript Mastery
+React Development
+Node + Express
+MongoDB
+API Development
+Authentication
+Full Stack Projects
+Deployment
+🚀 Become MERN Full Stack Developer
+
+Build Real Projects • Crack Interviews • Get Job Ready
+
+Enroll Now
+Neve | Powered by WordPress
+
+Neve | Powered by WordPress
+
+Chat

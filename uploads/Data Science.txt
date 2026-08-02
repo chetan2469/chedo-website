@@ -1,0 +1,57 @@
+Data Science Python ML AI DS
+
+Learn data analysis, visualization, machine learning, and real-world problem-solving using Python, Pandas, NumPy, Matplotlib, and AI tools — fully offline, hands-on, and project-driven.
+
+Python
+
+Introduction to Python, Data Types & Scripting, Lists, Tuples, Dictionaries, Conditional Logic, Loops, Arrays & String Operations, Functions & Modules
+
+Adv Python
+
+Data Persistence, GUI Development & Event Handling , Multithreading, Flask, Web Scraping, Final Capstone Project
+
+OOPS
+
+Classes and Objects, Constructors, Inheritance, Exception Handling, and File Management.
+
+Data analytics
+
+Data Analysis, Data Cleaning, Visualization with Matplotlib & Seaborn, Real-World Case Studies, Insight Generation, Dashboard Creation using Pandas and Python tools.
+
+Databases
+
+MySQL and MongoDB Integration, Queries & Joins, Data Modeling, CRUD Operations, Firebase Realtime Database, Cloud Firestore, and Local Data Storage using SQLite.
+
+Server-Side Development
+
+API, Routing & Middleware, JSON, Google cloud Deployment, Cloud Functions, Firebase, AI/ML Integration, Pub/Sub & Cloud Run, Model Serving, CI/CD Pipelines, Monitoring
+
+Data Structures & Algorithms
+
+Arrays and Lists, Hash Tables, Trees and Graphs, Stacks and Queues, Sorting Algorithms, Searching Algorithms, Dynamic Programming, Graph Algorithms, Time and Space Complexity, Data Structure Design
+
+Artificial Intelligence
+
+Natural Language Processing (NLP) Text preprocessing, transformers (BERT, GPT), chatbots. Reinforcement Learning (RL) Q-learning, Deep RL, robotics/gaming applications. MLOps & AI Deployment Model serving for ML, monitoring.
+
+Machine Learning
+
+Supervised Learning with regression (linear, logistic) and classification (decision trees, SVM, KNN) Scikit-learn. Unsupervised Learning with K-means, hierarchical clustering, PCA, and t-SNE for pattern discovery. Model Evaluation with accuracy, precision, recall, RMSE, cross-validation, and confusion matrix. optimize models.
+
+Math & Statistics Foundation
+
+Regression Analysis, Hypothesis Testing, Correlation, Dimensionality Reduction, Outlier Detection, Time Series, Probability Distributions Sampling Techniques, Confidence Intervals, Contingency Tables, ANOVA, P-value, Effect Size Bayes’ Theorem Data Normalization/Standardization
+
+Power BI
+
+Data Connectivity, Power Query, Data Modeling, DAX (Data Analysis Expressions), Interactive Visualizations, Dashboards, Real-Time Data, AI Integration, Security Features, Collaboration, Report Sharing, Custom Visuals, Dataflows, Power BI Desktop, Mobile Accessibility, Automated Insights
+
+Web Frontend Development
+
+Responsive Web Design with HTML5, CSS3, JavaScript & Bootstrap · DOM Manipulation · UI/UX Principles · App Design Tools · Wireframing & Prototyping · Interactive Interfaces with Clean Visuals
+
+Neve | Powered by WordPress
+
+Neve | Powered by WordPress
+
+Chat

@@ -1,0 +1,37 @@
+UI/UX Design
+
+Master modern UI/UX design using tools like Figma, Canva and AI-powered workflows. Build real-world digital interfaces, design systems, and brand experiences — fully hands-on, project-driven and job-ready.
+
+Canva
+
+Designing graphics, social-posts, brand kits Using templates and customising layout Quick visual assets for UI/UX (icons, banners)
+
+Figma
+
+Creating frames, auto-layout, components Prototyping screens for mobile and web Variants, design systems and team collaboration
+
+Adobe Photoshop
+
+Image editing, retouching UI assets Working with layers, masks, export for web/mobile
+
+Corel DRAW
+
+Vector graphics for icons, logos & branding Preparing visuals for UI use and print media
+
+AI-Design Tools
+
+Generative UI screens from text prompts AI-assisted layouts, auto colour palettes, background removal Integrating output into Figma or Canva workflow
+
+Branding & Visual Identity
+
+Logo creation, typography, colour systems Consistent visual identity across screens and collateral Brand-kit creation for web/app/print assets
+
+Documentation & Design Systems
+
+Creating style-guides, UI-kits, component libraries Exporting assets, hand-off for developers Maintaining versioning, documentation for projects
+
+Neve | Powered by WordPress
+
+Neve | Powered by WordPress
+
+Chat

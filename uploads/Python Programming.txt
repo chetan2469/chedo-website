@@ -1,0 +1,41 @@
+Python Programming
+
+Master Python Foundations: data types, control flow, functions, OOP's, memory references, data structures (list, string, tuples, sets, dictionaries), loops, algorithms, exception handling, file handling, and projects.
+
+Introduction to Programming
+
+Data types, operators, control flow, loops, ASCII, type casting, functions, debugging, file handling basics, simple Python programs.
+
+Control Structure
+
+Decision making with if, elif, else; loops (for, while), loop manipulators (break, continue, pass), nested loops, practice problems.
+
+Data Types & Collections
+
+List, Tuple, Set, Dictionary – creation, operations (CRUD), comprehensions, nested structures, and real-world examples with practice questions.
+
+String
+
+String operations (slicing, indexing, functions like replace(), split(), join()), and string-based coding practice.
+
+Functions & Modules
+
+Defining and calling functions, arguments & return values, recursion, built-in modules (math, random), custom modules, reusable code patterns.
+
+Object-Oriented Programming (OOP's)
+
+Classes, objects, constructors, inheritance, access modifiers, super() keyword, encapsulation, object reuse with practice programs.
+
+File Handling
+
+Read, write, and append files using modes like r, w, a, and the with open() statement for safe file operations.
+
+Exception Handling
+
+Handle errors using try, except, finally, and raise to create reliable and crash-free Python programs.
+
+Neve | Powered by WordPress
+
+Neve | Powered by WordPress
+
+Chat

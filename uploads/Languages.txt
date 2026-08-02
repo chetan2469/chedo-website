@@ -1,0 +1,31 @@
+Languages
+
+Programming Courses
+
+You can start your programming career with zero knowledge of coding and get a job.
+
+C Programmig
+
+Variables, data types, operators, input/output. Control structures: If-else, loops, switch. Functions: Declaration, recursion, pointers. Arrays, strings, structures. File handling, dynamic memory.
+
+Read More
+C++ Programmig
+
+Fundamentals: Variables, data types, operators, I/O. OOP: Classes, objects, inheritance, polymorphism. Functions, templates, STL. Pointers, references, exception handling. File I/O, memory management.
+
+Read More
+Python
+
+Basics: Variables, data types, operators, I/O. Control flow: If-else, loops, functions. Data structures: Lists, dictionaries, tuples. Modules, file handling, debugging, OOP, error handling.
+
+Read More
+Java
+
+Data types,Objectss Literals, Operators Modifiers, Variables, Methods Control Flow Statements Exception Handling Static & Instance Members OOP (Object-Oriented Programming) Applet, AWT, Event Handling, FIle Handling,
+
+Read More
+Neve | Powered by WordPress
+
+Neve | Powered by WordPress
+
+Chat

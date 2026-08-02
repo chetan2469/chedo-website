@@ -1,0 +1,17 @@
+{
+  "name": "chedo-tech",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "python3 build/gen.py && tailwindcss -i src/main.css -o assets/css/main.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "tailwindcss": "^4.3.3",
+    "@tailwindcss/cli": "^4.3.3"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,88 @@
+Data Science Foundation Program
+
+Start your journey into Data Science with strong basics in programming, data handling and AI-powered creativity
+
+✔ Beginner Friendly ✔ No Prior Coding Needed ✔ Practical Learning
+💡 Why This Course?
+
+Strong Logic Building
+Python + Data Basics
+Real Data Practice
+Preparation for AI & ML
+📚 Course Curriculum
+
+🔰 Programming & Logic
+
+Learn how to think logically and solve problems using Python
+
+🐍 Python Basics
+
+Variables, loops, functions, lists and dictionaries
+
+🧩 Problem Solving
+
+Practice real-world logic building and coding challenges
+
+📊 Introduction to Data
+
+Understand what data is and how it is used
+
+📊 Data Handling
+
+Work with data using Pandas and NumPy
+
+📈 Visualization
+
+Create charts and basic dashboards
+
+📐 Basic Statistics
+
+Mean, average and simple data understanding
+
+⚡ Mini Project
+
+Apply everything in a real-world dataset project
+
+🎨 Creative AI Skills
+
+Learn fun and practical AI tools to create real-world content
+
+🖥️ AI Presentations
+
+Create professional PPTs using AI
+
+🎨 Posters & Flyers
+
+Design posters and marketing creatives
+
+🎥 Animated Videos
+
+Create short videos using AI tools
+
+✍️ Content Creation
+
+Generate captions, blogs and ideas
+
+📱 Social Media Design
+
+Create Instagram posts and reels ideas
+
+🚀 Creative Project
+
+Build your own poster + AI video
+
+💼 What You Will Build
+
+📊 Data Analysis Project
+📈 Visualization Dashboard
+🧠 Python Logic Programs
+🚀 Start Your Data Science Journey
+
+Perfect foundation before Machine Learning & AI
+
+Join Now
+Neve | Powered by WordPress
+
+Neve | Powered by WordPress
+
+Chat

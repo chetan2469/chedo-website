@@ -1,0 +1,41 @@
+Data Structures & Algorithms
+
+Comprehensive DSA course covering arrays, linked lists, stacks, queues, searching, sorting, trees, graphs, and advanced topics like hashing, dynamic programming.
+
+Fundamentals
+
+array, static, dynamic, pointer, memory allocation, multi-dimensional
+
+Linked Lists
+
+linkedlist, singly, singly circular, doubly, doubly circular, traversal, insertion, deletion
+
+Stack
+
+Static Stack, Dynamic Stack, push, pop, peek, expression evaluation, Infix to Postfix
+
+Queue
+
+queue, static, static circular, dynamic, dynamic circular, double-ended, double-ended circular, priority queue
+
+Searching
+
+searching, linear search, binary search, time complexity
+
+Sorting
+
+Sorting, bubble sort, merge sort, quick sort, heap sort, counting sort, radix sort, insertion sort, selection sort
+
+Trees
+
+tree, binary tree, binary search tree, AVL tree, red-black tree, B-tree, segment tree, fenwick tree, traversal, balancing
+
+Graphs
+
+graph, adjacency matrix, adjacency list, BFS, DFS, MST, Prim’s, Kruskal’s, Dijkstra’s, Bellman-Ford, Floyd-Warshall
+
+Neve | Powered by WordPress
+
+Neve | Powered by WordPress
+
+Chat

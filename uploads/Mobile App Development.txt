@@ -1,0 +1,134 @@
+https://web.archive.org/web/20250324052343im_/https://chedo.in/wp-content/uploads/2022/05/chedo-tech-logo-min-1.png
+
+Mobile App Development
+Android + IOS
+Week 1: Introduction to Flutter & Dart
+1.1 Introduction to mobile application development
+
+1.2 Overview of Flutter and Dart 1.3 Setting up the Development Environment
+
+1.4 Basics of Dart programming language
+
+Week 7: Local Storage and Database
+7.1 SharedPreferences for simple data storage
+
+7.2 SQLite and the SQLite package
+
+7.3 Hive for NoSQL local storage
+
+7.4 Integrating local storage solutions into the app
+
+Week 2: Flutter Basics
+2.1 Widgets, state, and layouts
+
+2.2 MaterialApp, Scaffold, and AppBar
+
+2.3 Text, Image, Icon, and RaisedButton widgets
+
+2.4 StatefulWidget, StatelessWidget, and managing state
+
+Week 8: User Authentication
+8.1 Introduction to user authentication
+
+8.2 Firebase Authentication integration
+
+8.3 Social media authentication (Google, Facebook, etc.)
+
+8.4 Implementing secure authentication and authorization
+
+Week 3: Navigation & Routing
+3.1 Navigation and route management
+
+3.2 MaterialPageRoute, Navigator, and MaterialPageRoute
+
+3.3 BottomNavigationBar and TabBar
+
+3.4 Named routes and passing data between routes
+
+Week 9: Advanced Flutter Concepts
+9.1 Internationalization and localization
+
+9.2 Animations and transitions
+
+9.3 Custom paint and drawing
+
+9.4 Platform-specific code and plugins
+
+Week 4: Advanced UI Components
+4.1 Customizing widgets and Themes
+
+4.2 Lists, Grids, and Infinite Scroll
+
+4.3 Dialogs, Alerts, and SnackBars
+
+4.4 Forms and input validation
+
+Week 10: Backend Development
+10.1 Introduction to backend development
+
+10.2 Node.js, Express, and MongoDB
+
+10.3 Building and deploying a RESTful API
+
+10.4 Integrating the API with the Flutter app
+
+Week 5: Working with APIs and Data
+5.1 Introduction to RESTful APIs
+
+5.2 Making API calls with the http package
+
+5.3 JSON handling and serialization
+
+5.4 Building an app with real-world data
+
+Week 11: Deployment & Testing
+11.1 Testing basics: unit, widget, and integration testing
+
+11.2 Continuous Integration (CI) and Continuous Deployment (CD)
+
+11.3 Preparing the app for production
+
+11.4 Deploying to the App Store and Google Play Store
+
+Week 6: State Management
+6.1 Overview of state management techniques
+
+6.2 Provider and ChangeNotifier
+
+6.3 Bloc pattern
+
+6.4 MobX and GetX
+
+Week 12: Final Project & Presentation
+12.1 Planning and developing a full-stack mobile application
+
+12.2 Reviewing best practices and applying course concepts
+
+12.3 Project presentations and critique
+
+12.4 Course wrap-up and next steps
+
+Database
+SQLite
+Firebase cloud  Firestore
+Firebase Cloud Storage
+Firebase Realtime Database
+Projects
+5 Projects during course
+1 Realtime Project
+Note: Please note that this syllabus is a general outline and may be subject to change depending on class progress and individual student needs.
+
+Fees
+Ask Now on Whatsapp
+Call Now
+ 
+TALK WITH US
+Call Now
+ 
+CHAT WITH US
+Whats app Now
+ 
+FIND US
+Google Map
+Neve | Powered by WordPress
+×
