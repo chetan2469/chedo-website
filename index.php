@@ -49,7 +49,7 @@ $faqs = get_faqs();
       </ul>
     </div>
 
-    <!-- Interactive Code Window Visual -->
+    <!-- Interactive Code Window & Terminal Visual -->
     <div class="lg:col-span-6">
       <div class="relative mx-auto max-w-[560px]">
         <div class="absolute -inset-6 rounded-[2rem] bg-gradient-to-br from-blue-50 to-cyan-50 opacity-70" aria-hidden="true"></div>
@@ -73,6 +73,23 @@ $faqs = get_faqs();
           </div>
         </div>
 
+        <!-- Terminal Output -->
+        <div class="terminal mt-4 relative z-10">
+          <div class="terminal-bar">
+            <span class="win-dot bg-red-400"></span>
+            <span class="win-dot bg-amber-400"></span>
+            <span class="win-dot bg-emerald-400"></span>
+            <span class="ml-2 font-mono text-[11px] text-slate-400">terminal — build session</span>
+          </div>
+          <div class="terminal-body">
+<pre><span class="term-prompt">$</span> <span class="text-slate-200">npm run learn</span>
+<span class="term-ok">✓</span> <span class="term-dim">logic</span>
+<span class="term-ok">✓</span> <span class="term-dim">APIs</span>
+<span class="term-ok">✓</span> <span class="term-dim">projects</span>
+<span class="term-prompt">$</span> <span class="term-cursor"></span></pre>
+          </div>
+        </div>
+
         <div class="float-card -top-5 -right-3 sm:-right-6">
           <div class="flex items-center gap-2">
             <span class="pulse-dot rounded-full bg-red-500"></span>
@@ -90,8 +107,28 @@ $faqs = get_faqs();
   </div>
 </section>
 
+<!-- What You Can Learn Here Bar -->
+<section class="border-y border-slate-200 bg-white py-6">
+  <div class="mx-auto flex max-w-7xl flex-col items-center gap-4 px-5 sm:px-8 lg:flex-row lg:justify-between">
+    <p class="flex items-center gap-3 font-mono text-xs font-semibold uppercase tracking-widest text-slate-500">
+      <span class="h-px w-8 bg-slate-300"></span>What you can learn here
+    </p>
+    <div class="flex flex-wrap justify-center gap-2">
+      <span class="chip">C / C++</span>
+      <span class="chip">Java &amp; Python</span>
+      <span class="chip">DSA</span>
+      <span class="chip">MERN Full Stack</span>
+      <span class="chip">Java Full Stack</span>
+      <span class="chip">Flutter Mobile Apps</span>
+      <span class="chip">Data Science</span>
+      <span class="chip">UI/UX</span>
+      <span class="chip">Kids Programming</span>
+    </div>
+  </div>
+</section>
+
 <!-- Stats Counter Bar -->
-<section class="border-y border-slate-200 bg-white py-8">
+<section class="py-12 bg-slate-50/70 border-b border-slate-200">
   <div class="mx-auto max-w-7xl px-5 sm:px-8">
     <div class="grid grid-cols-2 gap-6 md:grid-cols-4">
       <div class="text-center">
@@ -114,12 +151,12 @@ $faqs = get_faqs();
   </div>
 </section>
 
-<!-- Learning Tracks Bento Grid -->
-<section class="py-16 bg-slate-50/60">
+<!-- Structured Categories Bento Grid -->
+<section class="py-16 bg-white">
   <div class="mx-auto max-w-7xl px-5 sm:px-8">
     <div class="text-center max-w-2xl mx-auto mb-12">
       <p class="eyebrow">Structured Pathways</p>
-      <h2 class="mt-2 text-3xl font-extrabold text-slate-900 sm:text-4xl">Choose What You Want to Learn</h2>
+      <h2 class="mt-2 text-3xl font-extrabold text-slate-900 sm:text-4xl">Choose What You Want to Build Next</h2>
       <p class="mt-3 text-slate-600">From core programming logic to full stack development and data science.</p>
     </div>
 
@@ -136,7 +173,7 @@ $faqs = get_faqs();
 </section>
 
 <!-- Featured Courses Grid -->
-<section class="py-16 bg-white border-t border-slate-200">
+<section class="py-16 bg-slate-50/60 border-t border-slate-200">
   <div class="mx-auto max-w-7xl px-5 sm:px-8">
     <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
       <div>
@@ -169,6 +206,54 @@ $faqs = get_faqs();
           </div>
         </div>
       <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<!-- Why Practical Learning Matters / Bento Grid -->
+<section class="py-16 bg-white border-t border-slate-200">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="max-w-3xl mb-12">
+      <p class="eyebrow">// WHY CHEDO TECH</p>
+      <h2 class="mt-2 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">Built Around How Students Actually Learn.</h2>
+      <p class="mt-3 text-lg text-slate-600">Six things that make a Chedo Tech classroom different from the usual coaching class.</p>
+    </div>
+
+    <div class="grid gap-6 md:grid-cols-3">
+      <div class="bento-cell md:col-span-2">
+        <div class="bento-icon mb-4">📖</div>
+        <h3 class="text-xl font-bold text-slate-900">Organized Curriculum</h3>
+        <p class="mt-2 text-sm text-slate-600 leading-relaxed">Well-structured syllabus designed for absolute clarity — from basics to advanced topics — with printed notes and live code sessions.</p>
+        <div class="mt-4 flex flex-wrap gap-2">
+          <span class="chip">Printed notes</span>
+          <span class="chip">Live code sessions</span>
+          <span class="chip">Basics → advanced</span>
+        </div>
+      </div>
+
+      <div class="bento-cell">
+        <div class="bento-icon mb-4">⚡</div>
+        <h3 class="text-xl font-bold text-slate-900">Practical Performance</h3>
+        <p class="mt-2 text-sm text-slate-600 leading-relaxed">Focus on project-based, hands-on learning with real applications, not just theory.</p>
+      </div>
+
+      <div class="bento-cell">
+        <div class="bento-icon mb-4">📲</div>
+        <h3 class="text-xl font-bold text-slate-900">Mobile App Access</h3>
+        <p class="mt-2 text-sm text-slate-600 leading-relaxed">Students get access to our portal and mobile notes for downloading up-to-date resources and schedules.</p>
+      </div>
+
+      <div class="bento-cell">
+        <div class="bento-icon mb-4">🤖</div>
+        <h3 class="text-xl font-bold text-slate-900">AI-Powered Learning</h3>
+        <p class="mt-2 text-sm text-slate-600 leading-relaxed">We enhance offline teaching with AI visualizations, diagrams, and smart boards for a deeper understanding.</p>
+      </div>
+
+      <div class="bento-cell">
+        <div class="bento-icon mb-4">🎯</div>
+        <h3 class="text-xl font-bold text-slate-900">Milestone Progress</h3>
+        <p class="mt-2 text-sm text-slate-600 leading-relaxed">Track your growth with regular assignments, structured practice sets, coding tests, and project checkpoints.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -217,7 +302,7 @@ $faqs = get_faqs();
 </section>
 
 <!-- Call to Action Banner -->
-<section class="py-16 bg-white">
+<section class="py-16 bg-white border-t border-slate-200">
   <div class="mx-auto max-w-7xl px-5 sm:px-8">
     <div class="rounded-3xl bg-slate-900 px-8 py-12 text-center text-white shadow-xl sm:px-12">
       <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Ready to Start Your Coding Journey?</h2>
