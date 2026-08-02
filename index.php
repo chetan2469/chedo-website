@@ -343,31 +343,35 @@
 
   <div class="relative mx-auto grid max-w-7xl items-center gap-14 px-5 pb-20 pt-14 sm:px-8 lg:grid-cols-12 lg:gap-10 lg:pb-28 lg:pt-20">
     <div class="lg:col-span-6 xl:col-span-6">
-      <p class="inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50/70 px-4 py-1.5 text-[13px] font-semibold text-blue-700">
-        <span class="pulse-dot rounded-full bg-red-500"></span>
-        Practical Programming Education Since 2015
-      </p>
-      <h1 class="mt-6 text-[clamp(2.8rem,6vw,5rem)] font-extrabold leading-[1.05] tracking-tight text-slate-900">
+      <div class="flex flex-wrap items-center gap-2">
+        <p class="inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50/70 px-4 py-1.5 text-[13px] font-semibold text-blue-700">
+          <span class="pulse-dot rounded-full bg-red-500"></span>
+          Practical Programming Education Since 2015
+        </p>
+        <span class="inline-flex items-center gap-1.5 rounded-full border border-amber-200 bg-amber-50 px-3 py-1.5 text-[12px] font-semibold text-amber-800">
+          ⭐ 4.9 / 5 (253+ Google Reviews)
+        </span>
+      </div>
+      <h1 class="mt-5 text-[clamp(2.25rem,4.8vw,3.9rem)] font-extrabold leading-[1.1] tracking-tight text-slate-900">
         Learn Programming.<br>
-        <span class="bg-gradient-to-r from-blue-600 via-blue-600 to-cyan-500 bg-clip-text text-transparent">Build Real Projects.</span><br>
-        Grow With Confidence.
+        <span class="bg-gradient-to-r from-blue-600 via-blue-600 to-cyan-500 bg-clip-text text-transparent">Build Real Projects.</span>
       </h1>
-      <p class="mt-6 max-w-xl text-lg leading-relaxed text-slate-600">
-        Chedo Tech is a programming institute &amp; app development center in Pune providing
+      <p class="mt-5 max-w-xl text-base leading-relaxed text-slate-600 sm:text-lg">
+        Chedo Tech is a programming institute &amp; development center in Pune providing
         <strong class="font-semibold text-slate-800">offline, practical programming education</strong> —
         taking you from fundamentals to building real projects, with personal guidance at every step.
       </p>
-      <div class="mt-8 flex flex-wrap gap-3">
-        <a class="btn-primary btn-lg" href="courses.php">
+      <div class="mt-6 flex flex-wrap gap-2.5">
+        <a class="btn-primary !px-4 !py-2.5 !text-sm !min-h-[42px] shadow-sm" href="courses.php">
           Explore Courses ➔
         </a>
-        <a class="btn-secondary btn-lg" href="https://chedo.web.app" target="_blank" title="Go to Student Dashboard">
+        <a class="btn-secondary !px-4 !py-2.5 !text-sm !min-h-[42px]" href="https://chedo.web.app" target="_blank" title="Go to Student Dashboard">
           🔐 Student Login
         </a>
-        <a class="btn-secondary btn-lg" href="contact.php">
+        <a class="btn-secondary !px-4 !py-2.5 !text-sm !min-h-[42px]" href="contact.php">
           📩 Enquire Now
         </a>
-        <a class="btn-wa btn-lg" href="https://wa.me/919876543210" target="_blank">
+        <a class="btn-wa !px-4 !py-2.5 !text-sm !min-h-[42px]" href="https://wa.me/918793100815" target="_blank">
           💬 Talk with Mentor
         </a>
       </div>

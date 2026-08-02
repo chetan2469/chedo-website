@@ -1,30 +1,28 @@
 /* ============================================================
    Chedo Tech — Site Configuration
-   ------------------------------------------------------------
-   EDIT THIS FILE to update contact details across the whole site.
-   Every page reads these values through assets/js/main.js, so
-   you only change them in one place.
-
-   Replace the empty strings with the institute's real details.
    ============================================================ */
 const SITE_CONFIG = {
   name: "Chedo Tech",
-  tagline: "Programming Institute & App Development",
-  domain: "https://chedo.in/",
+  tagline: "Programming Institute & Development Center",
+  domain: "https://chedo.in",
 
   /* Phone — display format and tel: format */
-  phoneDisplay: "", // e.g. "+91 98765 43210"
-  phoneTel: "", // e.g. "+919876543210"
+  phoneDisplay: "+91 87931 00815",
+  phoneTel: "+918793100815",
 
-  /* WhatsApp number — digits only, with country code.
-     Used by every WhatsApp button and the contact form. */
-  whatsapp: "", // e.g. "919876543210"
+  /* WhatsApp number — digits only, with country code. */
+  whatsapp: "918793100815",
 
   /* Email */
-  email: "", // e.g. "hello@chedo.in"
+  email: "chedotech@gmail.com",
 
   /* Center address + Google Maps */
-  address: "", // e.g. "2nd Floor, ABC Plaza, Main Road, Pune, Maharashtra 411001"
-  mapsUrl: "", // e.g. "https://maps.google.com/?q=Chedo+Tech"
-  mapsEmbed: "", // optional: Google Maps embed src (contact page)
+  address: "Office No. 217, Ultima Business Center, Shree Shantinagar Society Internal Road, Sainagar, Kondhwa Budruk, Pune, Maharashtra 411048, India",
+  mapsUrl: "https://maps.google.com/?q=Chedo+Tech+Kondhwa+Budruk+Pune",
+  mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.444589218524!2d73.88602!3d18.46337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ea8680000001%3A0x1!2sUltima%20Business%20Center!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
+
+  /* Hours & Rating */
+  hours: "Mon – Sat: 9:00 AM – 9:00 PM",
+  googleRating: "4.9 / 5",
+  googleReviews: "253+ reviews"
 };

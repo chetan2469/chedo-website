@@ -375,111 +375,47 @@
 </span>
     <h2 class="text-[15px] font-bold text-slate-900">WhatsApp</h2>
   </div>
-  <p class="mt-3 text-sm leading-relaxed text-slate-500">The fastest way to reach us — messages open with your course details pre-filled.</p>
-  <div class="mt-3"><span class="cfg-ph">Set your details in assets/js/config.js</span></div>
-  <a class="btn-wa mt-4 w-full" data-wa href="contact.php" data-wa-text="Hello Chedo Tech, I would like to know more about your courses.">Chat on WhatsApp</a>
+  <div class="mt-3 text-sm font-semibold text-emerald-700" data-phone>+91 87931 00815</div>
+  <a class="btn-wa mt-4 w-full" data-wa href="https://wa.me/918793100815" target="_blank" data-wa-text="Hello Chedo Tech, I would like to know more about your courses.">Chat on WhatsApp</a>
 </div>
 <div class="card p-6">
   <div class="flex items-center gap-3">
-    <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-5 w-5"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" />
-</svg>
-</span>
+    <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600">📞</span>
     <h2 class="text-[15px] font-bold text-slate-900">Phone</h2>
   </div>
-  <p class="mt-3 text-sm leading-relaxed text-slate-500">Call the center during class hours for quick answers.</p>
-  <div class="mt-3"><span class="cfg-ph">Set your details in assets/js/config.js</span></div>
-  <a class="btn-secondary mt-4 w-full" href="contact.php">Call the Center</a>
+  <p class="mt-3 text-sm leading-relaxed text-slate-500">Call the center during class hours (Mon–Sat: 9:00 AM – 9:00 PM).</p>
+  <div class="mt-3 text-sm font-semibold text-blue-700" data-phone>+91 87931 00815</div>
+  <a class="btn-secondary mt-4 w-full" href="tel:+918793100815" data-phone-link>Call +91 87931 00815</a>
 </div>
 <div class="card p-6">
   <div class="flex items-center gap-3">
-    <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-5 w-5"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
-  <circle cx="12" cy="10" r="3" />
-</svg>
-</span>
+    <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600">📍</span>
     <h2 class="text-[15px] font-bold text-slate-900">Visit the Center</h2>
   </div>
-  <p class="mt-3 text-sm leading-relaxed text-slate-500">Meet us in person, plan your curriculum and enroll directly.</p>
-  <div class="mt-3"><span class="cfg-ph">Set your details in assets/js/config.js</span></div>
-  <a class="btn-secondary mt-4 w-full" data-maps-link href="contact.php">Open in Google Maps</a>
+  <p class="mt-3 text-sm leading-relaxed text-slate-500">Office No. 217, Ultima Business Center, Sainagar, Kondhwa Budruk, Pune, Maharashtra 411048</p>
+  <a class="btn-secondary mt-4 w-full" data-maps-link href="https://maps.google.com/?q=Chedo+Tech+Kondhwa+Budruk+Pune" target="_blank">Open in Google Maps</a>
 </div>
 <div class="card p-6">
   <div class="flex items-center gap-3">
-    <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-cyan-50 text-cyan-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-5 w-5"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
-  <rect x="2" y="4" width="20" height="16" rx="2" />
-</svg>
-</span>
+    <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-cyan-50 text-cyan-600">✉️</span>
     <h2 class="text-[15px] font-bold text-slate-900">Email</h2>
   </div>
-  <p class="mt-3 text-sm leading-relaxed text-slate-500">For documents, syllabus queries or anything formal.</p>
-  <div class="mt-3"><span class="cfg-ph">Set your details in assets/js/config.js</span></div>
-  <a class="btn-secondary mt-4 w-full" href="contact.php">Send an Email</a>
+  <p class="mt-3 text-sm leading-relaxed text-slate-500">For syllabus queries or official communications.</p>
+  <div class="mt-3 text-sm font-semibold text-cyan-700" data-email>chedotech@gmail.com</div>
+  <a class="btn-secondary mt-4 w-full" href="mailto:chedotech@gmail.com" data-email-link>Send an Email</a>
 </div></div>
       <div class="card overflow-hidden">
         <div class="flex items-center justify-between border-b border-slate-100 px-6 py-4">
-          <p class="font-mono text-[11px] font-bold tracking-widest text-slate-500">// FIND US</p>
-          <span class="chip">Google Maps</span>
+          <p class="font-mono text-[11px] font-bold tracking-widest text-slate-500">// FIND US IN PUNE</p>
+          <span class="chip font-semibold text-amber-700 bg-amber-50">⭐ 4.9 / 5 (253+ Reviews)</span>
         </div>
-        <div id="map-frame" class="relative flex min-h-[220px] items-center justify-center bg-slate-50 p-6 text-center">
+        <div class="relative min-h-[220px] bg-slate-50 p-6 text-center">
           <div>
-            <span class="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-white text-blue-600 shadow-card"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-6 w-6"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
-  <circle cx="12" cy="10" r="3" />
-</svg>
-</span>
-            <p class="mt-4 text-sm font-semibold text-slate-700">Chedo Tech — Pune</p>
-            <p class="mt-1 text-[13px] text-slate-500">Add your Google Maps embed URL to <span class="font-mono">SITE_CONFIG.mapsEmbed</span> in assets/js/config.js to show the map here.</p>
+            <span class="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-white text-blue-600 shadow-card">📍</span>
+            <p class="mt-4 text-base font-bold text-slate-900">Chedo Tech — Kondhwa Budruk, Pune</p>
+            <p class="mt-1 text-sm text-slate-600 max-w-md mx-auto">Office No. 217, Ultima Business Center, Shree Shantinagar Society Internal Road, Sainagar, Kondhwa Budruk, Pune, Maharashtra 411048</p>
           </div>
+        </div>
         </div>
       </div>
     </div>
