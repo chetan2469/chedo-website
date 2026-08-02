@@ -7,19 +7,19 @@
     <div class="lg:col-span-6 xl:col-span-6">
       <!-- 1. Badges -->
       <div class="flex flex-wrap items-center gap-2.5">
-        <p class="inline-flex h-[36px] items-center gap-2 rounded-full border border-blue-200/80 bg-[#edf3fe] px-3.5 text-[13px] font-semibold text-slate-700 dark:border-blue-900/60 dark:bg-blue-950/60 dark:text-blue-200">
-          <span class="h-2 w-2 rounded-full bg-red-500"></span>
+        <p class="hero-badge-pill hero-badge-red">
+          <span class="dot"></span>
           Practical Programming Education Since 2015
         </p>
-        <span class="inline-flex h-[36px] items-center gap-1.5 rounded-full border border-amber-300/80 bg-[#fef6ea] px-3.5 text-[13px] font-semibold text-amber-900 dark:border-amber-900/60 dark:bg-amber-950/50 dark:text-amber-300">
+        <span class="hero-badge-pill hero-badge-gold">
           ⭐ 4.9 / 5 (253+ Google Reviews)
         </span>
       </div>
 
       <!-- 2. Headline with Blue Underlines -->
-      <h1 class="hero-title mt-6 text-[42px] sm:text-[50px] lg:text-[54px] xl:text-[58px] font-[850] leading-[1.1] tracking-tight text-slate-900 dark:text-white">
-        Learn <span class="underline decoration-blue-600 decoration-[5px] underline-offset-[7px]">Programming.</span><br>
-        Build <span class="underline decoration-blue-600 decoration-[5px] underline-offset-[7px]">Real Projects.</span>
+      <h1 class="hero-title mt-6 hero-headline">
+        Learn <span class="hero-underline">Programming.</span><br>
+        Build <span class="hero-underline">Real Projects.</span>
       </h1>
 
       <!-- 3. Description -->
@@ -32,13 +32,13 @@
       <!-- 4. Buttons -->
       <div class="mt-6 flex flex-col gap-3">
         <div class="flex flex-wrap items-center gap-2.5">
-          <a class="inline-flex h-[42px] items-center justify-center rounded-md bg-[#545b6d] px-4 text-[14px] font-semibold text-white shadow-sm transition-all hover:bg-[#434958] whitespace-nowrap" href="courses.php">
+          <a class="hero-btn-primary" href="courses.php">
             Explore Courses ➔
           </a>
-          <a class="inline-flex h-[42px] items-center justify-center rounded-md border border-slate-300/90 bg-[#e2e5eb] px-4 text-[14px] font-semibold text-slate-800 shadow-sm transition-all hover:bg-slate-300/80 whitespace-nowrap dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200" href="https://chedo.web.app" target="_blank" title="Go to Student Dashboard">
+          <a class="hero-btn-secondary" href="https://chedo.web.app" target="_blank" title="Go to Student Dashboard">
             🔐 Student Login
           </a>
-          <a class="inline-flex h-[42px] items-center justify-center rounded-md border border-slate-300/90 bg-[#e2e5eb] px-4 text-[14px] font-semibold text-slate-800 shadow-sm transition-all hover:bg-slate-300/80 whitespace-nowrap dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200" href="contact.php">
+          <a class="hero-btn-secondary" href="contact.php">
             📩 Enquire Now
           </a>
         </div>
@@ -50,26 +50,25 @@
       </div>
 
       <!-- 5. 2x2 Grid Features with Borders -->
-      <div class="mt-8 border-t border-b border-slate-300/70 dark:border-slate-800">
-        <div class="grid grid-cols-2 divide-x divide-slate-300/70 dark:divide-slate-800">
-          <div class="flex items-center gap-2.5 py-3 pr-4">
-            <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-slate-300/80 text-[11px] font-bold text-slate-700 dark:bg-slate-700 dark:text-slate-200">✓</span>
-            <span class="text-[15px] font-semibold text-slate-800 dark:text-slate-200">Offline Training</span>
+      <div class="hero-feature-grid">
+        <div class="hero-feature-row">
+          <div class="hero-feature-cell">
+            <span class="hero-feature-icon">✓</span>
+            <span class="hero-feature-text">Offline Training</span>
           </div>
-          <div class="flex items-center gap-2.5 py-3 pl-4">
-            <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-slate-300/80 text-[11px] font-bold text-slate-700 dark:bg-slate-700 dark:text-slate-200">✓</span>
-            <span class="text-[15px] font-semibold text-slate-800 dark:text-slate-200">Practical Learning</span>
+          <div class="hero-feature-cell">
+            <span class="hero-feature-icon">✓</span>
+            <span class="hero-feature-text">Practical Learning</span>
           </div>
         </div>
-        <div class="border-t border-slate-300/70 dark:border-slate-800"></div>
-        <div class="grid grid-cols-2 divide-x divide-slate-300/70 dark:divide-slate-800">
-          <div class="flex items-center gap-2.5 py-3 pr-4">
-            <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-slate-300/80 text-[11px] font-bold text-slate-700 dark:bg-slate-700 dark:text-slate-200">✓</span>
-            <span class="text-[15px] font-semibold text-slate-800 dark:text-slate-200">Personal Guidance</span>
+        <div class="hero-feature-row">
+          <div class="hero-feature-cell">
+            <span class="hero-feature-icon">✓</span>
+            <span class="hero-feature-text">Personal Guidance</span>
           </div>
-          <div class="flex items-center gap-2.5 py-3 pl-4">
-            <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-slate-300/80 text-[11px] font-bold text-slate-700 dark:bg-slate-700 dark:text-slate-200">✓</span>
-            <span class="text-[15px] font-semibold text-slate-800 dark:text-slate-200">Real Projects</span>
+          <div class="hero-feature-cell">
+            <span class="hero-feature-icon">✓</span>
+            <span class="hero-feature-text">Real Projects</span>
           </div>
         </div>
       </div>
