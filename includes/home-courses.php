@@ -12,7 +12,7 @@
     <div class="mt-7 flex flex-wrap gap-2" id="course-filters" role="group" aria-label="Filter courses by category">
       <button type="button" class="filter-btn" data-filter="all" aria-pressed="true">All</button><button type="button" class="filter-btn" data-filter="programming" aria-pressed="false">Programming</button><button type="button" class="filter-btn" data-filter="full-stack" aria-pressed="false">Full Stack</button><button type="button" class="filter-btn" data-filter="data-ai" aria-pressed="false">Data & AI</button><button type="button" class="filter-btn" data-filter="mobile" aria-pressed="false">Mobile</button><button type="button" class="filter-btn" data-filter="design" aria-pressed="false">Design</button><button type="button" class="filter-btn" data-filter="kids" aria-pressed="false">Kids</button>
     </div>
-    <div class="mt-7 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 items-stretch">
+    <div class="mt-7 grid gap-3 grid-cols-3 md:grid-cols-4 lg:grid-cols-6 items-stretch">
       
 <article class="card card-hover flex flex-col p-6 reveal border-orange-100 bg-gradient-to-br from-orange-50/10 to-amber-50/5" data-category="programming">
   <div class="flex items-center justify-between">
@@ -25,7 +25,6 @@
     </div>
   </div>
   <h3 class="mt-5 text-lg font-bold tracking-tight text-slate-900"><a class="after:absolute after:inset-0 rounded-lg" href="courses/java-dsa.php">Java + DSA Foundation</a></h3>
-  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Build strong Java programming logic, master Object-Oriented design patterns, Java Collections framework, and advanced Data Structures &amp; Algorithms for coding interviews.</p>
   <div class="mt-4 flex flex-wrap gap-1.5"><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Java Core</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">OOP &amp; Collections</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">DSA &amp; Trees</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Interview Prep</span></div>
   <span class="arrow-link mt-5">
     Explore Course
@@ -46,7 +45,6 @@
     </div>
   </div>
   <h3 class="mt-5 text-lg font-bold tracking-tight text-slate-900"><a class="after:absolute after:inset-0 rounded-lg" href="courses/python-dsa.php">Python + DSA Foundation</a></h3>
-  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Learn clean Python syntax, master built-in containers, manual memory layouts (linked lists, graphs, BSTs), and algorithmic patterns for fast technical interview solutions.</p>
   <div class="mt-4 flex flex-wrap gap-1.5"><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Pythonic Logic</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">DSA Tools</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Complexity</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Coding Patterns</span></div>
   <span class="arrow-link mt-5">
     Explore Course
@@ -67,7 +65,6 @@
     </div>
   </div>
   <h3 class="mt-5 text-lg font-bold tracking-tight text-slate-900"><a class="after:absolute after:inset-0 rounded-lg" href="courses/c-cpp-dsa.php">C + C++ + DSA Foundation</a></h3>
-  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Complete logic design with C, Object-Oriented software architectures with C++, C++ Standard Template Library (STL), and advanced problem solving with Data Structures &amp; Algorithms.</p>
   <div class="mt-4 flex flex-wrap gap-1.5"><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Logic Building</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">OOP &amp; STL</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Data Structures</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Interview Prep</span></div>
   <span class="arrow-link mt-5">
     Explore Course
@@ -99,7 +96,6 @@
     <span class="rounded-full bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-500 ring-1 ring-slate-200/70">Programming</span>
   </div>
   <h3 class="mt-5 text-lg font-bold tracking-tight text-slate-900"><a class="after:absolute after:inset-0 rounded-lg" href="courses/c-programming.php">C Programming</a></h3>
-  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Variables, data types, operators, input/output. Control structures: if-else, loops, switch. Functions, recursion, pointers. Arrays, strings, structures. File handling, dynamic memory.</p>
   <div class="mt-4 flex flex-wrap gap-1.5"><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Introduction to Programming</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Conditional Statements</span></div>
   <span class="arrow-link mt-5">
     Explore Course
@@ -146,7 +142,6 @@
     <span class="rounded-full bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-500 ring-1 ring-slate-200/70">Programming</span>
   </div>
   <h3 class="mt-5 text-lg font-bold tracking-tight text-slate-900"><a class="after:absolute after:inset-0 rounded-lg" href="courses/cpp-programming.php">C++ Programming</a></h3>
-  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Fundamentals, OOP with classes &amp; objects, inheritance, polymorphism. Functions, templates, STL. Pointers, references, exception handling. File I/O, memory management.</p>
   <div class="mt-4 flex flex-wrap gap-1.5"><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Namespaces</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Dynamic Memory Allocation</span></div>
   <span class="arrow-link mt-5">
     Explore Course
@@ -194,7 +189,6 @@
     <span class="rounded-full bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-500 ring-1 ring-slate-200/70">Programming</span>
   </div>
   <h3 class="mt-5 text-lg font-bold tracking-tight text-slate-900"><a class="after:absolute after:inset-0 rounded-lg" href="courses/java-programming.php">Java Programming</a></h3>
-  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Data types, object literals, operators, modifiers, variables, methods, control flow statements, exception handling, static &amp; instance members, OOP, Applet, AWT, event handling, file handling.</p>
   <div class="mt-4 flex flex-wrap gap-1.5"><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Introduction &amp; Basic Syntax</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Conditional Statements</span></div>
   <span class="arrow-link mt-5">
     Explore Course
@@ -242,7 +236,6 @@
     <span class="rounded-full bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-500 ring-1 ring-slate-200/70">Programming</span>
   </div>
   <h3 class="mt-5 text-lg font-bold tracking-tight text-slate-900"><a class="after:absolute after:inset-0 rounded-lg" href="courses/python-programming.php">Python Programming</a></h3>
-  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Basics, control flow, functions, data structures (lists, dictionaries, tuples), modules, file handling, debugging, OOP, error handling.</p>
   <div class="mt-4 flex flex-wrap gap-1.5"><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Data Types &amp; Operators</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">if, elif, else</span></div>
   <span class="arrow-link mt-5">
     Explore Course
@@ -291,7 +284,6 @@
     <span class="rounded-full bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-500 ring-1 ring-slate-200/70">Programming</span>
   </div>
   <h3 class="mt-5 text-lg font-bold tracking-tight text-slate-900"><a class="after:absolute after:inset-0 rounded-lg" href="courses/data-structures-algorithms.php">Data Structures &amp; Algorithms</a></h3>
-  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Comprehensive DSA covering arrays, linked lists, stacks, queues, searching, sorting, trees, graphs and advanced topics like hashing and dynamic programming.</p>
   <div class="mt-4 flex flex-wrap gap-1.5"><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Arrays</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Singly Linked List</span></div>
   <span class="arrow-link mt-5">
     Explore Course
@@ -338,7 +330,6 @@
     <span class="rounded-full bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-500 ring-1 ring-slate-200/70">Development</span>
   </div>
   <h3 class="mt-5 text-lg font-bold tracking-tight text-slate-900"><a class="after:absolute after:inset-0 rounded-lg" href="courses/mern-full-stack.php">MERN Full Stack Development</a></h3>
-  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Learn MongoDB, Express.js, React.js and Node.js to build modern, scalable, real-time web applications from scratch to deployment.</p>
   <div class="mt-4 flex flex-wrap gap-1.5"><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">HTML</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">ES6+</span></div>
   <span class="arrow-link mt-5">
     Explore Course
@@ -386,7 +377,6 @@
     <span class="rounded-full bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-500 ring-1 ring-slate-200/70">Development</span>
   </div>
   <h3 class="mt-5 text-lg font-bold tracking-tight text-slate-900"><a class="after:absolute after:inset-0 rounded-lg" href="courses/java-full-stack.php">Java Full Stack Development</a></h3>
-  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Complete Java backend and frontend development including Core Java, Spring Boot, JSP, Servlets, JDBC, MySQL and REST APIs.</p>
   <div class="mt-4 flex flex-wrap gap-1.5"><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Core Java</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Collections Framework</span></div>
   <span class="arrow-link mt-5">
     Explore Course
@@ -432,7 +422,6 @@
     <span class="rounded-full bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-500 ring-1 ring-slate-200/70">Development</span>
   </div>
   <h3 class="mt-5 text-lg font-bold tracking-tight text-slate-900"><a class="after:absolute after:inset-0 rounded-lg" href="courses/mobile-app-development.php">Mobile App Development (Flutter)</a></h3>
-  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Build Android, iOS and web apps using Flutter and Dart with Firebase, REST APIs, modern UI/UX tools and deployment.</p>
   <div class="mt-4 flex flex-wrap gap-1.5"><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Introduction to Mobile App Development</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Widgets, State &amp; Layouts</span></div>
   <span class="arrow-link mt-5">
     Explore Course
@@ -480,7 +469,6 @@
     <span class="rounded-full bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-500 ring-1 ring-slate-200/70">Data & AI</span>
   </div>
   <h3 class="mt-5 text-lg font-bold tracking-tight text-slate-900"><a class="after:absolute after:inset-0 rounded-lg" href="courses/data-science-foundation.php">Data Science Foundation</a></h3>
-  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Start your journey into data science with strong basics in programming, data handling and AI-powered creativity. Beginner friendly — no prior coding needed.</p>
   <div class="mt-4 flex flex-wrap gap-1.5"><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Logical Thinking</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Variables &amp; Loops</span></div>
   <span class="arrow-link mt-5">
     Explore Course
@@ -527,7 +515,6 @@
     <span class="rounded-full bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-500 ring-1 ring-slate-200/70">Data & AI</span>
   </div>
   <h3 class="mt-5 text-lg font-bold tracking-tight text-slate-900"><a class="after:absolute after:inset-0 rounded-lg" href="courses/data-science.php">Data Science</a></h3>
-  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Master data analysis, visualization, machine learning and real-world insights using Python, Pandas, NumPy, Matplotlib and AI libraries.</p>
   <div class="mt-4 flex flex-wrap gap-1.5"><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Introduction to Python</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Data Persistence</span></div>
   <span class="arrow-link mt-5">
     Explore Course
@@ -576,7 +563,6 @@
     <span class="rounded-full bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-500 ring-1 ring-slate-200/70">Design</span>
   </div>
   <h3 class="mt-5 text-lg font-bold tracking-tight text-slate-900"><a class="after:absolute after:inset-0 rounded-lg" href="courses/ui-ux-design.php">UI/UX Design</a></h3>
-  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Master modern UI/UX design using Figma, Canva and AI-powered workflows. Build interfaces, design systems and brand experiences.</p>
   <div class="mt-4 flex flex-wrap gap-1.5"><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Designing Graphics &amp; Social Posts</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Frames, Auto-Layout &amp; Components</span></div>
   <span class="arrow-link mt-5">
     Explore Course
@@ -625,7 +611,6 @@
     <span class="rounded-full bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-500 ring-1 ring-slate-200/70">Kids</span>
   </div>
   <h3 class="mt-5 text-lg font-bold tracking-tight text-slate-900"><a class="after:absolute after:inset-0 rounded-lg" href="courses/kids-programming.php">Kids Programming</a></h3>
-  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Step-by-step learning for ages 7–16: from basics to games, AI and real projects. Fun, practical and confidence-building.</p>
   <div class="mt-4 flex flex-wrap gap-1.5"><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Computer Basics</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Python Basics</span></div>
   <span class="arrow-link mt-5">
     Explore Course
