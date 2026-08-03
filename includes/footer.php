@@ -16,7 +16,7 @@
         <nav aria-label="Programming courses">
           <h2 class="font-mono text-[11px] font-semibold uppercase tracking-widest text-slate-500">Programming</h2>
           <ul class="mt-3 space-y-0.5">
-            <li><a class="footer-link" href="courses/c-programming.php">C</a></li><li><a class="footer-link" href="courses/cpp-programming.php">C++</a></li><li><a class="footer-link" href="courses/java-programming.php">Java</a></li><li><a class="footer-link" href="courses/python-programming.php">Python</a></li><li><a class="footer-link" href="courses/data-structures-algorithms.php">Data Structures & Algorithms</a></li>
+            <li><a class="footer-link font-bold text-orange-600" href="courses/java-dsa.php">Java + DSA</a></li><li><a class="footer-link font-bold text-blue-600" href="courses/python-dsa.php">Python + DSA</a></li><li><a class="footer-link font-bold text-blue-600" href="courses/c-cpp-dsa.php">C + C++ + DSA</a></li><li><a class="footer-link" href="courses/c-programming.php">C</a></li><li><a class="footer-link" href="courses/cpp-programming.php">C++</a></li><li><a class="footer-link" href="courses/java-programming.php">Java</a></li><li><a class="footer-link" href="courses/python-programming.php">Python</a></li><li><a class="footer-link" href="courses/data-structures-algorithms.php">Data Structures & Algorithms</a></li>
           </ul>
         </nav>
         <nav aria-label="Development courses">
