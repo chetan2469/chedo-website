@@ -495,7 +495,7 @@
         <p class="mt-2.5 max-w-2xl text-[16px] sm:text-[17px] leading-relaxed text-slate-600 dark:text-slate-400">These are the kinds of applications students build while learning here — every course is built around projects you actually finish.</p>
       </div>
     </div>
-    <div class="mt-7 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+    <div class="mt-7 grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-6 items-stretch">
       
 <div class="project-tile reveal">
   <div class="flex items-center gap-3">
