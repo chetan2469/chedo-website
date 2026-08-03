@@ -12,7 +12,7 @@
     <div class="mt-7 flex flex-wrap gap-2" id="course-filters" role="group" aria-label="Filter courses by category">
       <button type="button" class="filter-btn" data-filter="all" aria-pressed="true">All</button><button type="button" class="filter-btn" data-filter="programming" aria-pressed="false">Programming</button><button type="button" class="filter-btn" data-filter="full-stack" aria-pressed="false">Full Stack</button><button type="button" class="filter-btn" data-filter="data-ai" aria-pressed="false">Data & AI</button><button type="button" class="filter-btn" data-filter="mobile" aria-pressed="false">Mobile</button><button type="button" class="filter-btn" data-filter="design" aria-pressed="false">Design</button><button type="button" class="filter-btn" data-filter="kids" aria-pressed="false">Kids</button>
     </div>
-    <div class="mt-7 grid gap-3 grid-cols-3 md:grid-cols-4 lg:grid-cols-6 items-stretch">
+    <div class="mt-7 grid gap-5 grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 items-stretch">
       
 <article class="card card-hover flex flex-col p-6 reveal border-orange-100 bg-gradient-to-br from-orange-50/10 to-amber-50/5" data-category="programming">
   <div class="flex items-center justify-between">
