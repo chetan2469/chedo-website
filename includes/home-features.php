@@ -343,7 +343,7 @@
           <span class="font-mono text-[11px] font-bold text-slate-300">01</span>
         </div>
         <h3 class="mt-5 text-xl font-bold tracking-tight text-slate-900">Organized Curriculum</h3>
-        <p class="mt-2 max-w-md text-[15px] leading-relaxed text-slate-600">Well-structured syllabus designed for absolute clarity — from basics to advanced topics — with printed notes and live code sessions.</p>
+        <p class="mt-2 max-w-md text-[15px] leading-relaxed text-slate-600">Structured syllabus from basics to advanced, with printed notes and live coding.</p>
         <div class="mt-6 flex flex-wrap gap-2">
           <span class="chip">Printed notes</span><span class="chip">Live code sessions</span><span class="chip">Basics → advanced</span>
         </div>
@@ -366,7 +366,7 @@
 </svg>
 </span>
         <h3 class="mt-4 text-lg font-bold tracking-tight text-slate-900">Practical Performance</h3>
-        <p class="mt-2 text-sm leading-relaxed text-slate-600">We focus on project-based, hands-on learning with real applications, not just theory. Every session boosts your real-world skills.</p>
+        <p class="mt-2 text-sm leading-relaxed text-slate-600">Project-based classroom sessions designed around real applications, not just theory.</p>
       </div>
       <div class="bento-cell reveal">
         <span class="bento-icon"><!-- @license lucide-static v1.28.0 - ISC -->
@@ -389,7 +389,7 @@
 </svg>
 </span>
         <h3 class="mt-4 text-lg font-bold tracking-tight text-slate-900">Mobile App Access</h3>
-        <p class="mt-2 text-sm leading-relaxed text-slate-600">Students get access to our mobile app for downloading up-to-date notes, assignments, schedules, and important announcements in one place.</p>
+        <p class="mt-2 text-sm leading-relaxed text-slate-600">Access notes, assignments, schedules, and announcements directly via our mobile app.</p>
       </div>
       <div class="bento-cell reveal">
         <span class="bento-icon"><!-- @license lucide-static v1.28.0 - ISC -->
@@ -412,7 +412,7 @@
 </svg>
 </span>
         <h3 class="mt-4 text-lg font-bold tracking-tight text-slate-900">AI-Powered Learning</h3>
-        <p class="mt-2 text-sm leading-relaxed text-slate-600">We enhance offline teaching with AI visualizations, diagrams, and smart boards for a deeper and more intuitive understanding of concepts.</p>
+        <p class="mt-2 text-sm leading-relaxed text-slate-600">Offline learning enhanced with AI diagrams, smart boards, and live code visualizers.</p>
       </div>
       <div class="bento-cell reveal">
         <span class="bento-icon"><!-- @license lucide-static v1.28.0 - ISC -->
@@ -434,7 +434,7 @@
 </svg>
 </span>
         <h3 class="mt-4 text-lg font-bold tracking-tight text-slate-900">Milestone-Based Progress</h3>
-        <p class="mt-2 text-sm leading-relaxed text-slate-600">Track your growth with regular assignments, structured practice sets, coding tests, and project checkpoints aligned with your goals.</p>
+        <p class="mt-2 text-sm leading-relaxed text-slate-600">Measure growth with coding worksheets, practice sets, and project milestones.</p>
       </div>
       <div class="bento-cell reveal md:col-span-3">
         <div class="flex flex-col gap-5 md:flex-row md:items-center">
@@ -459,7 +459,7 @@
 </span>
           <div>
             <h3 class="text-lg font-bold tracking-tight text-slate-900">In-Person Support</h3>
-            <p class="mt-1 max-w-3xl text-sm leading-relaxed text-slate-600">Get doubts cleared instantly in offline classes. Personal guidance, real coding help, and mentorship available anytime at the center.</p>
+            <p class="mt-1 max-w-3xl text-sm leading-relaxed text-slate-600">Get doubts solved instantly in-person with direct, one-on-one mentorship.</p>
           </div>
           <a class="btn-secondary ml-auto shrink-0" href="contact.php">Talk With Us</a>
         </div>
