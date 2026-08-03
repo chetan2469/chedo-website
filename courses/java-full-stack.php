@@ -336,1472 +336,1086 @@
 
 <main id="main">
 
-<section class="relative overflow-hidden border-b border-slate-100">
+<!-- HERO SECTION -->
+<section class="relative overflow-hidden border-b border-slate-200 bg-gradient-to-br from-slate-50 via-white to-orange-50/20">
   <div class="bg-grid bg-grid-fade absolute inset-0" aria-hidden="true"></div>
-  <div class="relative mx-auto max-w-7xl px-5 pb-16 pt-12 sm:px-8 lg:pb-20 lg:pt-14">
-    <nav aria-label="Breadcrumb" class="mb-6"><ol class="flex flex-wrap items-center gap-2 text-sm text-slate-500"><li><a class="transition-colors hover:text-blue-700" href="../index.php">Home</a></li><li class="text-slate-300" aria-hidden="true">/</li><li><a class="transition-colors hover:text-blue-700" href="../courses.php">Courses</a></li><li class="text-slate-300" aria-hidden="true">/</li><li class="text-slate-600" aria-current="page">Java Full Stack Development</li></ol></nav>
-    <div class="grid items-start gap-10 lg:grid-cols-12">
+  <div class="relative mx-auto max-w-7xl px-5 pb-16 pt-12 sm:px-8 lg:pb-20 lg:pt-14 z-10">
+    <nav aria-label="Breadcrumb" class="mb-6">
+      <ol class="flex flex-wrap items-center gap-2 text-sm text-slate-500">
+        <li><a class="transition-colors hover:text-blue-700" href="../index.php">Home</a></li>
+        <li class="text-slate-300" aria-hidden="true">/</li>
+        <li><a class="transition-colors hover:text-blue-700" href="../courses.php">Courses</a></li>
+        <li class="text-slate-300" aria-hidden="true">/</li>
+        <li class="text-slate-600 font-medium" aria-current="page">Java Full Stack</li>
+      </ol>
+    </nav>
+    
+    <div class="grid items-start gap-12 lg:grid-cols-12">
+      <!-- Left Hero Column -->
       <div class="lg:col-span-8">
-        <div class="flex flex-wrap items-center gap-2">
-          <span class="chip-tint">Development</span>
-          <span class="chip">Offline classroom training</span>
-        </div>
-        <h1 class="mt-5 text-[clamp(2.2rem,5vw,3.75rem)] font-extrabold leading-[1.06] tracking-tight text-slate-900">Java Full Stack Development</h1>
-        <p class="mt-4 max-w-2xl text-lg leading-relaxed text-slate-600">Frontend + backend + APIs + cloud — Core Java to Spring Boot, deployed.</p>
-        <div class="mt-7 flex flex-col gap-3 sm:flex-row">
-          <a class="btn-wa" data-wa data-wa-text="Hello Chedo Tech, I am interested in the Java Full Stack Development course. Please share more information." href="../contact.php">
-            <!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" />
-</svg>
- Enquire on WhatsApp
-          </a>
-          <a class="btn-secondary" href="#curriculum">View Curriculum</a>
-        </div>
-        <p class="mt-4 text-[13px] text-slate-500">Ask us for current batch schedules and details.</p>
-      </div>
-      <div class="lg:col-span-4">
-        <div class="card p-6">
-          <p class="font-mono text-[11px] font-bold tracking-widest text-slate-500">// COURSE SNAPSHOT</p>
-          <div class="mt-4 space-y-4 text-sm">
-            <div class="flex items-start gap-3">
-              <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-[18px] w-[18px]"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M14 21v-3a2 2 0 0 0-4 0v3" />
-  <path d="M18 4.933V21" />
-  <path d="m4 6 7.106-3.79a2 2 0 0 1 1.788 0L20 6" />
-  <path d="m6 11-3.52 2.147a1 1 0 0 0-.48.854V19a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5a1 1 0 0 0-.48-.853L18 11" />
-  <path d="M6 4.933V21" />
-  <circle cx="12" cy="9" r="2" />
-</svg>
-</span>
-              <div><p class="font-semibold text-slate-900">Format</p><p class="text-slate-500">Offline, in-person classes</p></div>
-            </div>
-            <div class="flex items-start gap-3">
-              <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-[18px] w-[18px]"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-  <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-  <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-  <circle cx="9" cy="7" r="4" />
-</svg>
-</span>
-              <div><p class="font-semibold text-slate-900">Who it's for</p><p class="text-slate-500">Absolute beginners to aspiring developers</p></div>
-            </div>
-            <div class="flex items-start gap-3">
-              <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-[18px] w-[18px]"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="6" />
-  <circle cx="12" cy="12" r="2" />
-</svg>
-</span>
-              <div><p class="font-semibold text-slate-900">Method</p><p class="text-slate-500">Live coding, whiteboard teaching, hands-on practice</p></div>
-            </div>
-            <div class="flex items-start gap-3">
-              <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-[18px] w-[18px]"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528" />
-</svg>
-</span>
-              <div><p class="font-semibold text-slate-900">Progress</p><p class="text-slate-500">Assignments, coding tests &amp; project checkpoints</p></div>
-            </div>
-          </div>
-          <a class="btn-primary mt-6 w-full" data-wa data-wa-text="Hello Chedo Tech, I am interested in the Java Full Stack Development course. Please share more information." href="../contact.php">Get Course Details</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="py-16 sm:py-20">
-  <div class="mx-auto grid max-w-7xl gap-12 px-5 sm:px-8 lg:grid-cols-2">
-    <div>
-      <p class="eyebrow">// COURSE OVERVIEW</p>
-      <h2 class="mt-3 text-[clamp(1.8rem,3.5vw,2.75rem)] font-extrabold leading-tight tracking-tight text-slate-900">About This Course</h2>
-      <div class="mt-5 space-y-4"><p class="leading-relaxed text-slate-600">This program takes you from Core Java through advanced Java, frontend development, and into Spring Boot — the framework at the heart of most enterprise Java backends — plus databases, DSA, system design and deployment tools.</p><p class="leading-relaxed text-slate-600">The result is a complete developer skill set: Java + OOP + collections + multithreading, JDBC, Servlets & JSP, HTML/CSS/JavaScript with React basics, Spring Boot REST APIs with JPA/Hibernate, MySQL and MongoDB, JWT authentication, Git, Maven, Docker and cloud deployment.</p></div>
-    </div>
-    <div>
-      <p class="eyebrow">// WHY LEARN THIS</p>
-      <h2 class="mt-3 text-[clamp(1.8rem,3.5vw,2.75rem)] font-extrabold leading-tight tracking-tight text-slate-900">Why It Matters</h2>
-      <ul class="mt-6 grid gap-3 sm:grid-cols-2"><li class="flex items-start gap-4 rounded-2xl border border-slate-200/80 bg-white p-5">
-      <span class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 6 9 17l-5-5" />
-</svg>
-</span>
-      <div><h3 class="text-[15px] font-bold text-slate-900">Enterprise backend skills</h3><p class="mt-1 text-sm leading-relaxed text-slate-500">Spring Boot + REST APIs + JPA/Hibernate is what Java industry jobs use.</p></div>
-    </li><li class="flex items-start gap-4 rounded-2xl border border-slate-200/80 bg-white p-5">
-      <span class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 6 9 17l-5-5" />
-</svg>
-</span>
-      <div><h3 class="text-[15px] font-bold text-slate-900">Truly full stack</h3><p class="mt-1 text-sm leading-relaxed text-slate-500">Frontend, backend, databases and deployment — not just one layer.</p></div>
-    </li><li class="flex items-start gap-4 rounded-2xl border border-slate-200/80 bg-white p-5">
-      <span class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 6 9 17l-5-5" />
-</svg>
-</span>
-      <div><h3 class="text-[15px] font-bold text-slate-900">Industry tooling included</h3><p class="mt-1 text-sm leading-relaxed text-slate-500">Git, GitHub, Maven, Docker and cloud deployment are part of the course.</p></div>
-    </li><li class="flex items-start gap-4 rounded-2xl border border-slate-200/80 bg-white p-5">
-      <span class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 6 9 17l-5-5" />
-</svg>
-</span>
-      <div><h3 class="text-[15px] font-bold text-slate-900">Project-based</h3><p class="mt-1 text-sm leading-relaxed text-slate-500">E-commerce apps, student management systems, chat apps and API backends.</p></div>
-    </li></ul>
-    </div>
-  </div>
-</section>
-
-
-<section class="py-16 sm:py-20" id="curriculum">
-  <div class="mx-auto max-w-7xl px-5 sm:px-8">
-    
-<div class=" max-w-3xl">
-  <p class="eyebrow">// CURRICULUM</p>
-  <h2 class="mt-3 text-[clamp(1.9rem,4vw,3.25rem)] font-extrabold leading-[1.12] tracking-tight text-slate-900">What You Will Learn</h2>
-  <p class="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-slate-600">The full course structure — every module, every topic, taught live and offline.</p>
-</div>
-
-    <div class="mx-auto mt-10 max-w-4xl space-y-3">
-<details class="acc-item" open>
-  <summary class="acc-summary">
-    <span class="acc-num">01</span>
-    <span class="min-w-0">
-      <span class="block text-[15px] font-bold tracking-tight text-slate-900">Programming Foundation</span>
-      <span class="block text-xs font-medium text-slate-500">Level 1 — Core Java</span>
-    </span>
-    <span class="acc-chevron" aria-hidden="true"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M5 12h14" />
-  <path d="M12 5v14" />
-</svg>
-</span>
-  </summary>
-  <div class="acc-body">
-    <ul class="grid gap-2.5 sm:grid-cols-2"><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">Core Java</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">Variables, loops, methods, control flow</p>
-        </div>
-      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">OOP Concepts</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">Class, Object, Inheritance, Polymorphism</p>
-        </div>
-      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">Java Internals</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">JVM, memory, exception handling</p>
-        </div>
-      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">File Handling</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">Read/write files &amp; data handling</p>
-        </div>
-      </li></ul>
-  </div>
-</details>
-<details class="acc-item" >
-  <summary class="acc-summary">
-    <span class="acc-num">02</span>
-    <span class="min-w-0">
-      <span class="block text-[15px] font-bold tracking-tight text-slate-900">Advanced Java + Backend Basics</span>
-      <span class="block text-xs font-medium text-slate-500">Level 2 — server-side Java</span>
-    </span>
-    <span class="acc-chevron" aria-hidden="true"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M5 12h14" />
-  <path d="M12 5v14" />
-</svg>
-</span>
-  </summary>
-  <div class="acc-body">
-    <ul class="grid gap-2.5 sm:grid-cols-2"><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">Collections Framework</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">List, Set, Map, real-world usage</p>
-        </div>
-      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">Multithreading</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">Threads, concurrency basics</p>
-        </div>
-      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">JDBC</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">Connect Java with a database</p>
-        </div>
-      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">Servlets &amp; JSP</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">Build dynamic web applications</p>
-        </div>
-      </li></ul>
-  </div>
-</details>
-<details class="acc-item" >
-  <summary class="acc-summary">
-    <span class="acc-num">03</span>
-    <span class="min-w-0">
-      <span class="block text-[15px] font-bold tracking-tight text-slate-900">Frontend Development</span>
-      <span class="block text-xs font-medium text-slate-500">Level 3 — the UI layer</span>
-    </span>
-    <span class="acc-chevron" aria-hidden="true"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M5 12h14" />
-  <path d="M12 5v14" />
-</svg>
-</span>
-  </summary>
-  <div class="acc-body">
-    <ul class="grid gap-2.5 sm:grid-cols-2"><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">HTML + CSS</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">Build structured web pages</p>
-        </div>
-      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">UI Design</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">Responsive design + Bootstrap</p>
-        </div>
-      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">JavaScript</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">DOM, events, API calls</p>
-        </div>
-      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">Modern Frontend</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">React basics / UI integration</p>
-        </div>
-      </li></ul>
-  </div>
-</details>
-<details class="acc-item" >
-  <summary class="acc-summary">
-    <span class="acc-num">04</span>
-    <span class="min-w-0">
-      <span class="block text-[15px] font-bold tracking-tight text-slate-900">Spring Boot + APIs</span>
-      <span class="block text-xs font-medium text-slate-500">Level 4 — core industry skill</span>
-    </span>
-    <span class="acc-chevron" aria-hidden="true"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M5 12h14" />
-  <path d="M12 5v14" />
-</svg>
-</span>
-  </summary>
-  <div class="acc-body">
-    <ul class="grid gap-2.5 sm:grid-cols-2"><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">Spring Boot</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">Create backend applications</p>
-        </div>
-      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">REST APIs</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">Build APIs &amp; connect frontend</p>
-        </div>
-      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">JPA + Hibernate</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">Database ORM &amp; CRUD operations</p>
-        </div>
-      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">Authentication</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">Login systems &amp; JWT basics</p>
-        </div>
-      </li></ul>
-  </div>
-</details>
-<details class="acc-item" >
-  <summary class="acc-summary">
-    <span class="acc-num">05</span>
-    <span class="min-w-0">
-      <span class="block text-[15px] font-bold tracking-tight text-slate-900">Database + System Design</span>
-      <span class="block text-xs font-medium text-slate-500">Level 5 — data &amp; architecture</span>
-    </span>
-    <span class="acc-chevron" aria-hidden="true"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M5 12h14" />
-  <path d="M12 5v14" />
-</svg>
-</span>
-  </summary>
-  <div class="acc-body">
-    <ul class="grid gap-2.5 sm:grid-cols-2"><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">SQL (MySQL)</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">Queries, joins, normalization</p>
-        </div>
-      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">NoSQL</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">MongoDB basics</p>
-        </div>
-      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">DSA</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">Array, stack, queue, trees</p>
-        </div>
-      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">System Design</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">How real apps are built</p>
-        </div>
-      </li></ul>
-  </div>
-</details>
-<details class="acc-item" >
-  <summary class="acc-summary">
-    <span class="acc-num">06</span>
-    <span class="min-w-0">
-      <span class="block text-[15px] font-bold tracking-tight text-slate-900">Deployment + Industry Tools</span>
-      <span class="block text-xs font-medium text-slate-500">Level 6 — ship &amp; collaborate</span>
-    </span>
-    <span class="acc-chevron" aria-hidden="true"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M5 12h14" />
-  <path d="M12 5v14" />
-</svg>
-</span>
-  </summary>
-  <div class="acc-body">
-    <ul class="grid gap-2.5 sm:grid-cols-2"><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">Git + GitHub</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">Version control &amp; collaboration</p>
-        </div>
-      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">Maven</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">Project build management</p>
-        </div>
-      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">Docker</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">Containerize applications</p>
-        </div>
-      </li><li class="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/60 p-3">
-        <span class="mt-0.5 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="1" />
-</svg>
-</span>
-        <div>
-          <p class="text-sm font-semibold text-slate-800">Cloud Deploy</p>
-          <p class="text-[13px] leading-relaxed text-slate-500">Deploy on AWS / servers</p>
-        </div>
-      </li></ul>
-  </div>
-</details></div>
-  </div>
-</section>
-
-
-<section class="border-t border-slate-100 bg-slate-50/70 py-16 sm:py-20">
-  <div class="mx-auto max-w-7xl px-5 sm:px-8">
-    <p class="eyebrow">// SKILLS</p>
-    <h2 class="mt-3 text-[clamp(1.8rem,3.5vw,2.75rem)] font-extrabold tracking-tight text-slate-900">Skills You Will Gain</h2>
-    <div class="mt-6 flex flex-wrap gap-2"><span class="chip">Java Programming</span><span class="chip">Spring Boot</span><span class="chip">REST APIs</span><span class="chip">Frontend Dev</span><span class="chip">Database Design</span><span class="chip">Git &amp; Deployment</span><span class="chip">System Design</span><span class="chip">Problem Solving</span></div>
-  </div>
-</section>
-
-<section class="py-16 sm:py-20">
-  <div class="mx-auto max-w-7xl px-5 sm:px-8">
-    <p class="eyebrow">// PROJECTS</p>
-    <h2 class="mt-3 text-[clamp(1.8rem,3.5vw,2.75rem)] font-extrabold tracking-tight text-slate-900">Projects You Will Build</h2>
-    <p class="mt-3 max-w-2xl text-slate-600">Course projects are the point — working software you finish, run and keep.</p>
-    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><div class="card card-hover flex flex-col p-5">
-      <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-5 w-5"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z" />
-</svg>
-</span>
-      <h3 class="mt-3 text-[15px] font-bold text-slate-900">E-Commerce App</h3>
-      <p class="mt-1.5 flex-1 text-sm leading-relaxed text-slate-500">A full shopping application with a Spring Boot backend.</p>
-    </div><div class="card card-hover flex flex-col p-5">
-      <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-5 w-5"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z" />
-</svg>
-</span>
-      <h3 class="mt-3 text-[15px] font-bold text-slate-900">Student Management System</h3>
-      <p class="mt-1.5 flex-1 text-sm leading-relaxed text-slate-500">CRUD application with database persistence.</p>
-    </div><div class="card card-hover flex flex-col p-5">
-      <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-5 w-5"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z" />
-</svg>
-</span>
-      <h3 class="mt-3 text-[15px] font-bold text-slate-900">Chat Application</h3>
-      <p class="mt-1.5 flex-1 text-sm leading-relaxed text-slate-500">Real-time communication between users.</p>
-    </div><div class="card card-hover flex flex-col p-5">
-      <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-5 w-5"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z" />
-</svg>
-</span>
-      <h3 class="mt-3 text-[15px] font-bold text-slate-900">Full Stack Web App</h3>
-      <p class="mt-1.5 flex-1 text-sm leading-relaxed text-slate-500">Frontend connected to REST APIs end to end.</p>
-    </div><div class="card card-hover flex flex-col p-5">
-      <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-5 w-5"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z" />
-</svg>
-</span>
-      <h3 class="mt-3 text-[15px] font-bold text-slate-900">REST API Backend</h3>
-      <p class="mt-1.5 flex-1 text-sm leading-relaxed text-slate-500">Authenticated, production-style API service.</p>
-    </div></div>
-  </div>
-</section>
-
-<section class="bg-surface-alt py-16 sm:py-20">
-  <div class="mx-auto max-w-7xl px-5 sm:px-8">
-    
-<div class="grid gap-6 lg:grid-cols-2">
-  <div>
-    <p class="eyebrow">// LEARNING APPROACH</p>
-    <h2 class="mt-3 text-[clamp(1.9rem,4vw,3rem)] font-extrabold leading-tight tracking-tight text-slate-900">How You Learn Here</h2>
-    <p class="mt-4 text-lg leading-relaxed text-slate-600">Every course at Chedo Tech follows the same practical, offline method — no screen-sharing, real learning:</p>
-    <ul class="mt-6 grid gap-3 sm:grid-cols-2"><li class="flex items-start gap-3 rounded-2xl border border-slate-200/80 bg-white p-4">
-      <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 6 9 17l-5-5" />
-</svg>
-</span>
-      <div><h3 class="text-sm font-semibold text-slate-900">Offline Classroom Training</h3>
-      <p class="mt-0.5 text-sm leading-relaxed text-slate-500">Learn in person at the center — no screen-sharing, real interaction.</p></div>
-    </li><li class="flex items-start gap-3 rounded-2xl border border-slate-200/80 bg-white p-4">
-      <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 6 9 17l-5-5" />
-</svg>
-</span>
-      <div><h3 class="text-sm font-semibold text-slate-900">Whiteboard Teaching</h3>
-      <p class="mt-0.5 text-sm leading-relaxed text-slate-500">Concepts are drawn, explained and discussed before they are coded.</p></div>
-    </li><li class="flex items-start gap-3 rounded-2xl border border-slate-200/80 bg-white p-4">
-      <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 6 9 17l-5-5" />
-</svg>
-</span>
-      <div><h3 class="text-sm font-semibold text-slate-900">Live Coding</h3>
-      <p class="mt-0.5 text-sm leading-relaxed text-slate-500">Code is written live in class, so you see how programs are actually built.</p></div>
-    </li><li class="flex items-start gap-3 rounded-2xl border border-slate-200/80 bg-white p-4">
-      <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 6 9 17l-5-5" />
-</svg>
-</span>
-      <div><h3 class="text-sm font-semibold text-slate-900">Hands-On Practice</h3>
-      <p class="mt-0.5 text-sm leading-relaxed text-slate-500">You type, run and break code yourself — every session.</p></div>
-    </li><li class="flex items-start gap-3 rounded-2xl border border-slate-200/80 bg-white p-4">
-      <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 6 9 17l-5-5" />
-</svg>
-</span>
-      <div><h3 class="text-sm font-semibold text-slate-900">Assignments & Practice Sets</h3>
-      <p class="mt-0.5 text-sm leading-relaxed text-slate-500">Structured work between classes keeps progress measurable.</p></div>
-    </li><li class="flex items-start gap-3 rounded-2xl border border-slate-200/80 bg-white p-4">
-      <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 6 9 17l-5-5" />
-</svg>
-</span>
-      <div><h3 class="text-sm font-semibold text-slate-900">Problem Solving</h3>
-      <p class="mt-0.5 text-sm leading-relaxed text-slate-500">Logic problems and coding challenges build real thinking skills.</p></div>
-    </li><li class="flex items-start gap-3 rounded-2xl border border-slate-200/80 bg-white p-4">
-      <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 6 9 17l-5-5" />
-</svg>
-</span>
-      <div><h3 class="text-sm font-semibold text-slate-900">Project Building</h3>
-      <p class="mt-0.5 text-sm leading-relaxed text-slate-500">Every course includes projects that turn topics into working software.</p></div>
-    </li><li class="flex items-start gap-3 rounded-2xl border border-slate-200/80 bg-white p-4">
-      <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M20 6 9 17l-5-5" />
-</svg>
-</span>
-      <div><h3 class="text-sm font-semibold text-slate-900">In-Person Support</h3>
-      <p class="mt-0.5 text-sm leading-relaxed text-slate-500">Doubts cleared instantly in offline classes, with personal guidance.</p></div>
-    </li></ul>
-  </div>
-  <div class="lg:pl-6">
-    <div class="terminal">
-      <div class="terminal-bar">
-        <span class="win-dot bg-red-400"></span><span class="win-dot bg-amber-400"></span><span class="win-dot bg-emerald-400"></span>
-        <span class="ml-2 font-mono text-[11px] text-slate-400">chedo-class@institute: ~/practice</span>
-      </div>
-      <div class="terminal-body">
-<pre><span class="term-prompt">$</span> <span class="text-slate-200">write code with the instructor</span>
-<span class="term-ok">✓</span> <span class="term-dim">understand — whiteboard first</span>
-<span class="term-ok">✓</span> <span class="term-dim">practice — hands-on, in class</span>
-<span class="term-ok">✓</span> <span class="term-dim">build — projects, not just notes</span>
-<span class="term-ok">✓</span> <span class="term-dim">support — doubts solved in person</span>
-<span class="term-prompt">$</span> <span class="text-slate-200">next milestone</span><span class="term-cursor"></span></pre>
-      </div>
-    </div>
-    <div class="mt-6 grid grid-cols-2 gap-4">
-      <div class="card p-5">
-        <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-5 w-5"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-  <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-  <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-  <circle cx="9" cy="7" r="4" />
-</svg>
-</span>
-        <p class="mt-3 text-sm font-semibold text-slate-900">Small Classes</p>
-        <p class="mt-1 text-sm text-slate-500">Personal attention in every session.</p>
-      </div>
-      <div class="card p-5">
-        <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-cyan-50 text-cyan-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-5 w-5"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <circle cx="12" cy="12" r="6" />
-  <circle cx="12" cy="12" r="2" />
-</svg>
-</span>
-        <p class="mt-3 text-sm font-semibold text-slate-900">Milestones</p>
-        <p class="mt-1 text-sm text-slate-500">Assignments, tests &amp; project checkpoints.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-  </div>
-</section>
-
-
-<section class="border-t border-slate-100 bg-slate-50/70 py-16 sm:py-20">
-  <div class="mx-auto max-w-7xl px-5 sm:px-8">
-    <div class="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
-      <div>
-        <p class="eyebrow">// KEEP LEARNING</p>
-        <h2 class="mt-3 text-[clamp(1.8rem,3.5vw,2.75rem)] font-extrabold tracking-tight text-slate-900">Related Courses</h2>
-      </div>
-      <a class="arrow-link" href="../courses.php">View all courses <span class="arrow"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M5 12h14" />
-  <path d="m12 5 7 7-7 7" />
-</svg>
-</span></a>
-    </div>
-    <div class="mt-8 grid gap-5 md:grid-cols-3">
-<article class="card card-hover relative flex flex-col p-6">
-  <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-5 w-5"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M10 2v2" />
-  <path d="M14 2v2" />
-  <path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1" />
-  <path d="M6 2v2" />
-</svg>
-</span>
-  <h3 class="mt-4 text-base font-bold tracking-tight text-slate-900">Java Programming</h3>
-  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-500">Data types, object literals, operators, modifiers, variables, methods, control flow statements, exception handling, static &amp; instance members, OOP, Applet, AWT, event handling, file handling.</p>
-  <a class="arrow-link mt-4" href="../courses/java-programming.php">Explore Course <span class="arrow"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M5 12h14" />
-  <path d="m12 5 7 7-7 7" />
-</svg>
-</span></a>
-</article>
-<article class="card card-hover relative flex flex-col p-6">
-  <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-5 w-5"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <circle cx="12" cy="12" r="10" />
-  <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
-  <path d="M2 12h20" />
-</svg>
-</span>
-  <h3 class="mt-4 text-base font-bold tracking-tight text-slate-900">MERN Full Stack Development</h3>
-  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-500">Learn MongoDB, Express.js, React.js and Node.js to build modern, scalable, real-time web applications from scratch to deployment.</p>
-  <a class="arrow-link mt-4" href="../courses/mern-full-stack.php">Explore Course <span class="arrow"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M5 12h14" />
-  <path d="m12 5 7 7-7 7" />
-</svg>
-</span></a>
-</article>
-<article class="card card-hover relative flex flex-col p-6">
-  <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-5 w-5"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <rect x="16" y="16" width="6" height="6" rx="1" />
-  <rect x="2" y="16" width="6" height="6" rx="1" />
-  <rect x="9" y="2" width="6" height="6" rx="1" />
-  <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
-  <path d="M12 12V8" />
-</svg>
-</span>
-  <h3 class="mt-4 text-base font-bold tracking-tight text-slate-900">Data Structures &amp; Algorithms</h3>
-  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-500">Comprehensive DSA covering arrays, linked lists, stacks, queues, searching, sorting, trees, graphs and advanced topics like hashing and dynamic programming.</p>
-  <a class="arrow-link mt-4" href="../courses/data-structures-algorithms.php">Explore Course <span class="arrow"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M5 12h14" />
-  <path d="m12 5 7 7-7 7" />
-</svg>
-</span></a>
-</article></div>
-  </div>
-</section>
-
-
-<section class="py-16 sm:py-20">
-  <div class="mx-auto max-w-7xl px-5 sm:px-8">
-    <div class="relative overflow-hidden rounded-[2rem] border border-blue-100 bg-gradient-to-br from-blue-50 via-white to-indigo-50 px-6 py-14 text-center sm:px-12 sm:py-16">
-      <div class="bg-dots absolute inset-0 opacity-40" aria-hidden="true"></div>
-      <div class="absolute -left-24 -top-24 h-64 w-64 rounded-full bg-blue-100/50 blur-3xl" aria-hidden="true"></div>
-      <div class="absolute -bottom-24 -right-24 h-64 w-64 rounded-full bg-cyan-100/50 blur-3xl" aria-hidden="true"></div>
-      <div class="relative">
-        <h2 class="mx-auto max-w-2xl text-[clamp(1.9rem,4vw,3rem)] font-extrabold leading-tight tracking-tight text-slate-900">Interested in the Java Full Stack Development Course?</h2>
-        <p class="mx-auto mt-4 max-w-xl text-lg leading-relaxed text-slate-600">Ask us for batch schedules, curriculum details and how to enroll. Personal guidance is part of the program.</p>
-        <div class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-          <a class="btn-wa btn-lg" data-wa data-wa-text="Hello Chedo Tech, I am interested in the Java Full Stack Development course. Please share more information." href="../contact.php"><!-- @license lucide-static v1.28.0 - ISC -->
-<svg aria-hidden="true" focusable="false"
-  class="h-4 w-4"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" />
-</svg>
- Enquire on WhatsApp</a>
-          <a class="btn-secondary btn-lg" href="../courses.php">See Other Courses</a>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="hero-badge-pill hero-badge-red">
+            <span class="dot"></span>
+            Beginner to Advanced
+          </span>
+          <span class="hero-badge-pill hero-badge-gold">
+            ⭐ 4.9 / 5 (253+ Google Reviews)
+          </span>
         </div>
         
+        <h1 class="hero-headline mt-4">
+          Java Full Stack <br class="hidden sm:inline">
+          <span class="hero-underline">Development</span>
+        </h1>
+        
+        <h3 class="text-lg sm:text-xl font-bold text-orange-600 mt-3">
+          Complete Modern Software Engineering Career Program
+        </h3>
+        
+        <p class="mt-6 max-w-2xl text-[16px] sm:text-[17px] leading-[1.6] text-slate-700">
+          Master Java, Spring Boot, React, Databases, REST APIs, Security, Microservices, DevOps, Cloud and modern AI-enabled application development through practical projects.
+        </p>
+
+        <!-- Bullet Highlights Grid -->
+        <div class="mt-8 grid gap-3 grid-cols-2 sm:grid-cols-3 max-w-3xl">
+          <div class="flex items-center gap-2 text-[14px] font-semibold text-slate-700">
+            <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-orange-100 text-orange-700 text-xs">✓</span>
+            Full Stack Development
+          </div>
+          <div class="flex items-center gap-2 text-[14px] font-semibold text-slate-700">
+            <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-orange-100 text-orange-700 text-xs">✓</span>
+            Spring Boot + React
+          </div>
+          <div class="flex items-center gap-2 text-[14px] font-semibold text-slate-700">
+            <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-orange-100 text-orange-700 text-xs">✓</span>
+            Real Projects
+          </div>
+          <div class="flex items-center gap-2 text-[14px] font-semibold text-slate-700">
+            <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-orange-100 text-orange-700 text-xs">✓</span>
+            Microservices
+          </div>
+          <div class="flex items-center gap-2 text-[14px] font-semibold text-slate-700">
+            <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-orange-100 text-orange-700 text-xs">✓</span>
+            DevOps + Cloud
+          </div>
+          <div class="flex items-center gap-2 text-[14px] font-semibold text-slate-700">
+            <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-orange-100 text-orange-700 text-xs">✓</span>
+            AI Integration
+          </div>
+        </div>
+
+        <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+          <a class="hero-btn-primary !bg-gradient-to-b !from-orange-500 !to-orange-600 !border-orange-700 !px-8" href="../contact.php">
+            Enroll Now
+          </a>
+          <a class="hero-btn-secondary !px-6" href="#curriculum">
+            View Complete Curriculum
+          </a>
+        </div>
+        <p class="mt-4 text-[13px] text-slate-500">Classroom batch sizes are strictly limited to ensure individual attention.</p>
+      </div>
+
+      <!-- Right Snapshot Column -->
+      <div class="lg:col-span-4">
+        <div class="card p-6 border border-slate-200 shadow-sm rounded-xl bg-white">
+          <p class="font-mono text-[11px] font-bold tracking-widest text-slate-500">// PROGRAM SNAPSHOT</p>
+          <div class="mt-5 space-y-4 text-sm">
+            <div class="flex items-start gap-3">
+              <span class="mt-0.5 text-orange-600">🏫</span>
+              <div>
+                <p class="font-semibold text-slate-900">Format</p>
+                <p class="text-slate-500">Offline, in-person training (Pune)</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="mt-0.5 text-orange-600">⏱️</span>
+              <div>
+                <p class="font-semibold text-slate-900">Duration &amp; Schedule</p>
+                <p class="text-slate-500">Full Stack Career Path, Daily Batches</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="mt-0.5 text-orange-600">🎯</span>
+              <div>
+                <p class="font-semibold text-slate-900">Curriculum Coverage</p>
+                <p class="text-slate-500">25 Modules, Full Stack &amp; Capstone</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="mt-0.5 text-orange-600">💼</span>
+              <div>
+                <p class="font-semibold text-slate-900">Target Outcomes</p>
+                <p class="text-slate-500">Java Developer, Full Stack Engineer, DevOps</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="mt-0.5 text-orange-600">🎓</span>
+              <div>
+                <p class="font-semibold text-slate-900">Prerequisites</p>
+                <p class="text-slate-500">No prior coding experience required</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-</main>
+<!-- LEARNING JOURNEY ROADMAP -->
+<section class="py-12 sm:py-16 bg-white border-b border-slate-200">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="text-center max-w-3xl mx-auto">
+      <p class="hero-badge-pill hero-badge-red !h-[28px] !px-3 !text-[11px] mb-3">
+        <span class="dot"></span>
+        LEARNING PATHWAY
+      </p>
+      <h2 class="hero-headline !text-[32px] sm:!text-[38px]">The Java Software Engineering Journey</h2>
+      <p class="mt-4 text-[15px] sm:text-[16px] leading-[1.6] text-slate-600">
+        Our curriculum is split into focused logical phases. We guide you from programming fundamentals to microservices, databases, React interfaces, security configurations, DevOps pipelines, and AI features.
+      </p>
+    </div>
 
+    <!-- Journey Flowchart Cards -->
+    <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-6 items-stretch">
+      <div class="p-4 border border-orange-100 bg-orange-50/20 rounded-xl text-center flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-bold text-orange-600 uppercase tracking-wider block mb-1">Phase 1</span>
+          <h4 class="font-bold text-slate-900 text-sm">Java Foundation</h4>
+        </div>
+        <p class="text-xs text-slate-500 mt-2">Java Syntax, OOP Principles, Modern Streams, and practical DSA.</p>
+      </div>
+
+      <div class="p-4 border border-blue-100 bg-blue-50/10 rounded-xl text-center flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-bold text-blue-600 uppercase tracking-wider block mb-1">Phase 2</span>
+          <h4 class="font-bold text-slate-900 text-sm">Database &amp; Web</h4>
+        </div>
+        <p class="text-xs text-slate-500 mt-2">MySQL, MongoDB, JDBC/Hibernate, HTML/CSS/JS, and React basics.</p>
+      </div>
+
+      <div class="p-4 border border-green-100 bg-green-50/20 rounded-xl text-center flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-bold text-green-600 uppercase tracking-wider block mb-1">Phase 3</span>
+          <h4 class="font-bold text-slate-900 text-sm">Spring Backend</h4>
+        </div>
+        <p class="text-xs text-slate-500 mt-2">Spring Boot, IoC/DI, REST APIs, JPA and full JWT security integrations.</p>
+      </div>
+
+      <div class="p-4 border border-purple-100 bg-purple-50/20 rounded-xl text-center flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-bold text-purple-600 uppercase tracking-wider block mb-1">Phase 4</span>
+          <h4 class="font-bold text-slate-900 text-sm">Enterprise Eng.</h4>
+        </div>
+        <p class="text-xs text-slate-500 mt-2">Spring Cloud Gateway, Microservices, Apache Kafka, and Redis caching.</p>
+      </div>
+
+      <div class="p-4 border border-cyan-100 bg-cyan-50/20 rounded-xl text-center flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-bold text-cyan-600 uppercase tracking-wider block mb-1">Phase 5</span>
+          <h4 class="font-bold text-slate-900 text-sm">DevOps &amp; Cloud</h4>
+        </div>
+        <p class="text-xs text-slate-500 mt-2">Docker Compose, Kubernetes, GitHub Actions, AWS/GCP and monitoring.</p>
+      </div>
+
+      <div class="p-4 border border-violet-100 bg-violet-50/20 rounded-xl text-center flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-bold text-violet-600 uppercase tracking-wider block mb-1">Phase 6</span>
+          <h4 class="font-bold text-slate-900 text-sm">Modern AI &amp; Capstone</h4>
+        </div>
+        <p class="text-xs text-slate-500 mt-2">Spring AI integrations, LLM APIs, Vector Search and Enterprise Capstone.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPLETE COURSE CURRICULUM GROUPED BY PHASES -->
+<section class="py-16 sm:py-20 bg-slate-50/50" id="curriculum">
+  <div class="mx-auto max-w-4xl px-5 sm:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <p class="hero-badge-pill hero-badge-red !h-[28px] !px-3 !text-[11px] mb-3">
+        <span class="dot"></span>
+        Syllabus Breakdown
+      </p>
+      <h2 class="hero-headline !text-[32px] sm:!text-[38px]">Detailed 25-Module Roadmap</h2>
+      <p class="mt-4 text-[15px] sm:text-[16px] leading-[1.6] text-slate-600">
+        Review the full technical curriculum divided into 6 learning phases. Click on any module below to expand the list of topics and technologies.
+      </p>
+    </div>
+
+    <!-- Accordion Wrapper -->
+    <div class="space-y-8">
+
+      <!-- PHASE 1 -->
+      <div>
+        <h3 class="text-lg font-bold text-orange-700 mb-3 border-l-4 border-orange-500 pl-3">PHASE 1 — Java Foundation</h3>
+        <div class="space-y-3.5">
+          <!-- MOD 01 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-orange-50 text-orange-700">MOD 01</span>
+                <span class="text-[15px] sm:text-[16px]">Java Programming Foundation</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Core Java foundations and VM environment:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>Java Introduction &amp; Syntax: Variables, Data Types, Operators, Input / Output</li>
+                  <li>Control Statements: if/else conditions, switch blocks, for/while loops, methods</li>
+                  <li>Type Casting, Wrapper Classes, Scanner class input operations</li>
+                  <li>Arrays, String manipulation methods, Packages configuration</li>
+                  <li>Debugging basics, Exception basics, File Handling fundamentals</li>
+                  <li>Understanding JVM: JDK, JRE, JVM architecture, Bytecode, Platform Independence</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 02 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-orange-50 text-orange-700">MOD 02</span>
+                <span class="text-[15px] sm:text-[16px]">Object-Oriented Programming</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Professional Java architecture principles:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>Classes &amp; Objects, Constructors, 'this' keyword usages</li>
+                  <li>Four Core Pillars: Encapsulation, Inheritance, Polymorphism, Abstraction</li>
+                  <li>Method Overloading &amp; Method Overriding mechanisms</li>
+                  <li>Abstract Classes vs Interfaces, Access Modifiers, 'super' and 'final' keywords</li>
+                  <li>Static variables and methods, Anonymous Classes, Class structures in packages</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 03 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-orange-50 text-orange-700">MOD 03</span>
+                <span class="text-[15px] sm:text-[16px]">Advanced &amp; Modern Java</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Modern Java features and runtime memory internals:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>Collections Framework: List, ArrayList, LinkedList, Set, HashSet, Map, HashMap, Queue</li>
+                  <li>Sorting &amp; Iteration: Iterator, Comparable, Comparator, Generics</li>
+                  <li>Modern Features: Lambda Expressions, Functional Interfaces, Stream API, Optional class, Date &amp; Time API, Records</li>
+                  <li>Multithreading &amp; Concurrency: Thread lifecycle, Synchronization, Executor framework, CompletableFuture, Virtual Threads</li>
+                  <li>Memory Internals: JVM fundamentals, Garbage Collection algorithms, Heap &amp; Stack management</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 04 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-orange-50 text-orange-700">MOD 04</span>
+                <span class="text-[15px] sm:text-[16px]">Data Structures &amp; Algorithms</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Practical developer DSA and interview preparation:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>Linear Structures: Arrays, Strings, Linked Lists, Stack, Queue operations</li>
+                  <li>Non-Linear Structures: Trees (Binary Trees, BST), Graph fundamentals, Hash maps</li>
+                  <li>Searching &amp; Sorting: Linear Search, Binary Search, Bubble, Selection, Insertion, Merge, Quick Sort</li>
+                  <li>Problem Solving: Recursion patterns, Time Complexity &amp; Space Complexity (Big O) analysis</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PHASE 2 -->
+      <div>
+        <h3 class="text-lg font-bold text-blue-700 mb-3 border-l-4 border-blue-500 pl-3">PHASE 2 — Database &amp; Web Foundation</h3>
+        <div class="space-y-3.5">
+          <!-- MOD 05 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-blue-50 text-blue-700">MOD 05</span>
+                <span class="text-[15px] sm:text-[16px]">SQL &amp; Databases</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Relational databases, Document datastores, and Caching:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li><strong>MySQL &amp; PostgreSQL:</strong> Tables, primary keys, foreign keys, relationships, database design</li>
+                  <li><strong>SQL Statements:</strong> CRUD (SELECT, INSERT, UPDATE, DELETE), WHERE, ORDER BY, GROUP BY, aggregates, JOINs, subqueries</li>
+                  <li><strong>Data Architecture:</strong> Database normalization (1NF, 2NF, 3NF), transactions, indexing</li>
+                  <li><strong>MongoDB:</strong> Documents, collections, NoSQL CRUD operations, data modeling</li>
+                  <li><strong>Caching Introduction:</strong> Redis key-value storage structures, caching concepts</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 06 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-blue-50 text-blue-700">MOD 06</span>
+                <span class="text-[15px] sm:text-[16px]">JDBC + JPA + Hibernate</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Traditional Java connectivity to modern Object-Relational Mapping (ORM):</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li><strong>JDBC:</strong> Architecture, Driver, Connection, Statement, PreparedStatement, ResultSet, CRUD with JDBC, transactions</li>
+                  <li><strong>JPA &amp; Hibernate ORM:</strong> Entities, lifecycle, Repositories, Primary key generation</li>
+                  <li><strong>Mapping Relationships:</strong> OneToOne, OneToMany, ManyToOne, ManyToMany mappings</li>
+                  <li><strong>Advanced ORM:</strong> JPQL, pagination, transactions, Lazy vs Eager loading concepts</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 07 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-blue-50 text-blue-700">MOD 07</span>
+                <span class="text-[15px] sm:text-[16px]">Web Development Foundation</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Core web technologies and legacy Java Web servlet architectures:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>HTTP Protocol: HTTP/HTTPS methods, requests/responses, header fields, status codes</li>
+                  <li>Frontend Foundations: HTML5 semantics, CSS3 Flexbox &amp; Grid layouts, responsive designs, Bootstrap</li>
+                  <li>JavaScript: DOM selectors, events, fetch calls, JSON structures, async/await, promises</li>
+                  <li>Java Web Legacy: Servlets, JSP, Session management, cookies, MVC web fundamentals</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 08 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-blue-50 text-blue-700">MOD 08</span>
+                <span class="text-[15px] sm:text-[16px]">React Frontend Development</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Modern Single-Page Application (SPA) architecture in React:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>React Fundamentals: JSX, component structure, props, state</li>
+                  <li>React Hooks: useState, useEffect, functional lifecycle hooks</li>
+                  <li>Routing &amp; Nav: React Router DOM configuration, protected routing layers</li>
+                  <li>API Integration: Consume REST APIs with Axios, configure authentication UI layers (login, dashboards)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PHASE 3 -->
+      <div>
+        <h3 class="text-lg font-bold text-green-700 mb-3 border-l-4 border-green-500 pl-3">PHASE 3 — Spring Boot Backend</h3>
+        <div class="space-y-3.5">
+          <!-- MOD 09 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-green-50 text-green-700">MOD 09</span>
+                <span class="text-[15px] sm:text-[16px]">Spring Framework</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Core principles of Dependency Injection and modular architecture:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>Spring Core Architecture &amp; Ecosystem: Inversion of Control (IoC), Dependency Injection (DI)</li>
+                  <li>Spring Beans: Configuration classes, Bean scopes, Component Scanning</li>
+                  <li>Annotations-based setup, Spring MVC architectures, Layered enterprise designs (Controller -> Service -> Repository)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 10 -->
+          <div class="border-2 border-green-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-bold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-green-100 text-green-800">MOD 10</span>
+                <span class="text-[15px] sm:text-[16px] text-green-900">Spring Boot (Flagship)</span>
+              </div>
+              <span class="text-green-500 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Building production-grade microservices quickly:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>Spring Boot Project structure, starter dependencies, auto-configuration features</li>
+                  <li>Properties &amp; YAML files, environment profiles, profile-specific configurations</li>
+                  <li>DTOs (Data Transfer Objects), validation annotations (JSR-383), global exception handlers</li>
+                  <li>Spring Boot Actuator endpoints, health checks, metrics, external variables injection</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 11 -->
+          <div class="border-2 border-green-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-bold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-green-100 text-green-800">MOD 11</span>
+                <span class="text-[15px] sm:text-[16px] text-green-900">REST API Development (Flagship)</span>
+              </div>
+              <span class="text-green-500 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Designing clean HTTP application interfaces:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>REST resource designs, endpoints naming, mapping methods (GET, POST, PUT, DELETE, PATCH)</li>
+                  <li>Query parameters, path variables, request bodies (JSON serialization)</li>
+                  <li>ResponseEntity wrappers, pagination, filtering, sorting operations</li>
+                  <li>API documentation with OpenAPI / Swagger UI tools, Postman validation suites</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 12 -->
+          <div class="border-2 border-indigo-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-bold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-indigo-100 text-indigo-800">MOD 12</span>
+                <span class="text-[15px] sm:text-[16px] text-indigo-900">Spring Security &amp; Authentication (Flagship)</span>
+              </div>
+              <span class="text-indigo-500 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Securing your enterprise endpoints:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>Authentication &amp; Authorization pipelines, custom Security Filter Chains</li>
+                  <li>User registrations, password hashing with BCrypt encoder</li>
+                  <li>Role-Based Access Control (RBAC) configurations</li>
+                  <li>JSON Web Token (JWT) architecture, token validation, secure keys storage, CORS &amp; CSRF protection</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 13 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-green-50 text-green-700">MOD 13</span>
+                <span class="text-[15px] sm:text-[16px]">Testing &amp; Software Quality</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Writing high-quality test suites for Java systems:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>Unit Testing with JUnit and Mockito mocking framework</li>
+                  <li>Mocking repositories, testing services in isolation</li>
+                  <li>Controller layer testing with MockMvc, full integration test suites</li>
+                  <li>Code quality architectures: SOLID principles, clean code practices, Testcontainers foundations</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 14 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-green-50 text-green-700">MOD 14</span>
+                <span class="text-[15px] sm:text-[16px]">Full Stack Integration</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Connecting React SPA with Spring Boot backend:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>Cross-Origin Resource Sharing (CORS) configurations in Spring Boot</li>
+                  <li>Consuming secure API endpoints in React, storing JWT tokens in memory/local storage</li>
+                  <li>Form handling: Sending JSON payloads, rendering server validations on HTML layers</li>
+                  <li>Implementing global features: Pagination, search filters, secure file uploads</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PHASE 4 -->
+      <div>
+        <h3 class="text-lg font-bold text-purple-700 mb-3 border-l-4 border-purple-500 pl-3">PHASE 4 — Enterprise Engineering</h3>
+        <div class="space-y-3.5">
+          <!-- MOD 15 -->
+          <div class="border-2 border-purple-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-bold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-purple-100 text-purple-800">MOD 15</span>
+                <span class="text-[15px] sm:text-[16px] text-purple-900">Microservices Architecture (Flagship)</span>
+              </div>
+              <span class="text-purple-500 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Decomposing monolith architectures into distributed services:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>Monolith vs Microservices patterns, database decomposition strategies</li>
+                  <li>Service Discovery with Netflix Eureka, routing requests with Spring Cloud Gateway</li>
+                  <li>Centralized configurations, Inter-service communication patterns (RestTemplate, WebClient)</li>
+                  <li>Fault Tolerance configurations: Resilience4j circuit breakers, retries, and rate limiters</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 16 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-purple-50 text-purple-700">MOD 16</span>
+                <span class="text-[15px] sm:text-[16px]">Apache Kafka &amp; Event-Driven Systems</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Asynchronous, decoupled event-based architectures:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>Event-driven architecture concepts, Producers, Consumers, Topics, and Partitions</li>
+                  <li>Consumer groups configurations, message deserialization patterns</li>
+                  <li>Building event-based microservices using Spring Boot Kafka interfaces</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 17 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-purple-50 text-purple-700">MOD 17</span>
+                <span class="text-[15px] sm:text-[16px]">Redis &amp; Performance</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Caching strategies to speed up database lookups:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>Redis caching: Key-value operations, Cache-Aside pattern implementation</li>
+                  <li>Session storage management, optimizing slow SQL queries with indexes and pagination</li>
+                  <li>Database connection pooling optimization concepts</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 18 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-purple-50 text-purple-700">MOD 18</span>
+                <span class="text-[15px] sm:text-[16px]">System Design</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Designing scalable, highly-available enterprise systems:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>High-Level &amp; Low-Level systems design, SOLID principles, common design patterns</li>
+                  <li>Scalability, availability, reliability targets, load balancing, database replication/sharding</li>
+                  <li>Real-World System Architectures: E-Commerce Platform, Chat Application, Student Portals</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PHASE 5 -->
+      <div>
+        <h3 class="text-lg font-bold text-blue-700 mb-3 border-l-4 border-blue-500 pl-3">PHASE 5 — DevOps &amp; Cloud Deployment</h3>
+        <div class="space-y-3.5">
+          <!-- MOD 19 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-blue-50 text-blue-700">MOD 19</span>
+                <span class="text-[15px] sm:text-[16px]">Git, GitHub &amp; Build Tools</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Build lifecycle management and collaborative version control:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>Git Version Control: commits, branching, merging, conflict resolution</li>
+                  <li>GitHub collaboration workflows, pull requests, code review pipelines</li>
+                  <li>Maven: pom.xml structures, build lifecycles, packages, dependency configurations</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 20 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-blue-50 text-blue-700">MOD 20</span>
+                <span class="text-[15px] sm:text-[16px]">Docker &amp; Containerization</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Packaging applications for consistent execution environments:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>Containerization fundamentals: writing Dockerfiles, compiling image layers</li>
+                  <li>Ports mapping, Docker volumes for data persistency, networking containers</li>
+                  <li>Docker Compose: Building multi-container configurations (React + Spring Boot + DB + Redis)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 21 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-blue-50 text-blue-700">MOD 21</span>
+                <span class="text-[15px] sm:text-[16px]">Kubernetes Fundamentals</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Orchestrating containerized systems at scale:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>Container orchestration basics, Kubernetes architectures, Clusters, Nodes, and Pods</li>
+                  <li>Kubernetes Deployments, services configurations, ConfigMaps, secrets inputs</li>
+                  <li>Scaling deployments, basic health checks, container orchestrations</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 22 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-blue-50 text-blue-700">MOD 22</span>
+                <span class="text-[15px] sm:text-[16px]">CI/CD &amp; DevOps</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Automating the delivery pipeline from code check-in to deployment:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>CI/CD fundamentals: continuous integration, automated test runners</li>
+                  <li>GitHub Actions: writing workflow YAML scripts, packaging Docker images automatically</li>
+                  <li>Managing isolated environments: Development, Testing, Staging, and Production</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 23 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-blue-50 text-blue-700">MOD 23</span>
+                <span class="text-[15px] sm:text-[16px]">Cloud Deployment</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Publishing Java applications onto public cloud nodes:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>Cloud compute systems (AWS EC2 / GCP Compute Engine basics), managed datastores</li>
+                  <li>Containerized application deployments, loading variables, DNS bindings, HTTPS configurations</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MOD 24 -->
+          <div class="border border-slate-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-semibold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-blue-50 text-blue-700">MOD 24</span>
+                <span class="text-[15px] sm:text-[16px]">Observability &amp; Production Readiness</span>
+              </div>
+              <span class="arrow-toggle text-slate-400 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Monitoring application health post-deployment:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>Production logging, metrics collection with Actuator, Distributed tracing basics</li>
+                  <li>Observability pillars: Logs + Metrics + Tracing configurations, troubleshooting techniques</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PHASE 6 -->
+      <div>
+        <h3 class="text-lg font-bold text-violet-700 mb-3 border-l-4 border-violet-500 pl-3">PHASE 6 — Modern AI &amp; Capstone</h3>
+        <div class="space-y-3.5">
+          <!-- MOD 25 -->
+          <div class="border-2 border-violet-200 rounded-xl bg-white shadow-sm overflow-hidden transition-all duration-200">
+            <button class="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-bold text-slate-900 focus:outline-none" onclick="toggleModule(this)">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex items-center justify-center h-8 w-16 text-xs font-bold rounded-lg bg-violet-100 text-violet-800">MOD 25</span>
+                <span class="text-[15px] sm:text-[16px] text-violet-900">AI-Enabled Java Applications (Flagship)</span>
+              </div>
+              <span class="arrow-toggle text-violet-500 text-sm transition-transform duration-200 select-none">▶</span>
+            </button>
+            <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5">
+              <div class="pb-5 pt-2 border-t border-slate-100 text-sm text-slate-600 leading-relaxed">
+                <p class="font-medium text-slate-900 mb-2">Integrating LLMs and semantic database searches in Spring Boot:</p>
+                <ul class="list-disc pl-5 space-y-1 mb-4">
+                  <li>LLM API integrations, structured AI outputs, prompt construction</li>
+                  <li><strong>Spring AI Framework:</strong> Connectors, configuring vector indexing (Vector search)</li>
+                  <li>RAG integrations in Java applications: Document loaders, injecting context into LLM queries</li>
+                  <li>AI Agent concepts, Tool/Function calling from Java application layers</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECT-BASED LEARNING -->
+<section class="py-16 sm:py-20 bg-white border-t border-slate-100">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <p class="hero-badge-pill hero-badge-red !h-[28px] !px-3 !text-[11px] mb-3">
+        <span class="dot"></span>
+        Portfolio
+      </p>
+      <h2 class="hero-headline !text-[32px] sm:!text-[38px]">Project-Based Learning</h2>
+      <p class="mt-4 text-[15px] sm:text-[16px] leading-[1.6] text-slate-600">
+        Solidify your coding skills by building micro projects, API backends, and full stack systems.
+      </p>
+    </div>
+
+    <!-- Project Categorized Cards -->
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- Group 1 -->
+      <div class="p-6 border border-slate-200 rounded-xl bg-slate-50/50">
+        <h4 class="font-bold text-slate-900 text-sm mb-3">Java Projects</h4>
+        <ul class="text-xs text-slate-600 space-y-2">
+          <li>🔹 Student Record System (OOP constructs)</li>
+          <li>🔹 Banking / Account Application</li>
+          <li>🔹 File-Based Java Application</li>
+        </ul>
+      </div>
+
+      <!-- Group 2 -->
+      <div class="p-6 border border-slate-200 rounded-xl bg-slate-50/50">
+        <h4 class="font-bold text-slate-900 text-sm mb-3">Backend APIs</h4>
+        <ul class="text-xs text-slate-600 space-y-2">
+          <li>🔹 Student Management REST API</li>
+          <li>🔹 Employee Management CRUD API</li>
+          <li>🔹 Authentication Backend (Spring Security &amp; JWT)</li>
+        </ul>
+      </div>
+
+      <!-- Group 3 -->
+      <div class="p-6 border border-slate-200 rounded-xl bg-slate-50/50">
+        <h4 class="font-bold text-slate-900 text-sm mb-3">Full Stack Integration</h4>
+        <ul class="text-xs text-slate-600 space-y-2">
+          <li>🔹 Student Management Platform</li>
+          <li>🔹 React + Spring Boot Portal</li>
+          <li>🔹 Role-Based Access (RBAC) System Interface</li>
+        </ul>
+      </div>
+
+      <!-- Group 4 -->
+      <div class="p-6 border border-slate-200 rounded-xl bg-slate-50/50">
+        <h4 class="font-bold text-slate-900 text-sm mb-3">Enterprise Systems</h4>
+        <ul class="text-xs text-slate-600 space-y-2">
+          <li>🔹 Microservices Gateway Setup</li>
+          <li>🔹 Kafka Event-Driven Application</li>
+          <li>🔹 Redis Caching layer integration</li>
+        </ul>
+      </div>
+
+      <!-- Group 5 -->
+      <div class="p-6 border border-slate-200 rounded-xl bg-slate-50/50">
+        <h4 class="font-bold text-slate-900 text-sm mb-3">DevOps &amp; Cloud</h4>
+        <div class="text-xs text-slate-600 space-y-2">
+          <li>🔹 Dockerized Full Stack System</li>
+          <li>🔹 Cloud-Deployed Java Application (GCP/AWS)</li>
+        </div>
+      </div>
+
+      <!-- Group 6 -->
+      <div class="p-6 border border-slate-200 rounded-xl bg-slate-50/50">
+        <h4 class="font-bold text-slate-900 text-sm mb-3">Modern AI Integration</h4>
+        <div class="text-xs text-slate-600 space-y-2">
+          <li>🔹 AI-Enabled Enterprise Knowledge Assistant (Spring AI)</li>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CAPSTONE -->
+<section class="py-16 sm:py-20 bg-slate-50 border-t border-b border-slate-200">
+  <div class="mx-auto max-w-5xl px-5 sm:px-8">
+    <div class="relative overflow-hidden rounded-[2.5rem] border border-orange-200 bg-white px-8 py-12 shadow-sm text-center">
+      <p class="hero-badge-pill hero-badge-red !h-[28px] !px-3 !text-[11px] mb-4 mx-auto">
+        <span class="dot"></span>
+        FINAL EXAM
+      </p>
+      <h2 class="hero-headline !text-[32px] sm:!text-[38px] mb-4">Enterprise Full Stack Capstone Project</h2>
+      <p class="mx-auto max-w-2xl text-[15px] sm:text-[16px] leading-[1.6] text-slate-600 mb-10">
+        Integrate all software engineering layers into one production-grade system: React Frontend, Spring Boot REST APIs, Spring Security (JWT), Hibernate database transactions, Kafka event streams, Redis, Docker, and Cloud Deployment.
+      </p>
+      
+      <!-- Capstone Architecture Block -->
+      <div class="grid gap-3 sm:grid-cols-4 lg:grid-cols-6 max-w-4xl mx-auto text-xs font-semibold text-slate-700">
+        <div class="p-3 border border-slate-200 rounded-lg bg-slate-50">UI: React / JS</div>
+        <div class="p-3 border border-slate-200 rounded-lg bg-slate-50">Auth: Spring Security</div>
+        <div class="p-3 border border-slate-200 rounded-lg bg-slate-50">Core: Spring Boot API</div>
+        <div class="p-3 border border-slate-200 rounded-lg bg-slate-50">Streams: Kafka / Redis</div>
+        <div class="p-3 border border-slate-200 rounded-lg bg-slate-50">Container: Docker / K8s</div>
+        <div class="p-3 border border-slate-200 rounded-lg bg-slate-50">Cloud: AWS Run</div>
+      </div>
+      <p class="mt-8 text-[13px] text-slate-500">Includes architecture review, database design validation, and Git portfolio checks.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TECHNOLOGY STACK SECTION -->
+<section class="py-16 sm:py-20 bg-white">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <p class="hero-badge-pill hero-badge-red !h-[28px] !px-3 !text-[11px] mb-3">
+        <span class="dot"></span>
+        Ecosystem
+      </p>
+      <h2 class="hero-headline !text-[32px] sm:!text-[38px]">Tools &amp; Technologies Mastered</h2>
+      <p class="mt-4 text-[15px] sm:text-[16px] leading-[1.6] text-slate-600">
+        Build systems using modern enterprise developer standards.
+      </p>
+    </div>
+
+    <!-- Tech Groups -->
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="p-5 border border-slate-200 rounded-xl bg-slate-50/50">
+        <h4 class="font-bold text-slate-900 text-sm mb-3">Core Languages &amp; UI</h4>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">Java</span>
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">HTML5 / CSS3</span>
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">JavaScript</span>
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">React</span>
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">Bootstrap</span>
+        </div>
+      </div>
+
+      <div class="p-5 border border-slate-200 rounded-xl bg-slate-50/50">
+        <h4 class="font-bold text-slate-900 text-sm mb-3">Backend &amp; Persistence</h4>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">Spring Boot</span>
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">JPA / Hibernate</span>
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">JDBC</span>
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">Spring Data</span>
+        </div>
+      </div>
+
+      <div class="p-5 border border-slate-200 rounded-xl bg-slate-50/50">
+        <h4 class="font-bold text-slate-900 text-sm mb-3">Security &amp; Messaging</h4>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">Spring Security</span>
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">JWT / OAuth2</span>
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">Apache Kafka</span>
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">Spring Cloud</span>
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">Redis Cache</span>
+        </div>
+      </div>
+
+      <div class="p-5 border border-slate-200 rounded-xl bg-slate-50/50">
+        <h4 class="font-bold text-slate-900 text-sm mb-3">DevOps &amp; AI Tools</h4>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">Docker</span>
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">Kubernetes</span>
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">GitHub Actions</span>
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">Maven</span>
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">AWS / GCP</span>
+          <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-xs font-semibold text-slate-700">Spring AI</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS YOU WILL GAIN -->
+<section class="border-t border-slate-200 bg-slate-50/50 py-16 sm:py-20">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h2 class="hero-headline !text-[32px] sm:!text-[38px]">Skills You Will Gain</h2>
+      <p class="mt-4 text-[15px] sm:text-[16px] leading-[1.6] text-slate-600">
+        We make you enterprise-ready, teaching system-level structures, data patterns, and deployments.
+      </p>
+    </div>
+
+    <!-- Skills Grid -->
+    <div class="grid gap-3 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 text-sm font-semibold text-slate-800">
+      <div class="flex items-center gap-2 p-3 bg-white border border-slate-200 rounded-xl">🔸 Java Programming</div>
+      <div class="flex items-center gap-2 p-3 bg-white border border-slate-200 rounded-xl">🔸 OOP Principles</div>
+      <div class="flex items-center gap-2 p-3 bg-white border border-slate-200 rounded-xl">🔸 SQL Querying &amp; DB Design</div>
+      <div class="flex items-center gap-2 p-3 bg-white border border-slate-200 rounded-xl">🔸 Frontend React SPAs</div>
+      <div class="flex items-center gap-2 p-3 bg-white border border-slate-200 rounded-xl">🔸 Spring Boot REST APIs</div>
+      <div class="flex items-center gap-2 p-3 bg-white border border-slate-200 rounded-xl">🔸 Spring Security &amp; JWT</div>
+      <div class="flex items-center gap-2 p-3 bg-white border border-slate-200 rounded-xl">🔸 Hibernate ORM mapping</div>
+      <div class="flex items-center gap-2 p-3 bg-white border border-slate-200 rounded-xl">🔸 JUnit Unit Testing</div>
+      <div class="flex items-center gap-2 p-3 bg-white border border-slate-200 rounded-xl">🔸 Microservices Routing</div>
+      <div class="flex items-center gap-2 p-3 bg-white border border-slate-200 rounded-xl">🔸 Apache Kafka Events</div>
+      <div class="flex items-center gap-2 p-3 bg-white border border-slate-200 rounded-xl">🔸 Redis Database Caching</div>
+      <div class="flex items-center gap-2 p-3 bg-white border border-slate-200 rounded-xl">🔸 SOLID Architecture</div>
+      <div class="flex items-center gap-2 p-3 bg-white border border-slate-200 rounded-xl">🔸 Docker Containers</div>
+      <div class="flex items-center gap-2 p-3 bg-white border border-slate-200 rounded-xl">🔸 Kubernetes Orchestration</div>
+      <div class="flex items-center gap-2 p-3 bg-white border border-slate-200 rounded-xl">🔸 CI/CD Automation Pipelines</div>
+      <div class="flex items-center gap-2 p-3 bg-white border border-slate-200 rounded-xl">🔸 AWS / GCP Cloud deployments</div>
+      <div class="flex items-center gap-2 p-3 bg-white border border-slate-200 rounded-xl">🔸 Production Monitoring</div>
+      <div class="flex items-center gap-2 p-3 bg-white border border-slate-200 rounded-xl">🔸 Spring AI / LLM integration</div>
+    </div>
+  </div>
+</section>
+
+<!-- CAREER DIRECTION -->
+<section class="py-16 sm:py-20 bg-white">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h2 class="hero-headline !text-[32px] sm:!text-[38px]">Future Career Outcomes</h2>
+      <p class="mt-4 text-[15px] sm:text-[16px] leading-[1.6] text-slate-600">
+        Graduates possess structural knowledge, RESTful engineering, database optimizations, container architectures, and modern AI interface skills.
+      </p>
+    </div>
+
+    <!-- Career Cards -->
+    <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-4">
+      <div class="p-5 border border-slate-200 rounded-xl bg-slate-50/50">
+        <h4 class="font-bold text-slate-900 text-sm mb-2">Java Backend Engineer</h4>
+        <p class="text-xs text-slate-600 leading-relaxed">Focus on Core/Advanced Java logic, Spring Boot REST controllers, SQL database transactions, and Hibernate relationships.</p>
+      </div>
+      <div class="p-5 border border-slate-200 rounded-xl bg-slate-50/50">
+        <h4 class="font-bold text-slate-900 text-sm mb-2">Frontend Developer</h4>
+        <p class="text-xs text-slate-600 leading-relaxed">Work with HTML, CSS, JavaScript, React components, state triggers, hooks, and consuming backend APIs securely.</p>
+      </div>
+      <div class="p-5 border border-slate-200 rounded-xl bg-slate-50/50">
+        <h4 class="font-bold text-slate-900 text-sm mb-2">Full Stack Developer</h4>
+        <p class="text-xs text-slate-600 leading-relaxed">Build complete systems connecting React SPA viewports with secure Spring Boot API gates, databases, and Docker pipelines.</p>
+      </div>
+      <div class="p-5 border border-slate-200 rounded-xl bg-slate-50/50">
+        <h4 class="font-bold text-slate-900 text-sm mb-2">AI-Enabled Software Eng.</h4>
+        <p class="text-xs text-slate-600 leading-relaxed">Integrate Spring AI configurations, LLM API tokens, semantic vector search lookups, and conversational chatbot layouts.</p>
+      </div>
+    </div>
+    
+    <div class="mt-10 text-center text-xs text-slate-500 max-w-xl mx-auto">
+      * We offer complete job-oriented support, interview preparation guidelines, and project reviews. Chedo Tech does not make unrealistic placement guarantees.
+    </div>
+  </div>
+</section>
+
+<!-- Related Courses placeholder to avoid breaking layout -->
+<section class="border-t border-slate-100 bg-slate-50/70 py-16 sm:py-20">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
+      <div class="max-w-2xl">
+        <p class="eyebrow font-mono text-[11px] sm:text-[12px] font-bold uppercase tracking-widest text-blue-600">// EXPLORE OPTIONS</p>
+        <h2 class="mt-3 text-[clamp(1.8rem,3.5vw,2.75rem)] font-extrabold tracking-tight text-slate-900">Related Programs</h2>
+      </div>
+      <a class="arrow-link" href="../courses.php">All courses <span class="arrow"><svg aria-hidden="true" focusable="false" class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg></span></a>
+    </div>
+    <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <article class="card card-hover flex flex-col p-6">
+        <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-blue-50 text-blue-600 mb-4">💻</span>
+        <h3 class="text-[17px] font-bold text-slate-900"><a href="java-programming.php">Java Programming</a></h3>
+        <p class="mt-2 flex-1 text-sm text-slate-600">A targeted Core Java fundamentals course covering programming logic, syntax, JVM structures, and OOP.</p>
+        <span class="arrow-link mt-4">View Course <span class="arrow">➔</span></span>
+      </article>
+      
+      <article class="card card-hover flex flex-col p-6">
+        <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-blue-50 text-blue-600 mb-4">🚀</span>
+        <h3 class="text-[17px] font-bold text-slate-900"><a href="mern-full-stack.php">MERN Full Stack</a></h3>
+        <p class="mt-2 flex-1 text-sm text-slate-600">Full stack web development utilizing JavaScript/TypeScript, React, Node.js, Express, and MongoDB.</p>
+        <span class="arrow-link mt-4">View Course <span class="arrow">➔</span></span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- JAVASCRIPT ACCORDION TOGGLE -->
+<script>
+function toggleModule(btn) {
+  const panel = btn.nextElementSibling;
+  const arrow = btn.querySelector(".arrow-toggle");
+  
+  // Close all other panels
+  document.querySelectorAll("#curriculum .max-h-0").forEach(other => {
+    if (other !== panel && other.style.maxHeight) {
+      other.style.maxHeight = null;
+      other.previousElementSibling.querySelector(".arrow-toggle").style.transform = "rotate(0deg)";
+    }
+  });
+
+  if (panel.style.maxHeight) {
+    panel.style.maxHeight = null;
+    arrow.style.transform = "rotate(0deg)";
+  } else {
+    panel.style.maxHeight = panel.scrollHeight + "px";
+    arrow.style.transform = "rotate(90deg)";
+  }
+}
+</script>
 <footer class="border-t border-slate-200 bg-slate-50">
   <div class="mx-auto max-w-7xl px-5 pb-10 pt-14 sm:px-8 lg:pt-16">
     <div class="grid gap-10 lg:grid-cols-12">
