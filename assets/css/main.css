@@ -514,3 +514,7 @@ html.dark .hero-feature-row > div:first-child {
 article.card.course-card-hidden {
   display: none !important;
 }
+
+.max-h-0 {
+  max-height: 0px;
+}
