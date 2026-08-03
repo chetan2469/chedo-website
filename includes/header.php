@@ -41,7 +41,7 @@ $page_type = $page_type ?? "website";
       <span class="text-lg font-extrabold tracking-tight text-slate-900 dark:text-white">Chedo<span class="text-blue-600">Tech</span></span>
     </a>
 
-    <nav class="hidden items-center gap-0.5 lg:flex" aria-label="Main navigation">
+    <nav class="hidden items-center gap-0.5 lg:flex ml-auto" aria-label="Main navigation">
       <a class="nav-link active" href="index.php">Home</a>
       <div class="dropdown relative" id="courses-drop">
         <button id="courses-drop-btn" class="nav-link flex items-center gap-1" aria-haspopup="true" aria-expanded="false">

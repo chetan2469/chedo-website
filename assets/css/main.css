@@ -510,3 +510,7 @@ html.dark .hero-feature-row + .hero-feature-row,
 html.dark .hero-feature-row > div:first-child {
   border-color: #334155;
 }
+
+.course-card-hidden {
+  display: none !important;
+}
