@@ -14,6 +14,69 @@
     </div>
     <div class="mt-7 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 items-stretch">
       
+<article class="card card-hover flex flex-col p-6 reveal border-orange-100 bg-gradient-to-br from-orange-50/10 to-amber-50/5" data-category="programming">
+  <div class="flex items-center justify-between">
+    <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-orange-50 text-orange-600">
+      <svg aria-hidden="true" focusable="false" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+    </span>
+    <div class="flex gap-1.5">
+      <span class="rounded-full bg-orange-100 px-2.5 py-0.5 text-[10px] font-bold uppercase text-orange-800 ring-1 ring-orange-200">New</span>
+      <span class="rounded-full bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-500 ring-1 ring-slate-200/70">Programming</span>
+    </div>
+  </div>
+  <h3 class="mt-5 text-lg font-bold tracking-tight text-slate-900"><a class="after:absolute after:inset-0 rounded-lg" href="courses/java-dsa.php">Java + DSA Foundation</a></h3>
+  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Build strong Java programming logic, master Object-Oriented design patterns, Java Collections framework, and advanced Data Structures &amp; Algorithms for coding interviews.</p>
+  <div class="mt-4 flex flex-wrap gap-1.5"><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Java Core</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">OOP &amp; Collections</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">DSA &amp; Trees</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Interview Prep</span></div>
+  <span class="arrow-link mt-5">
+    Explore Course
+    <span class="arrow">
+      <svg aria-hidden="true" focusable="false" class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+    </span>
+  </span>
+</article>
+
+<article class="card card-hover flex flex-col p-6 reveal border-blue-100 bg-gradient-to-br from-blue-50/10 to-yellow-50/5" data-category="programming">
+  <div class="flex items-center justify-between">
+    <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-yellow-50 text-blue-600 border border-yellow-200">
+      <svg aria-hidden="true" focusable="false" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+    </span>
+    <div class="flex gap-1.5">
+      <span class="rounded-full bg-yellow-100 px-2.5 py-0.5 text-[10px] font-bold uppercase text-blue-800 ring-1 ring-yellow-200">New</span>
+      <span class="rounded-full bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-500 ring-1 ring-slate-200/70">Programming</span>
+    </div>
+  </div>
+  <h3 class="mt-5 text-lg font-bold tracking-tight text-slate-900"><a class="after:absolute after:inset-0 rounded-lg" href="courses/python-dsa.php">Python + DSA Foundation</a></h3>
+  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Learn clean Python syntax, master built-in containers, manual memory layouts (linked lists, graphs, BSTs), and algorithmic patterns for fast technical interview solutions.</p>
+  <div class="mt-4 flex flex-wrap gap-1.5"><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Pythonic Logic</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">DSA Tools</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Complexity</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Coding Patterns</span></div>
+  <span class="arrow-link mt-5">
+    Explore Course
+    <span class="arrow">
+      <svg aria-hidden="true" focusable="false" class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+    </span>
+  </span>
+</article>
+
+<article class="card card-hover flex flex-col p-6 reveal border-blue-100 bg-gradient-to-br from-blue-50/10 to-indigo-50/5" data-category="programming">
+  <div class="flex items-center justify-between">
+    <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
+      <svg aria-hidden="true" focusable="false" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+    </span>
+    <div class="flex gap-1.5">
+      <span class="rounded-full bg-blue-100 px-2.5 py-0.5 text-[10px] font-bold uppercase text-blue-800 ring-1 ring-blue-200">New</span>
+      <span class="rounded-full bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-500 ring-1 ring-slate-200/70">Programming</span>
+    </div>
+  </div>
+  <h3 class="mt-5 text-lg font-bold tracking-tight text-slate-900"><a class="after:absolute after:inset-0 rounded-lg" href="courses/c-cpp-dsa.php">C + C++ + DSA Foundation</a></h3>
+  <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600">Complete logic design with C, Object-Oriented software architectures with C++, C++ Standard Template Library (STL), and advanced problem solving with Data Structures &amp; Algorithms.</p>
+  <div class="mt-4 flex flex-wrap gap-1.5"><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Logic Building</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">OOP &amp; STL</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Data Structures</span><span class="rounded-lg bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200/70">Interview Prep</span></div>
+  <span class="arrow-link mt-5">
+    Explore Course
+    <span class="arrow">
+      <svg aria-hidden="true" focusable="false" class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+    </span>
+  </span>
+</article>
+
 <article class="card card-hover flex flex-col p-6 reveal" data-category="programming">
   <div class="flex items-center justify-between">
     <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50 text-blue-600"><!-- @license lucide-static v1.28.0 - ISC -->
